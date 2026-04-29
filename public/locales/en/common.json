@@ -49,5 +49,82 @@
     "or": "or",
     "joinDiscord": "Join Discord",
     "features": "🚀 Infrastructure • 💡 Mentorship • 🤝 Community • 🏢 Office Space"
+  },
+  "history": {
+    "title": "History of Davao City",
+    "charteredYear": "1936",
+    "charteredLabel": "Davao becomes an official city",
+    "charteredDesc": "President Quezon signed Commonwealth Act No. 51 on October 16, 1936, making Davao a city covering 244,000 hectares — a recognition of how much it had grown.",
+    "middleImageSrc": "images/city-of-davao-artwork.jpeg",
+    "extraInfoYear": "Today",
+    "extraInfoLabel": "Davao — the Melting Pot of the Philippines",
+    "extraInfoDesc": "People from all over the country — Lumad, Visayan, Tagalog, Ilocano, Muslim, and more — have made Davao their home, shaping a city known for its welcoming, hardworking, and diverse people.",
+    "events": {
+      "1620": {
+        "year": "1620",
+        "title": "Spain arrives in Mindanao",
+        "text": "Spanish forces set up control along Mindanao's northeast coast down to Bislig, but had not yet reached the Davao Gulf area."
+      },
+      "1848": {
+        "year": "1848",
+        "title": "Spain takes control of Davao Gulf",
+        "text": "Spanish officer Jose Oyanguren led an expedition to Davao, defeated the local Muslim chief Datu Bago, and began the first recorded settlement in the area."
+      },
+      "1867": {
+        "year": "1867",
+        "title": "The town moves to where it stands today",
+        "text": "The settlement was relocated to its current site, with Saint Peter's Church built at the corner of San Pedro and Claveria Streets as the community's center."
+      },
+      "1868": {
+        "year": "1868",
+        "title": "The name 'Davao' is officially adopted",
+        "text": "The town was renamed 'Davao,' taken from what the indigenous Bagobo people called the river — Dabo, Dawaw, and Davah. Jesuit priests also arrived this year to work among the local communities."
+      },
+      "1890s": {
+        "year": "1890s",
+        "title": "A new community forms — the Kalagans",
+        "text": "Some Muslim families chose to live alongside Christian settlers and were resettled in Tigatto and Maa. Their descendants are known today as the Kalagan people."
+      },
+      "1898": {
+        "year": "1898",
+        "title": "Americans open Davao to new settlers",
+        "text": "American rule brought investors who cleared forests and started large farms growing abaca, coconuts, and rubber, creating jobs that drew workers from across the Philippines."
+      },
+      "1903–1925": {
+        "year": "1903–1925",
+        "title": "Davao grows into a major trading hub",
+        "text": "Japanese and American plantations expanded rapidly, making Davao one of the country's top exporters of abaca, copra, and lumber, and attracting thousands of migrants from the Visayas and Luzon."
+      },
+      "1936": {
+        "year": "1936",
+        "title": "Davao becomes an official city",
+        "text": "President Quezon signed Commonwealth Act No. 51 on October 16, 1936, making Davao a city covering 244,000 hectares — a recognition of how much it had grown."
+      },
+      "1937": {
+        "year": "1937",
+        "title": "Davao City opens its doors",
+        "text": "The city was inaugurated on March 1, 1937, with about 68,000 residents. By 1940, that number had already grown to 98,000."
+      },
+      "1941": {
+        "year": "1941",
+        "title": "Japanese forces occupy the city",
+        "text": "Davao was one of the first cities taken by Japanese forces in December 1941. They used it as a major military base, which made it a target for heavy bombing in the years that followed."
+      },
+      "1945": {
+        "year": "1945",
+        "title": "Davao is liberated — at great cost",
+        "text": "The battle to free Davao lasted six months and cost more lives than any other city in the Philippines. Japanese forces continued to resist even after Japan officially surrendered."
+      },
+      "post-1945": {
+        "year": "Post-1945",
+        "title": "The city rebuilds and recovers",
+        "text": "With US military support and land redistribution for veterans, Davao slowly rebuilt. Farms, ports, and trade returned, with bananas, copra, and lumber leading the new economy."
+      },
+      "today": {
+        "year": "Today",
+        "title": "Davao — the Melting Pot of the Philippines",
+        "text": "People from all over the country — Lumad, Visayan, Tagalog, Ilocano, Muslim, and more — have made Davao their home, shaping a city known for its welcoming, hardworking, and diverse people."
+      }
+    }
   }
 }

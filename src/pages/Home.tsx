@@ -2,6 +2,7 @@ import Hero from '../components/sections/Hero';
 import ServicesSection from '../components/home/ServicesSection';
 import GovernmentActivitySection from '../components/home/GovernmentActivitySection';
 import SEO from '../components/SEO';
+import HistorySection from '../components/home/HistorySection';
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
         <Hero />
         <ServicesSection />
         <GovernmentActivitySection />
+        <HistorySection />
       </main>
     </>
   );
