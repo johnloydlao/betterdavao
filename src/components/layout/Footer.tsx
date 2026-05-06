@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-4">
               {/* <CheckCircle2 className="h-12 w-12 mr-3" /> */}
               <img
-                src="/logo-bw.svg"
+                src="/logo_white.svg"
                 alt="Better Davao Logo"
                 className="h-20 mr-2"
               />
