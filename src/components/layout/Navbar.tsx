@@ -33,170 +33,27 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Crimson+Pro:wght@400;500;600&display=swap');
-
-        /* Desktop Nav Link Hover Effect */
-        .nav-link {
-          position: relative;
-          transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .nav-link::after {
-          content: '';
-          position: absolute;
-          bottom: -8px;
-          left: 0;
-          width: 0;
-          height: 2px;
-          background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
-          transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .nav-link:hover::after {
-          width: 100%;
-        }
-
-        .nav-link:hover {
-          color: #2563eb;
-        }
-
-        /* Dropdown Animation */
-        .dropdown-menu {
-          transform-origin: top center;
-          animation: dropdownSlide 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        @keyframes dropdownSlide {
-          from {
-            opacity: 0;
-            transform: translateY(-8px) scale(0.96);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-        }
-
-        /* Dropdown Item Stagger */
-        .dropdown-item {
-          opacity: 0;
-          animation: dropdownItemFade 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-
-        .dropdown-item:nth-child(1) { animation-delay: 0.05s; }
-        .dropdown-item:nth-child(2) { animation-delay: 0.08s; }
-        .dropdown-item:nth-child(3) { animation-delay: 0.11s; }
-        .dropdown-item:nth-child(4) { animation-delay: 0.14s; }
-        .dropdown-item:nth-child(5) { animation-delay: 0.17s; }
-
-        @keyframes dropdownItemFade {
-          from {
-            opacity: 0;
-            transform: translateX(-4px);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
-          }
-        }
-
-        /* Top Bar Link Animation */
-        .top-bar-link {
-          position: relative;
-          transition: all 0.2s ease;
-        }
-
-        .top-bar-link::before {
-          content: '';
-          position: absolute;
-          bottom: -2px;
-          left: 0;
-          width: 0;
-          height: 1px;
-          background: currentColor;
-          transition: width 0.3s ease;
-        }
-
-        .top-bar-link:hover::before {
-          width: 100%;
-        }
-
-        /* Language Selector Enhancement */
-        .language-select {
-          cursor: pointer;
-          transition: all 0.2s ease;
-          background: white;
-          border: 1px solid rgba(255, 255, 255, 0.3);
-        }
-
-        .language-select:hover {
-          border-color: rgba(255, 255, 255, 0.6);
-          transform: translateY(-1px);
-        }
-
-        /* Search Button Hover */
-        .search-btn {
-          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .search-btn:hover {
-          transform: translateY(-1px);
-        }
-
-        .search-btn:hover .search-icon {
-          transform: scale(1.1) rotate(5deg);
-        }
-
-        .search-icon {
-          transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        /* Chevron Rotation */
-        .chevron {
-          transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .group:hover .chevron {
-          transform: rotate(180deg);
-        }
-
-        /* Font Styling */
-        .nav-font {
-          font-family: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
-          letter-spacing: -0.01em;
-        }
-
-        .logo-area {
-          transition: transform 0.2s ease;
-        }
-
-        .logo-area:hover {
-          transform: translateY(-1px);
-        }
-      `}</style>
-
       {/* Top bar with language switcher and additional links */}
       <div className="bg-primary-500 border-b border-primary-600/20">
         <div className="container mx-auto px-4 flex justify-end items-center h-10">
           <div className="flex items-center space-x-6">
             <a
               href="https://bettergov.ph/join-us"
-              className="text-xs text-white hover:text-primary-100 font-semibold transition-colors top-bar-link"
+              className="relative text-xs text-white hover:text-primary-100 font-semibold transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
               target="_blank"
             >
               🚀 Join Us
             </a>
             <a
               href="https://bettergov.ph/about"
-              className="text-xs text-white hover:text-primary-100 transition-colors top-bar-link"
+              className="relative text-xs text-white hover:text-primary-100 transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
               target="_blank"
             >
               About BetterGov
             </a>
             <a
               href="https://www.gov.ph"
-              className="text-xs text-white hover:text-primary-100 transition-colors top-bar-link"
+              className="relative text-xs text-white hover:text-primary-100 transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
               target="_blank"
             >
               Official Gov.ph
@@ -204,7 +61,7 @@ const Navbar: React.FC = () => {
 
             <a
               href="https://bettergov.ph/philippines/hotlines"
-              className="text-xs text-white hover:text-primary-100 transition-colors top-bar-link"
+              className="relative text-xs text-white hover:text-primary-100 transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
               target="_blank"
               rel="noreferrer"
             >
@@ -214,7 +71,7 @@ const Navbar: React.FC = () => {
               <select
                 value={i18n.language}
                 onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="language-select text-xs rounded-md px-3 py-1 text-gray-700 focus:outline-none focus:ring-2 focus:ring-white/50"
+                className="cursor-pointer transition-all duration-200 bg-white border border-white/30 hover:border-white/60 hover:-translate-y-px text-xs rounded-md px-3 py-1 text-gray-700 focus:outline-none focus:ring-2 focus:ring-white/50"
               >
                 {Object.entries(LANGUAGES).map(([code, lang]) => (
                   <option key={code} value={code}>
@@ -231,7 +88,10 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <Link to="/" className="logo-area flex items-center">
+            <Link
+              to="/"
+              className="flex items-center transition-transform duration-200 hover:-translate-y-px"
+            >
               <img
                 src="/logo_colored_2.svg"
                 alt="Better Davao Logo"
@@ -246,21 +106,21 @@ const Navbar: React.FC = () => {
               <div key={item.label} className="relative group">
                 <a
                   href={item.href}
-                  className="nav-link nav-font flex items-center px-4 py-2 text-xl font-bold text-gray-700 hover:text-primary-600"
+                  className="relative font-sans flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-600 after:to-blue-400 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full"
                 >
                   {t(`navbar.${item.label.replace(' ', '').toLowerCase()}`)}
                   {item.children && (
-                    <ChevronDown className="chevron ml-1 h-4 w-4 text-gray-500" />
+                    <ChevronDown className="ml-1 h-4 w-4 text-gray-500 transition-transform duration-300 ease-in-out group-hover:rotate-180" />
                   )}
                 </a>
                 {item.children && (
-                  <div className="dropdown-menu absolute left-0 mt-1 w-64 rounded-xl shadow-xl bg-white border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden">
+                  <div className="animate-dropdown-slide origin-top absolute left-0 mt-1 w-64 rounded-xl shadow-xl bg-white border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden">
                     <div className="py-2">
                       {item.children.map((child, index) => (
                         <Link
                           key={child.label}
                           to={child.href}
-                          className="dropdown-item nav-font flex items-center px-5 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-primary-50 hover:to-primary-50/50 hover:text-primary-700 transition-all duration-200 border-l-2 border-transparent hover:border-primary-500"
+                          className="animate-dropdown-item-fade font-sans flex items-center px-5 py-3 text-sm text-gray-700 hover:bg-gradient-to-r hover:from-primary-50 hover:to-primary-50/50 hover:text-primary-700 transition-all duration-200 border-l-2 border-transparent hover:border-primary-500"
                           style={{ animationDelay: `${index * 0.03}s` }}
                         >
                           <span className="flex-1">{child.label}</span>
@@ -278,15 +138,15 @@ const Navbar: React.FC = () => {
           <div className="hidden lg:flex items-center space-x-6">
             <Link
               to="/about"
-              className="nav-link nav-font text-sm font-medium text-gray-700 hover:text-primary-600"
+              className="relative font-sans text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-600 after:to-blue-400 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full"
             >
               About
             </Link>
             <Link
               to="/search"
-              className="search-btn nav-font flex items-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 rounded-lg shadow-sm hover:shadow-md"
+              className="group font-sans flex items-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ease-in-out hover:-translate-y-px"
             >
-              <Search className="search-icon h-4 w-4 mr-2" />
+              <Search className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:rotate-[5deg]" />
               Search
             </Link>
           </div>

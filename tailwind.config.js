@@ -107,6 +107,9 @@ export default {
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-in': 'slideIn 0.5s ease-out',
+        'dropdown-slide': 'dropdownSlide 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
+        'dropdown-item-fade':
+          'dropdownItemFade 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards',
       },
       keyframes: {
         fadeIn: {
@@ -126,6 +129,14 @@ export default {
             transform: 'translateY(0)',
             opacity: '1',
           },
+        },
+        dropdownSlide: {
+          from: { opacity: '0', transform: 'translateY(-8px) scale(0.96)' },
+          to: { opacity: '1', transform: 'translateY(0) scale(1)' },
+        },
+        dropdownItemFade: {
+          from: { opacity: '0', transform: 'translateX(-4px)' },
+          to: { opacity: '1', transform: 'translateX(0)' },
         },
       },
     },
