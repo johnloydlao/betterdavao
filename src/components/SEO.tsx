@@ -74,7 +74,7 @@ export default function SEO({
       <link rel="canonical" href={fullUrl} />
 
       {/* Favicon */}
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      <link rel="icon" type="image/x-icon" href="/davao_city_icon.ico" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
