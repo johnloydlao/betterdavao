@@ -12,7 +12,11 @@ import {
 import { Table, List } from 'lucide-react';
 import { type TypographyTheme } from './typographyThemes';
 
-// Helper functions to extract text from React children
+type ReactElement = {
+  props?: { children?: ReactNode; className?: string };
+  key?: string;
+};
+
 const extractTextFromChildren = (children: ReactNode): string[] => {
   const texts: string[] = [];
 
@@ -25,7 +29,7 @@ const extractTextFromChildren = (children: ReactNode): string[] => {
     } else if (Array.isArray(node)) {
       node.forEach(processNode);
     } else if (node && typeof node === 'object' && 'props' in node) {
-      const nodeProps = node as { props?: { children?: ReactNode } };
+      const nodeProps = node as ReactElement;
       if (nodeProps.props?.children) {
         processNode(nodeProps.props.children);
       }
@@ -36,42 +40,31 @@ const extractTextFromChildren = (children: ReactNode): string[] => {
   return texts;
 };
 
-const extractRowsFromChildren = (
-  children: ReactNode
-): Array<Record<string, string>> => {
-  const rows: Array<Record<string, string>> = [];
+const extractCellNodes = (rowChildren: ReactNode): ReactNode[] => {
+  if (!Array.isArray(rowChildren)) return [];
+  return rowChildren
+    .filter(child => child && typeof child === 'object' && 'props' in child)
+    .map(child => (child as ReactElement).props?.children ?? null);
+};
 
-  const processNode = (node: ReactNode): void => {
+const extractBodyRowNodes = (bodyChildren: ReactNode): ReactNode[][] => {
+  const rows: ReactNode[][] = [];
+
+  const processTr = (node: ReactNode): void => {
     if (Array.isArray(node)) {
-      node.forEach(processNode);
+      node.forEach(processTr);
     } else if (node && typeof node === 'object' && 'props' in node) {
-      const nodeProps = node as {
-        props?: { children?: ReactNode; className?: string };
-        key?: string;
-      };
-
-      // Check if this is a table row (tr element) by key or className
-      if (
-        nodeProps.key?.includes('tr') ||
-        nodeProps.props?.className?.includes('tr')
-      ) {
-        // Extract text from all direct children (td/th elements)
-        const cellTexts = extractTextFromChildren(nodeProps.props?.children);
-
-        if (cellTexts.length > 0) {
-          const row: Record<string, string> = {};
-          cellTexts.forEach((text, index) => {
-            row[`column_${index}`] = text;
-          });
-          rows.push(row);
-        }
-      } else if (nodeProps.props?.children) {
-        processNode(nodeProps.props.children);
+      const el = node as ReactElement;
+      if (el.key?.includes('tr') || el.props?.className?.includes('tr')) {
+        const cells = extractCellNodes(el.props?.children);
+        if (cells.length > 0) rows.push(cells);
+      } else if (el.props?.children) {
+        processTr(el.props.children);
       }
     }
   };
 
-  processNode(children);
+  processTr(bodyChildren);
   return rows;
 };
 
@@ -115,70 +108,32 @@ export const TableWithToggle = ({
   const tableData = useMemo(() => {
     if (viewMode === 'table') return null;
 
-    const rows: Array<Record<string, string>> = [];
     const headers: string[] = [];
+    const rows: ReactNode[][] = [];
 
-    // Parse the table structure from children
     const processTableElement = (element: ReactNode): void => {
       if (
         typeof element === 'object' &&
         element !== null &&
         'props' in element
       ) {
-        const elementProps = element as {
-          props?: { children?: ReactNode; className?: string };
-          key?: string;
-        };
+        const el = element as ReactElement;
 
-        // Check by key first (for thead/tbody elements)
-        if (elementProps.key?.includes('thead')) {
-          const headerCells = extractTextFromChildren(
-            elementProps.props?.children
-          );
-          headers.push(...headerCells);
-        } else if (elementProps.key?.includes('tbody')) {
-          const bodyRows = extractRowsFromChildren(
-            elementProps.props?.children
-          );
-          rows.push(...bodyRows);
-        } else if (elementProps.key?.includes('tr')) {
-          const rowCells = extractTextFromChildren(
-            elementProps.props?.children
-          );
-          if (rowCells.length > 0) {
-            const row: Record<string, string> = {};
-            rowCells.forEach((text, index) => {
-              row[`column_${index}`] = text;
-            });
-            rows.push(row);
-          }
-        } else if (elementProps.props?.className?.includes('thead')) {
-          const headerCells = extractTextFromChildren(
-            elementProps.props.children
-          );
-          headers.push(...headerCells);
-        } else if (elementProps.props?.className?.includes('tbody')) {
-          const bodyRows = extractRowsFromChildren(elementProps.props.children);
-          rows.push(...bodyRows);
-        } else if (elementProps.props?.className?.includes('tr')) {
-          const rowCells = extractTextFromChildren(elementProps.props.children);
-          if (rowCells.length > 0) {
-            const row: Record<string, string> = {};
-            rowCells.forEach((text, index) => {
-              row[`column_${index}`] = text;
-            });
-            rows.push(row);
-          }
-        } else {
-          // Recursively process children
-          if (elementProps.props?.children) {
-            if (Array.isArray(elementProps.props.children)) {
-              elementProps.props.children.forEach(child => {
-                processTableElement(child);
-              });
-            } else {
-              processTableElement(elementProps.props.children);
-            }
+        if (
+          el.key?.includes('thead') ||
+          el.props?.className?.includes('thead')
+        ) {
+          headers.push(...extractTextFromChildren(el.props?.children));
+        } else if (
+          el.key?.includes('tbody') ||
+          el.props?.className?.includes('tbody')
+        ) {
+          rows.push(...extractBodyRowNodes(el.props?.children));
+        } else if (el.props?.children) {
+          if (Array.isArray(el.props.children)) {
+            el.props.children.forEach(processTableElement);
+          } else {
+            processTableElement(el.props.children);
           }
         }
       }
@@ -190,16 +145,7 @@ export const TableWithToggle = ({
       processTableElement(children);
     }
 
-    // Map row data to headers
-    const mappedRows = rows.map(row => {
-      const mappedRow: Record<string, string> = {};
-      headers.forEach((header, index) => {
-        mappedRow[header] = row[`column_${index}`] || '';
-      });
-      return mappedRow;
-    });
-
-    return { headers, rows: mappedRows };
+    return { headers, rows };
   }, [children, viewMode]);
 
   return (
@@ -261,8 +207,8 @@ export const TableWithToggle = ({
                       <div className="font-semibold text-gray-800 text-sm mb-1 sm:mb-0 sm:w-1/3 sm:pr-4">
                         {header}:
                       </div>
-                      <div className="text-gray-700 text-sm sm:w-2/3">
-                        {row[header] || ''}
+                      <div className="text-gray-700 text-sm sm:w-2/3 [&_li]:!text-sm [&_p]:!text-sm">
+                        {row[headerIndex] ?? ''}
                       </div>
                     </div>
                   ))}

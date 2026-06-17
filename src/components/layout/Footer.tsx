@@ -32,8 +32,11 @@ const Footer: React.FC = () => {
               <img
                 src="/logo_white.svg"
                 alt="Better Davao Logo"
-                className="h-20 mr-2"
+                className="h-12 sm:h-16 lg:h-20 mr-2"
               />
+              <span className="ml-2 font-sans font-bold tracking-tight text-white text-base sm:text-lg leading-tight">
+                {import.meta.env.VITE_WEBSITE_URL}
+              </span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
               Empowering the people of Davao with transparent access to

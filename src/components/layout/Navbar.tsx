@@ -95,8 +95,11 @@ const Navbar: React.FC = () => {
               <img
                 src="/logo_colored_2.svg"
                 alt="Better Davao Logo"
-                className="h-20"
+                className="h-12 sm:h-16 lg:h-20"
               />
+              <span className="ml-2 font-sans font-bold tracking-tight text-primary-700 text-base sm:text-lg leading-tight">
+                {import.meta.env.VITE_WEBSITE_URL}
+              </span>
             </Link>
           </div>
 
