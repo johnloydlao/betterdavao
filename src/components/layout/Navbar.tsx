@@ -1,5 +1,14 @@
-import React, { useState } from 'react';
-import { X, Menu, ChevronDown, Globe, Search, Phone } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import {
+  X,
+  Menu,
+  ChevronDown,
+  Globe,
+  Search,
+  Phone,
+  Thermometer,
+  Clock,
+} from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router-dom';
@@ -7,10 +16,112 @@ import { useTranslation } from 'react-i18next';
 import { LANGUAGES } from '../../i18n/languages';
 import { NAVBAR_HOTLINES as HOTLINES } from '../../data/hotlines';
 
+function formatDatetime(): string {
+  const now = new Date();
+  const date = now.toLocaleDateString('en-PH', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'Asia/Manila',
+  });
+  const time = now.toLocaleTimeString('en-PH', {
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+    timeZone: 'Asia/Manila',
+  });
+  return `${date} · ${time} PHT`;
+}
+
+const CURRENCIES = ['USD', 'EUR', 'JPY', 'GBP', 'SGD'] as const;
+const CURRENCY_SYMBOLS: Record<string, string> = {
+  USD: '$',
+  EUR: '€',
+  JPY: '¥',
+  GBP: '£',
+  SGD: 'S$',
+};
+
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const { t, i18n } = useTranslation('common');
+
+  const [rates, setRates] = useState<Record<string, string>>({});
+  const [currencyIdx, setCurrencyIdx] = useState(0);
+  const [forexVisible, setForexVisible] = useState(true);
+  const [temp, setTemp] = useState('--');
+  const [datetime, setDatetime] = useState(formatDatetime());
+
+  const activeCurrency = CURRENCIES[currencyIdx];
+  const forexDisplay = rates[activeCurrency]
+    ? `${CURRENCY_SYMBOLS[activeCurrency]}1 ${activeCurrency} = ₱${rates[activeCurrency]}`
+    : `1 ${activeCurrency} = ₱--`;
+
+  useEffect(() => {
+    const timer = setInterval(() => setDatetime(formatDatetime()), 60_000);
+
+    const cached = localStorage.getItem('bd_rates');
+    const cachedTime = localStorage.getItem('bd_rates_time');
+    if (cached && cachedTime && Date.now() - parseInt(cachedTime) < 3_600_000) {
+      setRates(JSON.parse(cached));
+    } else {
+      fetch('https://open.er-api.com/v6/latest/PHP')
+        .then(r => r.json())
+        .then(data => {
+          if (data?.rates) {
+            const phpRates = data.rates as Record<string, number>;
+            const computed: Record<string, string> = {};
+            for (const cur of ['USD', 'EUR', 'JPY', 'GBP', 'SGD']) {
+              if (phpRates[cur]) {
+                computed[cur] = (1 / phpRates[cur]).toFixed(2);
+              }
+            }
+            localStorage.setItem('bd_rates', JSON.stringify(computed));
+            localStorage.setItem('bd_rates_time', String(Date.now()));
+            setRates(computed);
+          }
+        })
+        .catch(() => {});
+    }
+
+    const currencyTimer = setInterval(() => {
+      setForexVisible(false);
+      setTimeout(() => {
+        setCurrencyIdx(i => (i + 1) % CURRENCIES.length);
+        setForexVisible(true);
+      }, 300);
+    }, 3_000);
+
+    const cachedTemp = localStorage.getItem('bd_temp');
+    const cachedTempTime = localStorage.getItem('bd_temp_time');
+    if (
+      cachedTemp &&
+      cachedTempTime &&
+      Date.now() - parseInt(cachedTempTime) < 1_800_000
+    ) {
+      setTemp(cachedTemp);
+    } else {
+      fetch(
+        'https://api.open-meteo.com/v1/forecast?latitude=7.07&longitude=125.61&current_weather=true'
+      )
+        .then(r => r.json())
+        .then(data => {
+          if (data?.current_weather?.temperature !== undefined) {
+            const t = `${Math.round(data.current_weather.temperature)}°C`;
+            localStorage.setItem('bd_temp', t);
+            localStorage.setItem('bd_temp_time', String(Date.now()));
+            setTemp(t);
+          }
+        })
+        .catch(() => {});
+    }
+
+    return () => {
+      clearInterval(timer);
+      clearInterval(currencyTimer);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -118,57 +229,6 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Top bar with language switcher and additional links */}
-      <div className="bg-primary-500 border-b border-primary-600/20">
-        <div className="container mx-auto px-4 flex justify-end items-center h-10">
-          <div className="flex items-center space-x-6">
-            <a
-              href="https://bettergov.ph/join-us"
-              className="relative text-xs text-white hover:text-primary-100 font-semibold transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
-              target="_blank"
-            >
-              🚀 Join Us
-            </a>
-            <a
-              href="https://bettergov.ph/about"
-              className="relative text-xs text-white hover:text-primary-100 transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
-              target="_blank"
-            >
-              About BetterGov
-            </a>
-            <a
-              href="https://www.gov.ph"
-              className="relative text-xs text-white hover:text-primary-100 transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
-              target="_blank"
-            >
-              Official Gov.ph
-            </a>
-
-            <a
-              href="https://bettergov.ph/philippines/hotlines"
-              className="relative text-xs text-white hover:text-primary-100 transition-all duration-200 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-px before:bg-current before:transition-[width] before:duration-300 hover:before:w-full"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Hotlines
-            </a>
-            <div className="hidden md:block">
-              <select
-                value={i18n.language}
-                onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="cursor-pointer transition-all duration-200 bg-white border border-white/30 hover:border-white/60 hover:-translate-y-px text-xs rounded-md px-3 py-1 text-gray-700 focus:outline-none focus:ring-2 focus:ring-white/50"
-              >
-                {Object.entries(LANGUAGES).map(([code, lang]) => (
-                  <option key={code} value={code}>
-                    {lang.nativeName}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         {/* Main navigation */}
         <div className="container mx-auto px-4">
@@ -195,7 +255,7 @@ const Navbar: React.FC = () => {
                 <div key={item.label} className="relative group">
                   <a
                     href={item.href}
-                    className="relative font-sans flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-600 after:to-blue-400 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full"
+                    className="relative font-sans flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-accent-500 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full"
                   >
                     {t(`navbar.${item.label.replace(' ', '').toLowerCase()}`)}
                     {item.children && (
@@ -227,13 +287,13 @@ const Navbar: React.FC = () => {
             <div className="hidden lg:flex items-center space-x-6">
               <Link
                 to="/about"
-                className="relative font-sans text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-600 after:to-blue-400 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full"
+                className="relative font-sans text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-accent-500 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full"
               >
                 About
               </Link>
               <Link
                 to="/search"
-                className="group font-sans flex items-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ease-in-out hover:-translate-y-px"
+                className="group font-sans flex items-center px-4 py-2 text-sm font-medium text-primary-900 bg-accent-500 hover:bg-accent-600 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ease-in-out hover:-translate-y-px"
               >
                 <Search className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:rotate-[5deg]" />
                 Search
@@ -338,6 +398,31 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </nav>
+
+      {/* Info bar: forex, temperature, datetime */}
+      <div className="bg-primary-800 border-b border-primary-600/20">
+        <div className="container mx-auto px-4 flex justify-end items-center h-10">
+          <div className="flex items-center gap-4 text-xs text-white">
+            <span className="flex items-center gap-1.5 opacity-90">
+              <span
+                className="font-semibold transition-opacity duration-300"
+                style={{ opacity: forexVisible ? 1 : 0 }}
+              >
+                {forexDisplay}
+              </span>
+            </span>
+            <span className="flex items-center gap-1.5 opacity-90">
+              <Thermometer className="h-3 w-3 opacity-70" />
+              <span>Davao</span>
+              <span className="font-semibold">{temp}</span>
+            </span>
+            <span className="hidden md:flex items-center gap-1.5 opacity-90">
+              <Clock className="h-3 w-3 opacity-70" />
+              <span className="font-semibold">{datetime}</span>
+            </span>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
