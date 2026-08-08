@@ -24,7 +24,6 @@ import {
   type CategoryIndex,
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
-import OfficialsPage from './OfficialsPage';
 
 // Maps document slugs to specialized page components.
 // Add entries here when a document needs a dedicated layout beyond generic markdown.
@@ -35,9 +34,7 @@ const SPECIALIZED_PAGES: Record<
     breadcrumbs: { label: string; href: string }[];
     documentSlug: string;
   }>
-> = {
-  officials: OfficialsPage,
-};
+> = {};
 
 interface DocumentProps {
   theme?: string;

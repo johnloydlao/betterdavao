@@ -33,6 +33,7 @@ interface CouncilDistrict {
 
 interface OfficialsData {
   GOVERNMENT_NAME?: string;
+  LAST_UPDATED?: string;
   MAYOR?: string;
   HONORIFIC_TITLE?: string;
   VICE_MAYOR?: string;
@@ -40,6 +41,23 @@ interface OfficialsData {
   VICE_MAYOR_CONTACT?: string;
   congressionalReps?: CongressionalRep[];
   councilDistricts?: CouncilDistrict[];
+}
+
+const DISTRICT_ACCENT_BORDERS = [
+  'border-l-primary-300',
+  'border-l-primary-500',
+  'border-l-primary-700',
+];
+
+function formatLastUpdated(dateStr?: string): string | null {
+  if (!dateStr) return null;
+  const date = new Date(`${dateStr}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return null;
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
 }
 
 function parseSections(content: string): { heading: string; body: string }[] {
@@ -74,7 +92,7 @@ function OfficialCard({
 
   return (
     <div
-      className={`rounded-2xl overflow-hidden mt-6 mb-6 shadow-lg p-5 text-center ${bgClass}`}
+      className={`rounded-2xl overflow-hidden mt-6 mb-6 shadow-lg p-5 text-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl ${bgClass}`}
     >
       <p className="text-xs font-semibold uppercase tracking-widest mb-1 text-secondary-200">
         {role} of {government}
@@ -91,10 +109,12 @@ function CompactOfficialCard({
   name,
   role,
   vacant = false,
+  accentClassName,
 }: {
   name?: string;
   role: string;
   vacant?: boolean;
+  accentClassName?: string;
 }) {
   if (vacant) {
     return (
@@ -105,7 +125,9 @@ function CompactOfficialCard({
   }
 
   return (
-    <div className="rounded-xl border border-gray-200 shadow-sm p-4 text-center h-full">
+    <div
+      className={`rounded-xl border border-gray-200 shadow-sm p-4 text-center h-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md ${accentClassName ?? ''}`}
+    >
       <p className="text-sm font-semibold text-gray-900 leading-snug">{name}</p>
       <p className="text-xs text-gray-500">{role}</p>
     </div>
@@ -128,6 +150,7 @@ export default function OfficialsPage({
   const viceMayor = `${honorific}${data.VICE_MAYOR ?? ''}`;
   const congressionalReps = data.congressionalReps ?? [];
   const councilDistricts = data.councilDistricts ?? [];
+  const lastUpdated = formatLastUpdated(data.LAST_UPDATED);
 
   const sections = parseSections(markdownContent.content);
   const sectionMap = Object.fromEntries(sections.map(s => [s.heading, s.body]));
@@ -155,11 +178,16 @@ export default function OfficialsPage({
         <Breadcrumbs className="mb-8" items={breadcrumbs} />
         <Heading level={1}>{markdownContent.title || 'Officials'}</Heading>
         {sectionMap['Officials'] && <Prose content={sectionMap['Officials']} />}
+        {lastUpdated && (
+          <p className="text-sm text-gray-500 mb-6">
+            Last updated: {lastUpdated}
+          </p>
+        )}
 
         <Card className="mb-8 markdown-content">
           <CardHeader>
             <div className="p-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in">
                 <div>
                   <OfficialCard
                     role="Mayor"
@@ -167,9 +195,6 @@ export default function OfficialsPage({
                     government={gov}
                     contactNumber={data.MAYOR_CONTACT}
                   />
-                  {sectionMap['Mayor'] && (
-                    <Prose content={sectionMap['Mayor']} />
-                  )}
                 </div>
 
                 <div>
@@ -180,21 +205,19 @@ export default function OfficialsPage({
                     contactNumber={data.VICE_MAYOR_CONTACT}
                     variant="dark"
                   />
-                  {sectionMap['Vice Mayor'] && (
-                    <Prose content={sectionMap['Vice Mayor']} />
-                  )}
                 </div>
               </div>
 
               <Heading level={2}>
                 Legislative Representation in Congress
               </Heading>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 mt-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 mt-4 animate-fade-in">
                 {congressionalReps.map(rep => (
                   <CompactOfficialCard
                     key={rep.district}
-                    name={rep.name}
+                    name={`${honorific}${rep.name}`}
                     role={`${rep.district}, House of Representatives`}
+                    accentClassName="border-t-4 border-t-primary-600"
                   />
                 ))}
               </div>
@@ -204,8 +227,11 @@ export default function OfficialsPage({
                 <Prose content={sectionMap['City Council']} />
               )}
 
-              {councilDistricts.map(district => (
-                <div key={district.district} className="mb-10 mt-6">
+              {councilDistricts.map((district, districtIndex) => (
+                <div
+                  key={district.district}
+                  className="mb-10 mt-6 animate-fade-in"
+                >
                   <h3 className="text-lg font-semibold mb-4">
                     {district.district}
                   </h3>
@@ -213,9 +239,14 @@ export default function OfficialsPage({
                     {district.members.map((member, i) => (
                       <CompactOfficialCard
                         key={member.vacant ? `vacant-${i}` : member.name}
-                        name={member.name}
+                        name={
+                          member.vacant
+                            ? undefined
+                            : `${honorific}${member.name}`
+                        }
                         role={`Councilor, ${district.district}`}
                         vacant={member.vacant}
+                        accentClassName={`border-l-4 ${DISTRICT_ACCENT_BORDERS[districtIndex]}`}
                       />
                     ))}
                   </div>

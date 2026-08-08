@@ -1,7 +1,4 @@
 # Department Pages
 # This file contains all the pages/governments available under the Department
 
-pages:
-  - name: 'Officials'
-    slug: 'officials'
-    description: "Meet Davao City's elected officials: the Mayor, Vice Mayor, congressional representatives, and City Council (Sangguniang Panlungsod)."
+pages: []

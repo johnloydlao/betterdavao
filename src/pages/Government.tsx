@@ -15,6 +15,24 @@ import SEO from '../components/SEO';
 import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useState, useEffect } from 'react';
+import {
+  loadMarkdownContent,
+  type MarkdownContent,
+} from '../lib/markdownLoader';
+import OfficialsPage from './OfficialsPage';
+
+// Maps government category slugs to specialized page components, rendered
+// directly at the category route instead of the generic sub-page listing.
+const SPECIALIZED_CATEGORIES: Record<
+  string,
+  React.ComponentType<{
+    markdownContent: MarkdownContent;
+    breadcrumbs: { label: string; href: string }[];
+    documentSlug: string;
+  }>
+> = {
+  officials: OfficialsPage,
+};
 
 const Government: React.FC = () => {
   const { category } = useParams();
@@ -25,6 +43,9 @@ const Government: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const subcategories: Subcategory[] = categoryIndex.pages;
 
+  const [specializedContent, setSpecializedContent] =
+    useState<MarkdownContent | null>(null);
+
   const getCategory = () => {
     return governmentCategories.categories.find(c => c.slug === category);
   };
@@ -34,15 +55,53 @@ const Government: React.FC = () => {
     categoryData?.icon as keyof typeof LucideIcons
   ] as React.ComponentType<{ className?: string }>;
 
+  const SpecializedCategory = category
+    ? SPECIALIZED_CATEGORIES[category]
+    : undefined;
+
   useEffect(() => {
-    if (category && categoryData) {
+    if (category && categoryData && SpecializedCategory) {
+      setLoading(true);
+      loadMarkdownContent(category, category, 'government')
+        .then(setSpecializedContent)
+        .catch(console.error)
+        .finally(() => setLoading(false));
+    } else if (category && categoryData) {
       setLoading(true);
       getCategorySubcategories(category)
         .then(setCategoryIndex)
         .catch(console.error)
         .finally(() => setLoading(false));
     }
-  }, [category, categoryData]);
+  }, [category, categoryData, SpecializedCategory]);
+
+  if (SpecializedCategory && categoryData) {
+    if (loading || !specializedContent) {
+      return (
+        <Section className="p-3 mb-12">
+          <Breadcrumbs className="mb-8" />
+          <div className="flex justify-center items-center p-8">
+            <Text>Loading...</Text>
+          </div>
+        </Section>
+      );
+    }
+
+    return (
+      <SpecializedCategory
+        markdownContent={specializedContent}
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Government', href: '/government' },
+          {
+            label: specializedContent.title ?? categoryData.category,
+            href: `/government/${category}`,
+          },
+        ]}
+        documentSlug={category as string}
+      />
+    );
+  }
 
   if (!category) {
     return (

@@ -3,13 +3,15 @@
 # Non-technical users can easily edit this file to add, remove, or modify local government activity
 
 categories:
+  - category: 'Officials'
+    slug: 'officials'
+    description: "Meet Davao City's elected officials: the Mayor, Vice Mayor, congressional representatives, and City Council (Sangguniang Panlungsod)."
+    icon: 'Users'
   - category: 'Departments'
     slug: 'departments'
     description: 'Explore local government departments, agencies, and offices with their mandates, services, and contact details.'
     icon: 'Building2'
     subcategories:
-      - name: 'Officials'
-        slug: 'officials'
       - name: 'Department of Education'
         slug: 'department-of-education'
       - name: 'Department of Health'
