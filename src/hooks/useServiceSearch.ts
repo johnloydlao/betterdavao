@@ -11,10 +11,7 @@ export interface SearchItem {
   type: 'service' | 'government';
 }
 
-const GOVT_CATS = [
-  { slug: 'departments', name: 'Departments' },
-  { slug: 'legislative', name: 'Legislative' },
-];
+const GOVT_CATS = [{ slug: 'departments', name: 'Departments' }];
 
 export function useServiceSearch() {
   const navigate = useNavigate();

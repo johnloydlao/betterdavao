@@ -1,5 +1,10 @@
 {
   "GOVERNMENT_NAME": "Davao City",
+  "MAYOR": "Sebastian Z. Duterte",
+  "HONORIFIC_TITLE": "Hon.",
+  "VICE_MAYOR": "Rodrigo S. Duterte II",
+  "MAYOR_CONTACT": "241-1000 Local 265/266",
+  "VICE_MAYOR_CONTACT": "222-0855 to 63/ 221-9991 Local 228/428",
   "congressionalReps": [
     { "district": "1st District", "name": "Paolo Duterte" },
     { "district": "2nd District", "name": "Omar Duterte" },

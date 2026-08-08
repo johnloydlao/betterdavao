@@ -24,8 +24,7 @@ import {
   type CategoryIndex,
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
-import ExecutivePage from './ExecutivePage';
-import LegislativePage from './LegislativePage';
+import OfficialsPage from './OfficialsPage';
 
 // Maps document slugs to specialized page components.
 // Add entries here when a document needs a dedicated layout beyond generic markdown.
@@ -37,8 +36,7 @@ const SPECIALIZED_PAGES: Record<
     documentSlug: string;
   }>
 > = {
-  executive: ExecutivePage,
-  legislative: LegislativePage,
+  officials: OfficialsPage,
 };
 
 interface DocumentProps {

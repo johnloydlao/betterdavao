@@ -10,21 +10,36 @@ import { Heading } from '../components/ui/Heading';
 import { Card, CardHeader } from '@bettergov/kapwa/card';
 import SEO from '../components/SEO';
 
-interface ExecutivePageProps {
+interface OfficialsPageProps {
   markdownContent: MarkdownContent;
   breadcrumbs: { label: string; href: string }[];
   documentSlug: string;
 }
 
-interface ExecutiveData {
+interface CongressionalRep {
+  district: string;
+  name: string;
+}
+
+interface CouncilMember {
+  name?: string;
+  vacant?: boolean;
+}
+
+interface CouncilDistrict {
+  district: string;
+  members: CouncilMember[];
+}
+
+interface OfficialsData {
   GOVERNMENT_NAME?: string;
   MAYOR?: string;
-  MAYOR_IMAGE?: string;
   HONORIFIC_TITLE?: string;
   VICE_MAYOR?: string;
-  VICE_MAYOR_IMAGE?: string;
   MAYOR_CONTACT?: string;
   VICE_MAYOR_CONTACT?: string;
+  congressionalReps?: CongressionalRep[];
+  councilDistricts?: CouncilDistrict[];
 }
 
 function parseSections(content: string): { heading: string; body: string }[] {
@@ -43,14 +58,12 @@ function OfficialCard({
   role,
   name,
   government,
-  imageUrl,
   contactNumber,
   variant = 'primary',
 }: {
   role: string;
   name: string;
   government: string;
-  imageUrl?: string;
   contactNumber?: string;
   variant?: 'primary' | 'dark';
 }) {
@@ -60,44 +73,51 @@ function OfficialCard({
       : 'bg-gradient-to-br from-primary-600 to-primary-700';
 
   return (
-    <div className="rounded-2xl overflow-hidden mt-6 mb-6 shadow-lg border border-gray-200">
-      <div className="w-full aspect-square bg-gray-100 flex items-center justify-center overflow-hidden">
-        {imageUrl ? (
-          <img
-            src={imageUrl}
-            alt={name}
-            className="w-full h-full object-cover object-center"
-          />
-        ) : (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-20 h-20"
-            viewBox="0 0 24 24"
-            fill="#9ca3af"
-          >
-            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
-          </svg>
-        )}
-      </div>
-      <div className={`p-5 text-center ${bgClass}`}>
-        <p className="text-xs font-semibold uppercase tracking-widest mb-1 text-secondary-200">
-          {role} of {government}
-        </p>
-        <h2 className="text-xl font-bold text-white mb-2">{name}</h2>
-        {contactNumber && (
-          <p className="text-sm text-white/70">📞 {contactNumber}</p>
-        )}
-      </div>
+    <div
+      className={`rounded-2xl overflow-hidden mt-6 mb-6 shadow-lg p-5 text-center ${bgClass}`}
+    >
+      <p className="text-xs font-semibold uppercase tracking-widest mb-1 text-secondary-200">
+        {role} of {government}
+      </p>
+      <h2 className="text-xl font-bold text-white mb-2">{name}</h2>
+      {contactNumber && (
+        <p className="text-sm text-white/70">📞 {contactNumber}</p>
+      )}
     </div>
   );
 }
 
-export default function ExecutivePage({
+function CompactOfficialCard({
+  name,
+  role,
+  vacant = false,
+}: {
+  name?: string;
+  role: string;
+  vacant?: boolean;
+}) {
+  if (vacant) {
+    return (
+      <div className="rounded-xl border-2 border-dashed border-gray-300 flex items-center justify-center p-4 text-center h-full min-h-[80px]">
+        <p className="text-sm font-medium text-gray-400">Vacant</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="rounded-xl border border-gray-200 shadow-sm p-4 text-center h-full">
+      <p className="text-sm font-semibold text-gray-900 leading-snug">{name}</p>
+      <p className="text-xs text-gray-500">{role}</p>
+    </div>
+  );
+}
+
+export default function OfficialsPage({
   markdownContent,
   breadcrumbs,
   documentSlug,
-}: ExecutivePageProps) {
-  const data = (markdownContent.data ?? {}) as ExecutiveData;
+}: OfficialsPageProps) {
+  const data = (markdownContent.data ?? {}) as OfficialsData;
   const markdownComponents = createMarkdownComponents(
     getTypographyTheme('default')
   );
@@ -106,14 +126,11 @@ export default function ExecutivePage({
   const honorific = data.HONORIFIC_TITLE ? `${data.HONORIFIC_TITLE} ` : '';
   const mayor = `${honorific}${data.MAYOR ?? ''}`;
   const viceMayor = `${honorific}${data.VICE_MAYOR ?? ''}`;
-  const mayorImage = data.MAYOR_IMAGE;
-  const viceMayorImage = data.VICE_MAYOR_IMAGE;
+  const congressionalReps = data.congressionalReps ?? [];
+  const councilDistricts = data.councilDistricts ?? [];
 
   const sections = parseSections(markdownContent.content);
   const sectionMap = Object.fromEntries(sections.map(s => [s.heading, s.body]));
-  const remainingSections = sections.filter(
-    s => !['Executive', 'Vice Mayor'].includes(s.heading)
-  );
 
   const Prose = ({ content }: { content: string }) => (
     <ReactMarkdown
@@ -130,13 +147,15 @@ export default function ExecutivePage({
       <SEO
         title={markdownContent.title || documentSlug}
         description={
-          markdownContent.description || `Executive office of ${gov}`
+          markdownContent.description || `Government officials of ${gov}`
         }
-        keywords="mayor, vice mayor, executive office, local government"
+        keywords="mayor, vice mayor, city council, sangguniang panlungsod, congress, legislative district, councilor, local government"
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" items={breadcrumbs} />
-        <Heading level={1}>{markdownContent.title || 'Executive'}</Heading>
+        <Heading level={1}>{markdownContent.title || 'Officials'}</Heading>
+        {sectionMap['Officials'] && <Prose content={sectionMap['Officials']} />}
+
         <Card className="mb-8 markdown-content">
           <CardHeader>
             <div className="p-6">
@@ -146,11 +165,10 @@ export default function ExecutivePage({
                     role="Mayor"
                     name={mayor}
                     government={gov}
-                    imageUrl={mayorImage}
                     contactNumber={data.MAYOR_CONTACT}
                   />
-                  {sectionMap['Executive'] && (
-                    <Prose content={sectionMap['Executive']} />
+                  {sectionMap['Mayor'] && (
+                    <Prose content={sectionMap['Mayor']} />
                   )}
                 </div>
 
@@ -159,7 +177,6 @@ export default function ExecutivePage({
                     role="Vice Mayor"
                     name={viceMayor}
                     government={gov}
-                    imageUrl={viceMayorImage}
                     contactNumber={data.VICE_MAYOR_CONTACT}
                     variant="dark"
                   />
@@ -169,12 +186,39 @@ export default function ExecutivePage({
                 </div>
               </div>
 
-              {remainingSections.map(section => (
-                <div key={section.heading}>
-                  <h2 className="text-2xl font-semibold mb-4 mt-10">
-                    {section.heading}
-                  </h2>
-                  <Prose content={section.body} />
+              <Heading level={2}>
+                Legislative Representation in Congress
+              </Heading>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 mt-4">
+                {congressionalReps.map(rep => (
+                  <CompactOfficialCard
+                    key={rep.district}
+                    name={rep.name}
+                    role={`${rep.district}, House of Representatives`}
+                  />
+                ))}
+              </div>
+
+              <Heading level={2}>City Council — Sangguniang Panlungsod</Heading>
+              {sectionMap['City Council'] && (
+                <Prose content={sectionMap['City Council']} />
+              )}
+
+              {councilDistricts.map(district => (
+                <div key={district.district} className="mb-10 mt-6">
+                  <h3 className="text-lg font-semibold mb-4">
+                    {district.district}
+                  </h3>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {district.members.map((member, i) => (
+                      <CompactOfficialCard
+                        key={member.vacant ? `vacant-${i}` : member.name}
+                        name={member.name}
+                        role={`Councilor, ${district.district}`}
+                        vacant={member.vacant}
+                      />
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
