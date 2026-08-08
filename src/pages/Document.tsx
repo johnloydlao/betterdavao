@@ -24,6 +24,22 @@ import {
   type CategoryIndex,
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
+import ExecutivePage from './ExecutivePage';
+import LegislativePage from './LegislativePage';
+
+// Maps document slugs to specialized page components.
+// Add entries here when a document needs a dedicated layout beyond generic markdown.
+const SPECIALIZED_PAGES: Record<
+  string,
+  React.ComponentType<{
+    markdownContent: MarkdownContent;
+    breadcrumbs: { label: string; href: string }[];
+    documentSlug: string;
+  }>
+> = {
+  executive: ExecutivePage,
+  legislative: LegislativePage,
+};
 
 interface DocumentProps {
   theme?: string;
@@ -201,6 +217,17 @@ export default function Document({
 
   if (!markdownContent) {
     return null;
+  }
+
+  const SpecializedPage = SPECIALIZED_PAGES[documentSlug ?? ''];
+  if (SpecializedPage) {
+    return (
+      <SpecializedPage
+        markdownContent={markdownContent}
+        breadcrumbs={breadcrumbs}
+        documentSlug={documentSlug ?? ''}
+      />
+    );
   }
 
   return (
