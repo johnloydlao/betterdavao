@@ -1,0 +1,49 @@
+{
+  "GOVERNMENT_NAME": "Davao City",
+  "congressionalReps": [
+    { "district": "1st District", "name": "Paolo Duterte" },
+    { "district": "2nd District", "name": "Omar Duterte" },
+    { "district": "3rd District", "name": "Isidro Ungab" }
+  ],
+  "councilDistricts": [
+    {
+      "district": "1st District",
+      "members": [
+        { "name": "Ragde Niño P. Ibuyan" },
+        { "name": "Luna Marie Dominique S. Acosta" },
+        { "name": "Jessica M. Bonguyan" },
+        { "name": "Temujin B. Ocampo" },
+        { "name": "Pamela A. Librado" },
+        { "name": "Bonz Andre A. Militar" },
+        { "name": "J. Melchor B. Quitain Jr." },
+        { "vacant": true }
+      ]
+    },
+    {
+      "district": "2nd District",
+      "members": [
+        { "name": "Richlyn N. Justol-Baguilod" },
+        { "name": "Danilo C. Dayanghirang" },
+        { "name": "Louie John J. Bonguyan" },
+        { "name": "Doce L. Apostol" },
+        { "name": "Diosdado Angelo R. Mahipus" },
+        { "name": "Arnolfo Ricardo B. Cabling" },
+        { "name": "Ralph O. Abella" },
+        { "name": "Al Ryan S. Alejandre" }
+      ]
+    },
+    {
+      "district": "3rd District",
+      "members": [
+        { "name": "Alberto T. Ungab" },
+        { "name": "Antoinette G. Principe" },
+        { "name": "Trisha Ann J. Villafuerte" },
+        { "name": "Myrna G. Dalodo-Ortiz" },
+        { "name": "Bai Hundra N. Advincula" },
+        { "name": "Rachel P. Zozobrado" },
+        { "name": "Jose Marie Bernardo R. Baluran" },
+        { "name": "Lorenzo Benjamin D. Villafuerte" }
+      ]
+    }
+  ]
+}
