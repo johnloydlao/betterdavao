@@ -20,11 +20,9 @@ interface ExecutiveData {
   GOVERNMENT_NAME?: string;
   MAYOR?: string;
   MAYOR_IMAGE?: string;
-  MAYOR_YEAR_ELECTED?: string;
   HONORIFIC_TITLE?: string;
   VICE_MAYOR?: string;
   VICE_MAYOR_IMAGE?: string;
-  VICE_MAYOR_YEAR_ELECTED?: string;
   MAYOR_CONTACT?: string;
   VICE_MAYOR_CONTACT?: string;
 }
@@ -114,7 +112,7 @@ export default function ExecutivePage({
   const sections = parseSections(markdownContent.content);
   const sectionMap = Object.fromEntries(sections.map(s => [s.heading, s.body]));
   const remainingSections = sections.filter(
-    s => !['Executive', 'Vice Mayor', 'Invite the Mayor'].includes(s.heading)
+    s => !['Executive', 'Vice Mayor'].includes(s.heading)
   );
 
   const Prose = ({ content }: { content: string }) => (
