@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import { createMarkdownComponents } from '../lib/markdownComponents';
 import { getTypographyTheme } from '../lib/typographyThemes';
 import { type MarkdownContent } from '../lib/markdownLoader';
@@ -117,7 +118,11 @@ export default function ExecutivePage({
   );
 
   const Prose = ({ content }: { content: string }) => (
-    <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+    <ReactMarkdown
+      remarkPlugins={[remarkGfm]}
+      rehypePlugins={[rehypeRaw]}
+      components={markdownComponents}
+    >
       {content}
     </ReactMarkdown>
   );

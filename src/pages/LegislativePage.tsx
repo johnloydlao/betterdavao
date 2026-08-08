@@ -1,3 +1,9 @@
+import { Link } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import { createMarkdownComponents } from '../lib/markdownComponents';
+import { getTypographyTheme } from '../lib/typographyThemes';
 import { type MarkdownContent } from '../lib/markdownLoader';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
@@ -99,6 +105,10 @@ export default function LegislativePage({
   const gov = data.GOVERNMENT_NAME ?? '';
   const congressionalReps = data.congressionalReps ?? [];
   const councilDistricts = data.councilDistricts ?? [];
+  const markdownComponents = createMarkdownComponents(
+    getTypographyTheme('default')
+  );
+  const introContent = markdownContent.content.replace(/^#\s+.+\n+/, '').trim();
 
   return (
     <>
@@ -113,6 +123,15 @@ export default function LegislativePage({
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" items={breadcrumbs} />
         <Heading level={1}>{markdownContent.title || 'Legislative'}</Heading>
+        {introContent && (
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw]}
+            components={markdownComponents}
+          >
+            {introContent}
+          </ReactMarkdown>
+        )}
         <Card className="mb-8 markdown-content">
           <CardHeader>
             <div className="p-6">
@@ -133,9 +152,12 @@ export default function LegislativePage({
               <Heading level={2}>City Council — Sangguniang Panlungsod</Heading>
               <p className="text-sm text-gray-600 mb-6">
                 The Vice Mayor presides over the City Council. See the{' '}
-                <a href="/executive" className="text-primary-600 underline">
+                <Link
+                  to="/government/departments/executive"
+                  className="text-primary-600 underline"
+                >
                   Executive page
-                </a>{' '}
+                </Link>{' '}
                 for details on the current Vice Mayor.
               </p>
 
