@@ -33,6 +33,7 @@ You will also need a valid **Solid Waste Management Certificate** from CENRO. It
 1. **Register your email address** to get an **access code**. On the portal, choose "Don't have an access code? Get Now!" and enter your registered **Business ID**, as an owner or as a transacting person. If you lost your code, use "Forgot Access Code". If your email on file is out of date, use "Request New/Update Email" and upload the requested IDs and authorization.
 2. **Review your information** and attach the required documents.
 3. **Pay your business tax** at the City Treasurer's Office or through Online Payment, using the payout partners **LandBank** or the **Development Bank of the Philippines**.
+   Renewal payments are assessed by the City Treasurer's Business Tax Assessment Division (or a CTO district office) under the 2017 Revenue Code of the City of Davao (Ordinance No. 0291-17). The city does not publish a single tax rate, because the graduated tax depends on your business and gross sales. Ask the Treasurer's Office for your assessment.
 4. **Monitor your application** using Permit Tracking.
 5. **Print your Mayor's Permit** from the portal, or through the link sent to your email.
 
@@ -44,7 +45,7 @@ Other transactions such as additional business line, additional capital, change 
 
 - **Business Bureau, City Mayor's Office**
   Ground Floor, Sangguniang Panlungsod Bldg., Davao City
-  Phone: (082) 241-1000 local 377/378
+  Phone: (082) 241-1000 local 377/378, or (082) 225-0374 / 221-1203
   Email: busbureau@davaocity.gov.ph
 - **City Treasurer's Office**
   Room 1, City Hall Bldg., San Pedro St., Davao City
@@ -53,4 +54,4 @@ Other transactions such as additional business line, additional capital, change 
 
 ---
 
-_Sources: Online Business Permit Licensing System (appbts.davaocity.gov.ph), the City Government of Davao's Business Bureau announcements, and the CENRO service guidelines._
+_Sources: Online Business Permit Licensing System (appbts.davaocity.gov.ph), the City Government of Davao's Business Bureau announcements, and the CENRO service guidelines; City Government of Davao Citizen's Charter, Volume II (2024 revision)._
