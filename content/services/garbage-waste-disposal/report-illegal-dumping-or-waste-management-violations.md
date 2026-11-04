@@ -50,7 +50,7 @@ Contested cases are punished by court-imposed fines of up to ₱5,000 and/or com
 
 - **CENRO**, Environmental and Waste Management Division
   Maa Motorpool, Davao City
-  Phone: (082) 227-2655
+  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
 
 ---
 

@@ -32,7 +32,7 @@ Under City Ordinance No. 0361-10, hazardous items are classed as **special waste
 
 - **CENRO**, Environmental and Waste Management Division
   Maa Motorpool, Davao City
-  Phone: (082) 227-2655
+  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
 
 ---
 

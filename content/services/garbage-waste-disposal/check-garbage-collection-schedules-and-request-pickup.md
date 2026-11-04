@@ -13,7 +13,7 @@ The **City Environment and Natural Resources Office (CENRO)** provides **solid w
 
 **Where to check your schedule**
 
-The city publishes no single citywide schedule. Ask your **Barangay Hall** for the collection point and time schedule in your area, or call **CENRO** at (082) 227-2655.
+The city publishes no single citywide schedule. Ask your **Barangay Hall** for the collection point and time schedule in your area, or call **CENRO** at (082) 227-2655 or (082) 244-0094.
 
 ---
 
@@ -35,7 +35,7 @@ CENRO issues an **Order of Payment for Special Collection and Tipping Fees**. To
 
 - **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
   Maa Motorpool, Davao City
-  Phone: (082) 227-2655
+  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
 
 ---
 
