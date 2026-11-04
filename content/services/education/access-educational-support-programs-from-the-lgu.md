@@ -30,8 +30,12 @@ See [Apply for local scholarships](/apply-for-local-scholarships) for qualificat
 - **EBSU:** Room 28, 4th Floor (rooftop), City Hall Building, San Pedro Street. Phone (082) 241-1000 local 247. Email ebsustep@gmail.com.
 - **Your barangay's Child Development Center** or Barangay Hall for early childhood programs.
 
-The city's published pages do not list other school-level assistance, such as school supplies or feeding for elementary and high school students. Ask your school or the EBSU about what is available.
+**CSWDO educational assistance:** the CSWDO gives financial educational assistance to in-school children and youth in need of special protection, and to disadvantaged youth, including elementary and high school students. Apply at your CSWDO district office with a barangay certification, a certificate of enrolment, a student permanent record (college) or statement of account (technical-vocational), and the _Kasabutan_ from the district office. There is no fee, and the charter lists about 7 days of processing. A home visit and assessment are part of the process.
+
+**Library services:** a library ID card costs ₱30 a year, and schools and barangays can request the Mobile Library. See [supplementary activities for schools](/learn-about-supplementary-activities-for-schools-in-your-area).
+
+The city's published pages do not list other school-level assistance, such as school supplies. Ask your school or the EBSU what is available.
 
 ---
 
-_Sources: EBSU program pages (ebsu.davaocity.gov.ph) and CSWDO news from the City Government of Davao (davaocity.gov.ph)._
+_Sources: EBSU program pages (ebsu.davaocity.gov.ph) and CSWDO news from the City Government of Davao (davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision)._
