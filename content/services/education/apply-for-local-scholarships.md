@@ -1,112 +1,66 @@
-# Apply for Local Scholarships — Lapu-Lapu City
+# Apply for Local Scholarships — Davao City
 
-Use this guide to find **City/LGU**, **Congressional/partner**, **local college**, and **national** scholarship options you can apply for while based in **Lapu-Lapu City**.
-
----
-
-## 1) City/LGU Scholarship Programs
-
-| Program                                           | Who it’s for                                                                                           | What it covers\*                                                          | Where to apply                  | Notes                                                                                                                                                                                                         |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City Government College Scholarship** | Lapu-Lapu City residents (typically Senior High / incoming college; priority to low-income households) | Tuition/fees or full scholarship, depending on intake and partner schools | City Hall / posted online calls | The city has historically opened slots for poor residents and tied these to local HEIs during certain intakes. Check latest calls from City Hall / Office of the Mayor. :contentReference[oaicite:0]{index=0} |
-
-\*Coverage varies by year/partner school; always verify the current announcement.
-
-**How to apply (typical flow)**
-
-1. Watch for the **official call for applications** from the **Lapu-Lapu City Government** (FB/website or City Information Office). :contentReference[oaicite:1]{index=1}
-2. Prepare documents (see **Common Requirements** below).
-3. Submit your application at the designated **LGU window/online form** and attend evaluation/orientation if shortlisted.
+The City Government of Davao offers educational assistance through the **Education Benefits System Unit (EBSU)** under the Office of the City Mayor. The main program is the **Scholarship on Tertiary Education Program (STEP)**, set up for under-privileged students.
 
 ---
 
-## 2) Congressional / Partner Scholarship Slots
+## 1) Programs
 
-| Program                                                                                       | Who it’s for                                   | What it covers                                          | Where to apply                                                                   | Notes                                                                                                                |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Mayor Junard “Ahong” Chan & First Lady Ma. Cynthia King-Chan Scholarship** (periodic calls) | City residents, course/partner-school specific | Tuition assistance/full scholarship depending on cohort | Calls posted by the **Office of the Mayor** / **Office of Rep. Cindi King-Chan** | Look for official FB announcements with the **requirements and deadlines**. :contentReference[oaicite:2]{index=2}    |
-| **International/partner school opportunities**                                                | Senior High/college grads                      | Tuition discounts/scholarships via MOUs                 | Via partner school announcements & City coordination                             | Example: Taiwan partner university opportunities highlighted by city partners. :contentReference[oaicite:3]{index=3} |
+| Program                                                   | Who it is for                                                 | Benefit                                                                |
+| --------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Scholarship on Tertiary Education Program (STEP)**      | Indigent Davao City students going to college                 | Scholarship (see the EBSU office for current coverage)                 |
+| **Technical and Vocational Skills Training Program**      | Indigent Davao City students taking a TESDA-accredited course | Up to **₱15,000** for tuition and school requirements                  |
+| **Other Educational Assistance**                          | Differently-abled persons and persons with special needs      | Up to **₱10,000 a year** for tuition, transportation and related needs |
+| **Financial Assistance for Lumad**                        | Indigent students from an indigenous tribe of Davao City      | **₱1,500 a month for 10 months**, for up to 4 academic years           |
+| **Medical and Law School Educational Assistance (Lumad)** | Lumad students pursuing medical or law studies                | See the EBSU office                                                    |
 
----
-
-## 3) Local Colleges & Their In-House Scholarships
-
-| School                                         | Scholarship page/info                                                        | Notes                                                                                                                                 |
-| ---------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City College (LLCC)**              | School site lists contacts; ask registrar/scholarship desk for current slots | City college; scholarship rules and timing set per semester. :contentReference[oaicite:4]{index=4}                                    |
-| **University of Cebu** (Mactan/Main system)    | Public scholarship lists & requirements                                      | UC posts scholarship requirements (e.g., academic honors, docs). Availability varies by campus. :contentReference[oaicite:5]{index=5} |
-| **LCIC (Lapulapu-Cebu International College)** | Scholarship page with program specifics                                      | Has its own discounts/scholarships; separate from LGU. :contentReference[oaicite:6]{index=6}                                          |
-
-> Tip: Even if you’re targeting an **LGU scholarship**, apply to your target school’s **in-house scholarship** too. Slots stack or complement depending on rules.
+Benefits for the Technical and Vocational program are paid to the school after you submit the Statement of Account. The Lumad stipend is paid through ATM.
 
 ---
 
-## 4) National Programs You Can Apply For While Based in Lapu-Lapu
+## 2) STEP Qualifications
 
-| Program                                                             | Who it’s for                                                  | Typical coverage                                          | Where to file                                                                                                               |
-| ------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **CHED Merit Scholarship (CMSP)**                                   | Incoming/continuing college with merit + income criteria      | Stipend + book/tuition assistance (per CHED rules)        | CHED’s official calls/portals (watch national page) :contentReference[oaicite:7]{index=7}                                   |
-| **OWWA EDSP/ODSP** (for OFW dependents)                             | Qualified dependents of active OWWA members                   | EDSP up to ₱60k/yr; ODSP up to ₱20k/yr (amounts per call) | OWWA Scholarship portal; local **PESO Lapu-Lapu** often posts the call window :contentReference[oaicite:8]{index=8}         |
-| **Cebu Province scholarships** (if eligible as provincial resident) | Cebu Province residents (check city/province residency rules) | Tuition/stipend per program                               | Province announcements; verify residency eligibility vs. highly urbanized city status :contentReference[oaicite:9]{index=9} |
-
----
-
-## Common Requirements (have these ready)
-
-- **Proof of residency** (Barangay Certificate)
-- **Birth certificate** (PSA)
-- **Report card/grades** (JHS/SHS/college)
-- **Good moral certificate** (from school)
-- **Income documents** (parents’ ITR/Certificate of Non-Filing/indigency, depending on program)
-- **Photos/ID** (2×2 or passport size)
-- **Admission/Enrollment proof** (if already admitted)
-
-(Exact lists vary per program; always follow the posted checklist.)
+- A **resident of Davao City** with good moral character.
+- From an **indigent or below-average income family**, as pre-determined by the City Social Welfare and Development Office (CSWDO).
+- A graduate of a public or private secondary school in Davao City.
+- Enrolling in a course prescribed by STEP, following CHED priority programs, at a CHED-recognized school in Davao City.
+- Not receiving another scholarship or financial aid from a government agency, NGO or foundation. An academic scholarship from the school for honor students is allowed.
+- **Only one child per family** can avail of the scholarship.
 
 ---
 
-## Step-by-Step: How to Apply
+## 3) STEP Documents
 
-1. **Pick your target programs**
-   - City/LGU scholarship (watch City Hall channels), school-based scholarship, and at least one national program.
+Submit these to the EBSU office before the contract is signed:
 
-2. **Check the current call**
-   - Read the **eligibility, coverage, and deadline**. Save the announcement.
+1. Accomplished Scholarship Application Form (given after the initial assessment of your report card)
+2. Certificate of Residency from the Barangay Captain (photocopy)
+3. Certificate of Indigency from the CSWDO (photocopy)
+4. Income Tax Return of one or both parents, or a BIR Certificate of Tax Exemption if they are not working (photocopy)
+5. Certificate of Good Moral Character (photocopy)
+6. **Incoming freshmen:** K-12 Report Card. **College students:** Transcript of Records. **ALS students:** ALS Accreditation and Equivalency Test result.
 
-3. **Assemble documents**
-   - Use the checklist above; request certificates early (Barangay, School Registrar, BIR/Barangay for income).
-
-4. **Submit**
-   - Follow the **specified portal or window**. Keep digital scans (PDF) for online filing.
-
-5. **Monitor & attend screening**
-   - Answer calls/emails, attend orientation/interviews, and **sign the scholarship agreement** if accepted.
-
-6. **Comply every term**
-   - Maintain the **required GWA**, submit grade reports on time, and **renew** each semester/year.
+The other programs have their own requirements. Technical and Vocational applicants must also pass the EBSU qualifying examination, and Lumad applicants need confirmation from the NCIP or the Office of Muslim Affairs.
 
 ---
 
-## Where to Watch for Announcements
+## 4) How to Apply
 
-- LCIC’s website → “Scholarship” section
-- University of Cebu’s “Scholarship & Study Grants” page
-- DepEd Lapu-Lapu City’s official site / memorandums
-- City Government announcements (City Hall / Information Office)
-
----
-
-### Example Applications Available Now
-
-- [LCIC Scholarship Page](https://lcic.edu.ph/scholarship.html)
-- [UC Scholarships & Study Grants](https://www.universityofcebu.net/p/scholarship.html)
-- [DOST-SEI S&T Scholarship (Grade 12 applicants)](https://depedlapulapu.net.ph/download/dm-no-723-s-2024-2025-dost-sei-s-t-undergraduate-scholarship-applications-for-grade-12-senior-high-school-students/)
-- [English Access Program (DepEd Lapu-Lapu)](https://depedlapulapu.net.ph/download/dm-no-064-s-2025-english-access-scholarship-program/)
+1. Check the EBSU's announcements for the application period. The EBSU office can tell you the current schedule.
+2. Bring your report card or transcript for initial assessment.
+3. Get your barangay and CSWDO certificates.
+4. Submit your documents to the EBSU office.
 
 ---
 
-### Reminders
+## Contact
 
-- **Deadlines change every cycle.** Always follow the **current** call post.
-- **Coverage differs by program & year.** Read the fine print (tuition vs. full).
-- **Apply to multiple programs** to improve your chances and coverage.
+- **Education Benefits System Unit (EBSU)**
+  Room 28, 4th Floor (rooftop), City Hall Building, San Pedro Street, Davao City
+  Phone: (082) 241-1000 local 247
+  Email: ebsustep@gmail.com
+  Facebook: [Ebsu-Step](https://www.facebook.com/Ebsu-Step)
+
+---
+
+_Sources: EBSU program pages (ebsu.davaocity.gov.ph), published by the Office of the City Mayor, City Government of Davao._

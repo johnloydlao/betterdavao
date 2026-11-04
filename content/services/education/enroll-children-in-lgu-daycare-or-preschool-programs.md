@@ -1,78 +1,45 @@
-# Enroll Children in LGU Daycare or Preschool Programs — Lapu-Lapu City
+# Enroll Children in LGU Daycare or Preschool Programs — Davao City
 
-The Lapu-Lapu City Government, through the **City Social Welfare and Development Office (CSWDO)** and barangays, operates **daycare centers** and supports **public preschool education**.
-
----
-
-## 1) LGU Daycare Programs
-
-**What’s offered**
-
-- Early childhood care and development for children aged **3–4 years old**.
-- Daily activities on socialization, basic learning skills, play-based lessons, and health/nutrition monitoring.
-- Free or minimal-cost supplementary feeding (depending on barangay program).
-
-**Who can join**
-
-- Children aged **3–4 years old** who are residents of the barangay.
-- Priority is often given to **indigent families** or those referred by barangay officials.
-
-**Requirements (typical)**
-
-- Child’s **birth certificate** (PSA copy or local civil registrar copy).
-- **Barangay clearance** or proof of residency.
-- 1×1 ID photo of the child (for records).
-- Filled-out **Daycare Enrollment Form** (available at the center).
-
-**How to enroll**
-
-1. Visit your **Barangay Daycare Center** or **Barangay Hall** to ask for the enrollment schedule.
-2. Submit required documents and fill out the enrollment form.
-3. Attend the orientation session for parents/guardians (usually held before classes start).
-
-**Cost:** Free (LGU-funded), though some barangays may request voluntary contributions for class materials.
+The **City Social Welfare and Development Office (CSWDO)** runs the **Early Childhood Care and Development (ECCD)** program through **Child Development Centers (CDCs)**, also called day care centers. The city operates more than 600 CDCs, and more than 28,000 children were served in school year 2025–2026.
 
 ---
 
-## 2) Public Preschool (Kindergarten)
+## 1) Who Can Enroll
 
-**What’s offered**
-
-- Department of Education (DepEd) **Kindergarten Program** for **5-year-old children**, implemented in public elementary schools.
-- Focus on school readiness: literacy, numeracy, and social skills.
-
-**Who can join**
-
-- Children aged **5 years old** by the opening of the school year.
-- Priority for residents within the school’s catchment area.
-
-**Requirements (typical DepEd)**
-
-- Child’s **birth certificate** (PSA).
-- Proof of residency (Barangay Certificate).
-- 2×2 ID photo of the child.
-- Accomplished **DepEd Kindergarten Registration Form** (given at school).
-
-**How to enroll**
-
-1. Proceed to the **nearest public elementary school** during the announced **DepEd early registration** or regular enrollment period.
-2. Submit required documents to the school registrar.
-3. Attend orientation for parents and guardians.
-
-**Cost:** Free (government-funded).
+- Children **3 to 4 years old**. Enrollment is **not mandatory**, but parents are strongly encouraged to enroll their children to prepare them for formal schooling.
+- Most barangays have a CDC. Communities without one, or far from one, may use the **Parents Teaching Other Parents (PTOP)** modality.
 
 ---
 
-## Contact & Updates
+## 2) Class Schedule
 
-- **Barangay Daycare Centers** — Enrollment schedules and requirements are usually announced by barangay officials.
-- **City Social Welfare and Development Office (CSWDO)** — Oversees daycare programs.
-- **DepEd Lapu-Lapu City Division** — Manages public kindergarten enrollment.
+In the CDCs, children aged **3** attend from **8:00 to 11:00 AM**, and children aged **4** from **1:00 to 4:00 PM** (as reported in 2025).
 
 ---
 
-### Quick Tips
+## 3) What the Program Includes
 
-- Enroll early — daycare and preschool slots may be limited per barangay/school.
-- Keep copies of your child’s **birth certificate** and **barangay certificate** ready.
-- Attend parent orientations to understand your role in supporting your child’s early education.
+- Early education that builds social-emotional development, values and basic learning skills.
+- **Health, nutrition and sanitation:** Barangay Health Workers measure children's height and weight.
+- A **supplementary feeding program**, in partnership with the City Health Office.
+- Parents also help improve their centers through **Bayanihan Bulilit**, the day care counterpart of DepEd's Brigada Eskwela.
+
+---
+
+## 4) How to Enroll
+
+1. Visit your **barangay's Child Development Center** or Barangay Hall.
+2. Ask for the enrollment schedule and required documents. In 2025, early enrollment was set for June 9, ahead of graduations on April 21–30.
+3. Complete enrollment and attend the parent meetings the center schedules before classes start.
+
+Requirements and dates are set each school year. The CSWDO's published articles do not list the enrollment documents or a fee schedule, so confirm them with your CDC.
+
+---
+
+## 5) Private Child Development Centers
+
+City Ordinance No. 07829-19 requires privately owned centers to secure a permit, to make sure they follow an age-appropriate curriculum and have proper facilities.
+
+---
+
+_Sources: City Government of Davao news from the CSWDO's ECCD program (davaocity.gov.ph), April 2025, March 2026 and August 2022._
