@@ -56,7 +56,7 @@ A building permit is required before any building or structure is **erected, con
 
 **Conditional requirements:** a DOLE Construction Safety and Health Program for buildings of 3 storeys or more, boring and plate load test results for structures of at least 3 storeys, a DPWH clearance along a national highway, a CAAP clearance for tall structures, and a DENR Environmental Compliance Certificate for environmentally critical projects.
 
-OCBO also issues demolition permits and certificates of occupancy.
+OCBO also issues occupancy, fencing, excavation, scaffolding, demolition and sign permits, among others.
 
 ---
 
