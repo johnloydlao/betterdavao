@@ -38,7 +38,7 @@ The CHO's published pages do not describe enrollment steps, eligibility or sched
 ## Contact
 
 - **City Health Office (CHO)**
-  Magallanes Street, Davao City (open 8:00 AM – 5:00 PM)
+  Magallanes Street, Davao City (open 8:00 AM – 5:00 PM). The Citizen's Charter's office directory lists A. Pichon St., so call ahead.
   Phone: (082) 227-4749, or mobile 0926 686 1531 / 0999 938 0540
   Email: cho@davaocity.gov.ph or davaohealth@yahoo.com
 
