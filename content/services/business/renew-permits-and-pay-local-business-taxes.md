@@ -1,132 +1,56 @@
-# Renew Permits and Pay Local Business Taxes — Lapu-Lapu City
+# Renew Permits and Pay Local Business Taxes — Davao City
 
-Use this guide to renew your **Mayor’s/Business Permit** and **Local Business Taxes (LBT)** with the City Government.
-
----
-
-## Who Must Renew
-
-- All businesses operating in Lapu-Lapu City: **sole proprietors, partnerships, corporations, NGOs, cooperatives, online sellers with local presence**, and professionals with a business office.
-- Renewal applies to **main office and each branch**.
+Business permits in Davao City must be renewed every year. You can renew online through the city's **Online Business Permit Licensing System (Online BPLS)** at [appbts.davaocity.gov.ph](https://appbts.davaocity.gov.ph/renewal), or in person through the **Business Bureau**.
 
 ---
 
-## When to Renew
+## 1) When to Renew
 
-- **Annual renewal period:** **First 20 days of January** (as provided in the Local Government Code).
-- **Payments:** either **annually** or **quarterly** (1st qtr due during renewal; next quarters usually due on or before the **20th** day of April, July, and October).
-- Late filings incur **surcharges and interest**.
-
-> Tip: Prepare your documents **by December** so you can file in the first week of January.
+The Business Bureau opens a renewal period at the start of each year. In previous years the period has run through the month of January, with extended hours and a satellite processing site. The Bureau urges owners not to wait for the last days. Check the Business Bureau for the exact dates and any processing sites for the current year.
 
 ---
 
-## What You’ll Need (Typical Requirements)
+## 2) Documents for Renewal
 
-**Business Information**
+- BIR Form 2551Q (Quarterly Percentage Tax Return)
+- Financial statement
+- Special Power of Attorney, Secretary's Certificate or Board Resolution (if someone else is transacting for you)
+- Government IDs of the owner and of the authorized representative
+- Certification
+- Fire Safety Inspection Certificate (FSIC)
+- Previous Mayor's Permit
+- Barangay Certification (if blocked)
+- Certified list of employees
 
-- Prior year **Mayor’s/Business Permit** and **Official Receipts**.
-- **DTI/SEC/CDA** registration (whichever applies).
-- **BIR** Certificate of Registration (Form 2303) and **Authority to Print** (if any).
-- **Contract of Lease** / **Tax Declaration** / **Certificate of Occupancy** (as applicable).
-- **Valid IDs** of owner or authorized representative (+ **SPA** or Board Resolution if not the owner).
+> If you do not have all of the documents above, the portal says to go to your respective **District Office** to renew in person.
 
-**Revenue/Tax Basis**
-
-- **Sworn Declaration of Gross Sales/Receipts** for the **preceding year** (or **Audited FS**/**Accountant-certified** FS if applicable).
-- **Inventory list** (selected industries) and **machine/equipment list** (if applicable).
-
-**Regulatory Clearances** (city/BPLO may route you during assessment)
-
-- **Barangay Clearance** (for business).
-- **Sanitary Permit** (Health).
-- **Fire Safety Inspection Certificate (FSIC)** (BFP).
-- **Environmental/Disposal Permits** (if required by the nature of business).
-- **Zoning/Occupancy** updates if there were renovations or transfers.
-
-> Note: Actual required clearances vary by business **nature, size, and risk category**. Bring your **previous permits** to guide the checker.
+You will also need a valid **Solid Waste Management Certificate** from CENRO. It is renewed every year, for ₱500, and CENRO issues a citation if it has not been renewed. See [Garbage collection and pickup](/check-garbage-collection-schedules-and-request-pickup).
 
 ---
 
-## Step-by-Step (Walk-In)
+## 3) Steps to Renew Online
 
-1. **Pre-screening / Queuing**
-   - Go to the **Business One-Stop Shop (BOSS)** during the renewal period.
-   - Get your queue number; submit last year’s permit and basic IDs for pre-check.
+1. **Register your email address** to get an **access code**. On the portal, choose "Don't have an access code? Get Now!" and enter your registered **Business ID**, as an owner or as a transacting person. If you lost your code, use "Forgot Access Code". If your email on file is out of date, use "Request New/Update Email" and upload the requested IDs and authorization.
+2. **Review your information** and attach the required documents.
+3. **Pay your business tax** at the City Treasurer's Office or through Online Payment, using the payout partners **LandBank** or the **Development Bank of the Philippines**.
+4. **Monitor your application** using Permit Tracking.
+5. **Print your Mayor's Permit** from the portal, or through the link sent to your email.
 
-2. **Application & Declaration**
-   - Fill out the **Business Renewal Form** and the **Sworn Declaration of Gross Sales/Receipts**.
-   - Declare any **changes** (business name, nature, capitalization, number of employees, floor area, machinery, location).
-
-3. **Regulatory Routing**
-   - The evaluator will route you (if needed) to: **Barangay**, **Sanitary/Health**, **Zoning**, **Environmental**, and **BFP** for assessment/inspection.
-
-4. **Assessment**
-   - **BPLO** computes **Local Business Tax**, **Regulatory Fees**, and **Other Charges** (signage, garbage, sanitary, etc.).
-   - Choose **Annual** or **Quarterly** payment.
-
-5. **Payment**
-   - Pay at the **City Treasurer’s** cashier or accredited payment options (if available).
-   - Receive **Official Receipt(s)**.
-
-6. **Releasing**
-   - Claim your **Mayor’s/Business Permit**, **FSIC/Sanitary**, **Stickers/Plates**, and **Occupational permits** (if issued with the pack).
-   - Post the permit and required notices **conspicuously** at your place of business.
+Other transactions such as additional business line, additional capital, change of business address, transfer of ownership, and partial or full retirement are also listed on the portal. The portal marks that section as under development, so ask the Business Bureau how to file them.
 
 ---
 
-## (If Available) Online / Hybrid Filing
+## Contact
 
-- Some transactions may be done via the city’s **online business portal** or **pre-assessment** channels (if announced).
-- Prepare **scanned PDFs** of your documents (clear, legible; 1 file per requirement).
-- After online assessment, proceed to **payment** (e-payment or onsite) and **permit releasing** per instructions.
-
-> If unsure, confirm at the start of the renewal period if **online pre-filing** is open for your business type.
-
----
-
-## How Your Dues Are Computed
-
-- **Local Business Tax (LBT):** Based on **gross sales/receipts** of the prior year and your **business category** (rates and brackets per local tax ordinance).
-- **Regulatory/Service Fees:** e.g., **Sanitary**, **Zoning**, **Garbage**, **Signage**, **Occupational**, and **Fire** fees/clearances.
-- **Other Assessments:** May apply for **delivery vehicles**, **storage/stockrooms**, **machinery**, or **special permits**.
+- **Business Bureau, City Mayor's Office**
+  Ground Floor, Sangguniang Panlungsod Bldg., Davao City
+  Phone: (082) 241-1000 local 377/378
+  Email: busbureau@davaocity.gov.ph
+- **City Treasurer's Office**
+  Room 1, City Hall Bldg., San Pedro St., Davao City
+  Phone: (082) 241-1000 local 232 or (082) 225-0200
+  Email: cto@davaocity.gov.ph
 
 ---
 
-## Penalties for Late Renewal
-
-- **Surcharge** (commonly up to **25%** of the tax due) **plus** **monthly interest** (commonly up to **2% per month**) until fully paid, subject to the city’s ordinance caps.
-- Possible **closure/tagging** and **inspection findings** if you continue operations without a valid permit.
-
----
-
-## Changes You Must Report
-
-- **Change of address**, **trade/brand name**, **ownership structure**, **business activity**, **floor area**, **machinery**, or **employee count**.
-- **Temporary closure** or **permanent cessation**:
-  - File a **Business Retirement** to stop tax accruals.
-  - Submit **inventory and last day of operation**, settle any **delinquencies**, and surrender old permits/plates.
-
----
-
-## Practical Tips
-
-- **Bring copies** of everything (and soft copies on a USB/phone).
-- If you had **renovations** or **new equipment**, bring **permits/invoices**—it speeds up Zoning/BFP review.
-- **Coordinate early** with your **lessor** for building-related documents (occupancy, fire compliance).
-- For **food/health businesses**, schedule **Sanitary inspections** early; ensure staff have updated **health cards** if required.
-- Keep a **renewal calendar**: Q2/Q3/Q4 due dates if you chose quarterly.
-
----
-
-## Quick Checklist (Print This)
-
-- [ ] Last year’s **Mayor’s/Business Permit** and **ORs**
-- [ ] **DTI/SEC/CDA** registration & **BIR 2303**
-- [ ] **Lease/Occupancy**/Tax Declaration (as applicable)
-- [ ] **Sworn Gross Sales/Receipts** (prev. year) / **FS**
-- [ ] **Barangay Clearance** (business)
-- [ ] **Sanitary** & **FSIC** (and other routed clearances)
-- [ ] **Valid ID** / **SPA or Board Resolution** for representative
-- [ ] Payment (cash/card) for **taxes & fees**
-- [ ] Collect **Permit**, **Stickers/Plates**, post on site
+_Sources: Online Business Permit Licensing System (appbts.davaocity.gov.ph), the City Government of Davao's Business Bureau announcements, and the CENRO service guidelines._
