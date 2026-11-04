@@ -28,7 +28,9 @@ The CSWDO has also kept a donation drive open after major flood and fire events.
 - Keep proof of your address and photos of the damage to your home.
 - After the disaster, go to your **CSWDO district office** to ask about AICS.
 
-The city's published articles do not give a fixed AICS amount, so amounts can differ by situation. Ask the CSWDO.
+For general AICS, the charter requires only a **barangay certification of residency**. There is **no fee**, and the CSWDO's social workers assess your situation. The city does not publish a fixed AICS amount, so ask your district office.
+
+Residents who need help paying for hospital care can also ask the Mayor's **Lingap para sa Mahirap** program. See [Go to the local hospital](/go-to-the-local-hospital-for-treatment-or-confinement).
 
 ---
 
@@ -40,4 +42,4 @@ The city's published articles do not give a fixed AICS amount, so amounts can di
 
 ---
 
-_Sources: CSWDO news on the November 2023 flood and fire response from the City Government of Davao (davaocity.gov.ph)._
+_Sources: CSWDO news on the November 2023 flood and fire response from the City Government of Davao (davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision)._

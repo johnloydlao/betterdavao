@@ -14,7 +14,20 @@ The CSWDO lists these among its services:
 - **Capability-building programs** for solo parents to improve livelihood opportunities
 - **Skills training** under the PWD Welfare Program
 
-The CSWDO's published pages do not list the requirements, schedules or amounts for these programs. Go to your CSWDO district office, or call the main office, to ask about openings.
+### Livelihood Assistance (capital loan)
+
+The CSWDO provides a **non-collateral, non-interest-bearing capital loan** with a fund recovery feature to eligible clients. The charter lists **no fee** and about **5 days** of processing after assessment. The loan amount is not published.
+
+**Requirements**
+
+1. Barangay certification of residency (1 original, 1 photocopy)
+2. Medical certificate from the City Health Office or a private clinic (for food-related projects)
+3. Certificate of attendance at the **Basic Business Management Training (BBMT)**, from the CSWDO district office
+4. A **feasibility study**, from the CSWDO district office
+
+**Steps:** submit your documents at the CSWDO **district office** for an intake interview, then a home visit and assessment. If you qualify, the office prepares your Livelihood Availment Form and sends the documents for approval, and informs the district office when the assistance is ready for release.
+
+Schedules for the BBMT are not published, so ask your district office.
 
 ---
 
@@ -28,7 +41,7 @@ See [Apply for local scholarships](/apply-for-local-scholarships).
 
 ## Contact
 
-- **CSWDO**, A. Pichon St. (at the back of City Hall Annex Building), Davao City
+- **CSWDO**, A. Pichon St. (at the back of City Hall Annex Building), Davao City (the charter lists the Old City Library Building; call ahead)
   Phone: (082) 225-0417, 227-1617 or 295-3500
   Email: cswdo@davaocity.gov.ph
 - **EBSU**, Room 28, 4th Floor, City Hall Building
@@ -36,4 +49,4 @@ See [Apply for local scholarships](/apply-for-local-scholarships).
 
 ---
 
-_Sources: CSWDO page and news (davaocity.gov.ph) and EBSU program pages (ebsu.davaocity.gov.ph)._
+_Sources: CSWDO page and news (davaocity.gov.ph) and EBSU program pages (ebsu.davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision)._

@@ -31,7 +31,16 @@ The **City Social Welfare and Development Office (CSWDO)** is the city's social 
 2. Explain your situation. A **social worker** assesses your case.
 3. Bring your valid ID, a barangay certification, and any documents the social worker asks for.
 
-The CSWDO's published pages do not list per-program requirements for family and community support, so the social worker will tell you what is needed.
+The social worker will tell you what is needed for each program. The charter lists these CSWDO services:
+
+- **Educational assistance** for in-school children and youth who are in need of special protection or are disadvantaged. Bring a barangay certification, a certificate of enrolment, a student permanent record (college) or statement of account (technical-vocational), and the _Kasabutan_ from the district office. No fee, about 7 days.
+- **Death benefit** of up to ₱5,000 for the family of a senior citizen. See [senior citizen, solo parent and PWD assistance](/apply-for-senior-citizen-solo-parent-or-pwd-assistance).
+- **Livelihood assistance**, see [livelihood and skills programs](/join-livelihood-or-skills-training-programs).
+- **AICS** (Assistance to Individuals in Crisis Situation), needing only a barangay certification of residency.
+- **Social Case Study Report, Certificate of Indigency or Eligibility**, and other social welfare documents.
+- **Solo Parent ID** and **PWD ID**.
+- **Permit to Travel** for minors.
+- **Admission to a CSWDO Residential Care Facility.**
 
 ---
 
@@ -42,8 +51,8 @@ The CSWDO's published pages do not list per-program requirements for family and 
   Phone: (082) 225-0417, 227-1617 or 295-3500
   Email: cswdo@davaocity.gov.ph
 
-> The CSWDO page also gives the Old City Library Building, Bolton Street, as its location. Call ahead to confirm where to go.
+> The Citizen's Charter's office directory lists the CSWDO at the Old City Library Building, and the city's department page gives A. Pichon St. Call ahead to confirm where to go.
 
 ---
 
-_Sources: CSWDO page and news from the City Government of Davao (davaocity.gov.ph)._
+_Sources: CSWDO page and news from the City Government of Davao (davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision)._
