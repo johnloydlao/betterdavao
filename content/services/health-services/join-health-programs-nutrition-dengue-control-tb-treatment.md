@@ -1,81 +1,47 @@
-# Join Health Programs — Lapu-Lapu City (Nutrition, Dengue Control, TB Treatment)
+# Join Health Programs (Nutrition, Dengue Control, TB Treatment) — Davao City
 
-Below are city-led and national programs you can join through your **Barangay Health Center** and the **City Health Office (CHO)**.
-
----
-
-## 1) Nutrition Programs
-
-**What’s offered**
-
-- Supplementary feeding for day-care children.
-- Community nutrition activities such as breastfeeding promotion, growth monitoring, and health education.
-- Special events during Nutrition Month (July) and city-wide wellness programs.
-
-**Who can join**
-
-- Day-care children and families identified by barangays or CSWD.
-- Residents may also take part in open city nutrition events.
-
-**How to join**
-
-1. Visit your **Barangay Health Center** or ask the **Barangay Nutrition Scholar (BNS)** about ongoing feeding programs.
-2. Join community activities and city-wide nutrition events announced by the **City Health Office (CHO)** or City Information Office.
-
-**Cost:** Free for eligible beneficiaries.
+The **City Health Office (CHO)** runs disease-prevention and treatment programs through its main office and the city's health centers.
 
 ---
 
-## 2) Dengue Control Programs
+## 1) Programs and Services
 
-**What’s offered**
-
-- Community clean-up drives under the **ABKD (Aksyon Barangay Kontra Dengue)** program.
-- Daily “4 o’clock habit” — searching and destroying mosquito breeding sites.
-- Misting, fogging, and entomological surveys led by the CHO.
-- Information campaigns during Dengue Awareness Month and rainy season.
-
-**How to join**
-
-1. Take part in barangay clean-up drives and follow the **4S strategy** (Search & Destroy, Self-protection, Seek early consultation, Support fogging/misting).
-2. Cooperate when CHO teams conduct **misting** or **house-to-house larval checks**.
-
-**Cost:** Free; no registration needed.
+| Program                       | What the CHO lists                                                                                              |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Nutrition**                 | Nutrition services                                                                                              |
+| **Tropical diseases**         | Dengue, malaria and schistosomiasis                                                                             |
+| **Infectious diseases**       | TB and leprosy services                                                                                         |
+| **Reproductive health**       | Reproductive health and wellness (STI, HIV and AIDS), family planning, counseling and referral                  |
+| **Non-communicable diseases** | Cardio-vascular diseases, prevention of blindness and hearing problems, mental health, PWDs and senior citizens |
+| **Health and sanitation**     | Sanitary permits and inspection of establishments                                                               |
+| **Animal bites**              | Animal Bite and Treatment Center                                                                                |
+| **Immunization**              | Free vaccines for all ages                                                                                      |
 
 ---
 
-## 3) TB Treatment (NTP TB-DOTS)
+## 2) Community Health Education
 
-**What’s offered**
-
-- Free consultations, diagnostic tests, and full course of anti-TB medicines under the **National Tuberculosis Program (NTP)**.
-- Supervised treatment through the **Directly Observed Therapy Short-course (DOTS)** approach.
-
-**Where**
-
-- Lapu-Lapu City Health Office (DOTS facility) and affiliated barangay health centers.
-
-**How to join**
-
-1. Go to your **Barangay Health Center** or the **CHO DOTS Clinic** for TB screening.
-2. If diagnosed, you will be enrolled in DOTS — treatment and medicines are given for free.
-3. Regular follow-up visits will be scheduled to monitor your recovery.
-
-**Cost:** Free for all TB patients.
+The CHO runs **Purok Kalusugan**, a program of lectures and education campaigns in every purok of the barangays, and works with schools to bring health personnel on campus.
 
 ---
 
-## Contact & Updates
+## 3) How to Join
 
-- **Barangay Health Centers** — First point of contact for nutrition, dengue, and TB programs.
-- **Lapu-Lapu City Health Office (CHO)** — Main office for program schedules and services.
-- **City Information Office** — Posts updates on city-wide campaigns and health events.
+1. Visit your barangay's health center, or the CHO main office on Magallanes Street.
+2. Tell the staff which program you need, such as TB treatment, dengue concerns or nutrition.
+3. Ask about eligibility, schedules and what to bring.
+
+The CHO's published pages do not describe enrollment steps, eligibility or schedules for each program, so confirm these with the CHO.
 
 ---
 
-### Quick Tips
+## Contact
 
-- Bring a **valid ID** and your **barangay health record** (if you already have one).
-- For TB symptoms (cough for 2 weeks or more, weight loss, night sweats), seek screening immediately.
-- Join community clean-up drives and practice the 4 o’clock habit to prevent dengue.
-- Attend barangay nutrition events and feeding programs for your children’s growth and wellness.
+- **City Health Office (CHO)**
+  Magallanes Street, Davao City (open 8:00 AM – 5:00 PM)
+  Phone: (082) 227-4749, or mobile 0926 686 1531 / 0999 938 0540
+  Email: cho@davaocity.gov.ph or davaohealth@yahoo.com
+
+---
+
+_Sources: City Health Office page and news from the City Government of Davao (davaocity.gov.ph)._

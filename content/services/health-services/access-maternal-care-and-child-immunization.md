@@ -1,49 +1,44 @@
-# Access Maternal Care & Child Immunization — Lapu-Lapu City
+# Access Maternal Care and Child Immunization — Davao City
 
-The City Health Office (CHO) and barangay health centers provide **prenatal care**, **family planning**, and **free routine child immunization** for residents.
-
----
-
-## Maternal Care (Prenatal & Related Services)
-
-| Service                                                             | Where                       | Schedule                                                               | Requirements                                    | Cost                                                       |
-| ------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
-| Prenatal check-ups (by midwife/nurse; physician referral as needed) | **Barangay Health Centers** | Mon–Fri (typical clinic hours; varies by center)                       | Prenatal record (issued/updated at first visit) | **Free**                                                   |
-| Family Planning counseling & methods                                | **Barangay Health Centers** | Mon–Fri **8:00 AM–4:00 PM**; Sat **8:00 AM–1:00 PM** (except holidays) | Personal appearance for counseling              | **Free** counseling (methods per DOH program availability) |
-
-**Tip:** Bring any previous prenatal card/records and a valid ID. If you’re new, staff will register you and issue the needed record at the health center.
+The **City Health Office (CHO)** provides **prenatal and post-partum care**, **immunization**, **nutrition** and **family planning** services, along with a **Paanakan** (birthing facility), through its main office and the city's health centers.
 
 ---
 
-## Child Immunization (EPI)
+## 1) Maternal Care
 
-Routine childhood vaccines are provided **free** under the Expanded Program on Immunization (EPI).
-
-| Age/Visit                          | Vaccines (examples)                                                        | Where                       | Regular Day/Time                                  | Requirements                          | Cost     |
-| ---------------------------------- | -------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------- | ------------------------------------- | -------- |
-| Birth–12 months (per DOH schedule) | **BCG**, **Pentavalent**, **OPV/IPV**, **MMR**, **Hepatitis B**, **PCV13** | **Barangay Health Centers** | **Wednesdays, 8:00 AM–4:00 PM** (except holidays) | **ECCD card** (issued on first visit) | **Free** |
-
-> First time? The health worker will **issue an ECCD card** and guide you on next-dose return dates.
+- **Prenatal and post-partum check-ups** are part of the CHO's services.
+- **Paanakan:** the CHO lists a Paanakan among its services. Ask the CHO which health facility serves your area.
+- **Family planning** and **nutrition** services are also offered.
+- The city holds events such as the **Buntis Congress** for pregnant mothers.
 
 ---
 
-## How to Avail (Quick Steps)
+## 2) Child Immunization
 
-1. **Go to your Barangay Health Center** during clinic hours (or the posted EPI day for vaccines).
-2. **Register/Update your record:** Prenatal record for mothers, **ECCD card** for children (issued if first time).
-3. **Receive service:** Prenatal assessment, counseling (and TT vaccine/supplements per program), or child vaccination per EPI schedule.
-4. **Book your return date** for follow-ups and next vaccine doses as advised by the health staff.
-
----
-
-## Notes & Extras
-
-- **Medical consultations** at health centers are **free** (Mon–Fri, 8:00 AM–5:00 PM; center schedules apply). Useful if you need a doctor’s assessment alongside prenatal care.
-- The CHO and health centers also run **mother’s classes** and promote **facility-based delivery**; ask your midwife for schedules.
+- The CHO offers **free vaccines** from pregnancy and birth through to seniors, including tetanus, BCG, pentavalent, polio, flu and pneumococcal vaccines.
+- Vaccines are available at **health centers in all 182 barangays**.
+- The CHO reaches families through its **Purok Kalusugan** program, with lectures and education campaigns in every purok of the barangays, and works with schools at Parent-Teacher Assemblies.
+- The CHO urges parents, guardians and caregivers to **follow their vaccination schedules**. If you miss a schedule, you can still go to your provider to receive your dose.
 
 ---
 
-**References**
+## 3) How to Avail
 
-- [Lapu-Lapu City Government – Services](https://lapulapucity.gov.ph)
-- [Department of Health – Expanded Program on Immunization](https://doh.gov.ph)
+1. Go to the health center serving your barangay, or the CHO main office.
+2. Bring your child's immunization record, if you have one.
+3. Ask staff for the schedule of prenatal and immunization services at that center.
+
+The CHO's published pages do not list per-center schedules or requirements, so confirm them with your health center.
+
+---
+
+## Contact
+
+- **City Health Office (CHO)**
+  Magallanes Street, Davao City (open 8:00 AM – 5:00 PM)
+  Phone: (082) 227-4749, or mobile 0926 686 1531 / 0999 938 0540
+  Email: cho@davaocity.gov.ph or davaohealth@yahoo.com
+
+---
+
+_Sources: City Health Office page and the April 2026 CHO immunization campaign article from the City Government of Davao (davaocity.gov.ph)._

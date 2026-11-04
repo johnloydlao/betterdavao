@@ -1,98 +1,36 @@
-# Go to the Local Hospital for Treatment or Confinement — Lapu-Lapu City
+# Go to the Local Hospital for Treatment or Confinement — Davao City
 
-This guide covers **where to go**, **what to bring**, and **how admission works** at local hospitals in Lapu-Lapu City, including the city-run facility and nearby private hospitals.
-
----
-
-## A) Government Hospital (City-Run)
-
-### Sta. Rosa Community Hospital (Lapu-Lapu City)
-
-**Services & Hours**
-
-- **Emergency (Medical & Medico-legal):** 24/7
-- **Ward (In-patient confinement):** 24/7
-- **Out-Patient:** Mon–Fri, 8:00 AM–5:00 PM (except holidays)
-
-**Emergency (Medical cases) – Quick Steps**
-| Step | What you do | Hospital does | Typical time |
-|---|---|---|---|
-| 1 | Seek care at ER | Triage, vitals, initial MD orders | ~10–25 min |
-| 2 | Sign consent (treatment/admission if needed) | Prepare meds/tests; set for transfer to ward if admitted | ~20–25 min |
-| 3 | Transfer to ward (if for confinement) | ER endorses to Ward Nurse on duty | ~10 min |
-
-**Requirements (bring if available):** Registration data sheet (onsite), **PhilHealth ID/MDR (optional)**, doctor’s referral/admitting orders (if coming from clinic).
-
-**Ward (In-patient) – What to expect**
-
-- Follow doctor’s orders; nurses administer meds/tests; dietary issued as ordered.
-- For discharge: instructions & schedule for follow-ups are given; proceed to Billing for clearance; release at Ward/Nurse station.
-- **Fees:** Posted at Billing.
-- **Note:** If not enrolled in PhilHealth, staff will guide processing if a relative can provide documents.
+For basic and preventive care, start at your barangay **health center** or the **City Health Office (CHO)**. For hospital treatment or confinement, one of the main public hospitals in Davao City is the **Southern Philippines Medical Center (SPMC)**, operated under the Department of Health.
 
 ---
 
-## B) Private Hospitals Nearby
+## 1) Southern Philippines Medical Center (SPMC)
 
-| Hospital                                     | Where                 | Beds/Notes                            | Admissions basics                                                                                                                     |
-| -------------------------------------------- | --------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mactan Doctors’ Hospital (CebuDoc Group)** | Basak, Lapu-Lapu City | **151-bed tertiary** private hospital | Bring valid ID; company/HMO authorization if applicable; PhilHealth forms; fill out admission forms and submit to Admissions/Billing. |
-| **ARC Hospitals**                            | Lapu-Lapu City        | **~100-bed** private hospital         | Standard private-hospital admission flow; coordinate with Admissions/HMO/PhilHealth desk.                                             |
+- **Address:** J.P. Laurel Avenue, Bajada, Davao City 8000
+- **Telephone:** (082) 227-2731
+- **Telefax:** (082) 221-7029
+- **Email:** coh.spmc@gmail.com
+- **Website:** [spmc.doh.gov.ph](https://spmc.doh.gov.ph/)
 
-> Private hospitals typically require **initial deposits** (varies by case/room) unless fully covered by HMO/PhilHealth arrangements. Confirm at the **Billing/Admissions** desk.
-
----
-
-## C) What to Bring (All Hospitals)
-
-- **Valid ID** (with photo & signature)
-- **PhilHealth** ID and **MDR** (Member Data Record); if a dependent, bring proof of dependency
-- **Doctor’s referral/admitting order** (if elective admission)
-- **HMO/Company**: LOA/guarantee letter, membership/ID cards (if applicable)
-- **Personal necessities** (for confinement)
+SPMC's website lists clinical departments and an Emergency and Trauma complex. Its published pages do not give a separate emergency hotline, so call the main line.
 
 ---
 
-## D) Costs & PhilHealth Coverage
+## 2) Before You Go
 
-- **City hospital:** Fees are posted at **Billing**; **PhilHealth** benefits may apply at admission/discharge processing.
-- **No Balance Billing (NBB):** For **indigent/sponsored**, **senior citizens**, and certain categories in **government hospitals**, no other fees beyond PhilHealth package should be charged during confinement (subject to policy and facility capacity).
-
----
-
-## E) How to Avail — At a Glance
-
-### Emergency (any hospital)
-
-1. **Go straight to ER** (24/7).
-2. **Triage & initial orders** → stabilization/tests.
-3. **If admitted:** sign consent → transfer to ward → submit IDs/PhilHealth/HMO at Admissions/Billing.
-
-### Elective Admission (planned confinement/procedure)
-
-1. Obtain **doctor’s admitting order** & **referral**.
-2. Prepare **IDs, PhilHealth, HMO/LOA** (if any).
-3. Proceed to **Admissions** for room assignment, forms, and initial billing arrangements.
+- Bring a **valid ID**.
+- Bring your **PhilHealth** details if you have them, and ask the hospital which documents it requires.
+- If you are unsure where to go, the CHO can provide **counseling and referral**.
 
 ---
 
-## F) Useful Contacts
+## 3) City Health Office (referrals and basic services)
 
-- **Lapu-Lapu City Hospital / District Hospital (Gov’t)**
-  - A. Tumulak St., Gun-ob, Lapu-Lapu City
-  - **Tel:** (032) 340-0249 / 340-0248
-  - **Email:** lapulapucityhospital@yahoo.com
-
-- **Mactan Doctors’ Hospital (Private, CebuDoc Group)**
-  - Basak, Lapu-Lapu City
-  - **Trunkline:** +63 (32) 239-7002 to 7016
-
-- **ARC Hospitals (Private)**
-  - Lapu-Lapu City (100-bed facility)
+- **City Health Office (CHO)**
+  Magallanes Street, Davao City (open 8:00 AM – 5:00 PM)
+  Phone: (082) 227-4749, or mobile 0926 686 1531 / 0999 938 0540
+  Email: cho@davaocity.gov.ph
 
 ---
 
-### Notes
-
-- Bring your **PhilHealth** documents even for emergencies; if unavailable, the hospital can guide you on follow-up submission.
-- Schedules and processes can change; confirm by calling the hospital **Admissions/Billing** desk before a planned confinement.
+_Sources: Southern Philippines Medical Center contact page (spmc.doh.gov.ph) and the City Health Office page (davaocity.gov.ph). The list of other public and private hospitals in the city is not included here._
