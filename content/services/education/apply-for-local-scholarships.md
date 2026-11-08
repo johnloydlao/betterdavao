@@ -63,4 +63,31 @@ The other programs have their own requirements. Technical and Vocational applica
 
 ---
 
-_Sources: EBSU program pages (ebsu.davaocity.gov.ph), published by the Office of the City Mayor, City Government of Davao._
+## Colleges and Universities in Davao City (Community-Sourced)
+
+> **Not official information.** This list comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Government, CHED or DepEd. It may be incomplete or outdated. It does **not** say whether a school accepts scholars of the city's programs or is recognized for a given course. **Confirm with the school and the scholarship office** before you apply.
+
+**Universities**
+
+- Ateneo de Davao University (E. Jacinto St.)
+- Lyceum of the Philippines University (LPU Drive)
+- National University Davao (SM Extension)
+- University of Mindanao: Main (Bolton St.), Annex, Matina Campus and Guianga College
+- University of Southeastern Philippines: Obrero Campus (A. Iñigo St., tagged as public) and Mintal Campus
+- University of the Immaculate Conception: main campus (Father Selga St.), Annex and Bajada campus
+- University of the Philippines Mindanao
+- Holy Cross College of Calinan (tagged as a university)
+
+**City-run college**
+
+- **City College of Davao** (Davao-Bukidnon Road), tagged as a government school. Ask the college directly about admission, fees and any city scholarship for its students.
+
+**Some other colleges**
+
+Assumption College of Davao, Brokenshire College, Davao Doctors College, Davao Medical School Foundation, Holy Cross of Davao College, Mapúa Malayan Colleges Mindanao, Philippine Women's College, Rizal Memorial Colleges, San Pedro College, Saint John Paul II College of Davao, St. Peter College of Davao and St. Paul College of Davao. Many more colleges and technical schools are on the map.
+
+_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. You can view and correct the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+
+---
+
+_Official sources: EBSU program pages (ebsu.davaocity.gov.ph), published by the Office of the City Mayor, City Government of Davao. The community-sourced list of colleges and universities is from OpenStreetMap._
