@@ -53,4 +53,43 @@ The charter does not state the amount of assistance. Ask the office.
 
 ---
 
-_Sources: Southern Philippines Medical Center contact page (spmc.doh.gov.ph), the City Health Office page (davaocity.gov.ph) and the City Government of Davao Citizen's Charter, Volume II (2024 revision), Lingap para sa Mahirap Program. The list of other public and private hospitals in the city is not included here._
+## 5) Other Hospitals in Davao City (Community-Sourced)
+
+> **Not official information.** This list comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Government or the Department of Health. It may be incomplete, outdated or wrong, and it does not say which hospitals are accredited, open 24 hours, or accept PhilHealth or Lingap guarantee letters. **Call the hospital first** and check with the City Health Office.
+
+Ownership is shown only where OpenStreetMap contributors have recorded it.
+
+| Hospital                                             | Ownership (as tagged)    |
+| ---------------------------------------------------- | ------------------------ |
+| Adventist Hospital Davao (MacArthur Highway)         | Private                  |
+| Alterado General Hospital                            | Not stated               |
+| Anda Riverview Medical Center (A. Pichon St.)        | Not stated               |
+| Brokenshire Hospital                                 | Not stated               |
+| Dela Cerna Hospital                                  | Not stated               |
+| Davao Doctors Hospital (E. Quirino Ave.)             | Private                  |
+| Davao Medical School Foundation Hospital             | Not stated               |
+| Davao Mediquest Hospital (Toril area)                | Not stated               |
+| Davao Mental Hospital (Villa Abrille St.)            | Not stated               |
+| Ecoland Medical and Wellness Center                  | Not stated               |
+| Fabie General Hospital                               | Not stated               |
+| Gig Oca Robles Seamen Hospital                       | Not stated               |
+| Holy Spirit Hospital (Sampaguita St.)                | Not stated               |
+| Isaac T. Robillo Memorial Hospital (Calinan area)    | Not stated               |
+| Lanang Premiere Doctors Hospital                     | Not stated               |
+| Malta Medical Center (MacArthur Highway)             | Not stated               |
+| Marilog District Hospital                            | City Government of Davao |
+| Metro Davao Medical and Research Center              | Not stated               |
+| Naval Forces Hospital                                | Government               |
+| Paquibato District Hospital                          | Government               |
+| Ricardo Limso Medical Center (Ilustre St.)           | Not stated               |
+| San Pedro Hospital                                   | Not stated               |
+| Southern Philippines Medical Center (see above)      | Department of Health     |
+| St. Felix Hospital                                   | Not stated               |
+| Tebow Cure Hospital (J.P. Laurel Ave.)               | Not stated               |
+| United Davao Specialists Hospital and Medical Center | Not stated               |
+
+_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. Telephone numbers are left out on purpose, because the OpenStreetMap entries could not be checked against an official source. You can browse the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+
+---
+
+_Official sources: Southern Philippines Medical Center contact page (spmc.doh.gov.ph), the City Health Office page (davaocity.gov.ph) and the City Government of Davao Citizen's Charter, Volume II (2024 revision), Lingap para sa Mahirap Program. The community-sourced list above is the only source for hospitals other than SPMC._
