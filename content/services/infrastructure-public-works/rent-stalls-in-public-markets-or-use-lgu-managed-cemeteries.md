@@ -38,6 +38,22 @@ The charter does not list the documents needed for a cemetery application. Ask t
 
 ---
 
+## 3) Markets and Public Cemeteries on the Map (Community-Sourced)
+
+> **Not official information.** This section comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Economic Enterprise Office or the City Government. It is **incomplete and may be outdated**. It does not say which markets have vacant stalls, which cemeteries are city-run, or whether a cemetery still has space. **Ask the City Economic Enterprise Office (CEE) before you rely on it.**
+
+**Public markets that volunteers have mapped**
+
+Agdao Public Market, Bankerohan Public Market, Buhangin Public Market, Bunawan Public Market, Calinan Public Market, Matina Public Market, Mabini Public Market, Mintal Public Market, Toril Public Market, Tibungco Public Market, Babak Public Market, PTI Public Market, Sasa Wet Market and Tagpuan Market. Night markets on the map include Roxas Night Market and Bajada Divisoria Night Market.
+
+**Public cemeteries that volunteers have mapped**
+
+Calinan Public Cemetery, Bunawan Public Cemetery, Ma-a Public Cemetery, Mintal Public Cemetery, Sirib Public Cemetery, Tagakpan Public Cemetery, Tibungco Public Cemetery, Toril Public Cemetery, Tugbok Public Cemetery, Wireless Public Cemetery, Panacan Cemetery, Gumalang Public Cemetery, Megkawayan Public Cemetery and Tamugan Public Cemetery. Many private memorial parks are also on the map, but they are not run by the city.
+
+_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. You can view and correct the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+
+---
+
 ## Contact
 
 - **City Economic Enterprise**
@@ -46,4 +62,4 @@ The charter does not list the documents needed for a cemetery application. Ask t
 
 ---
 
-_Sources: City Economic Enterprise page (davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision), City Treasurer's Office (cemetery charges)._
+_Official sources: City Economic Enterprise page (davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision), City Treasurer's Office (cemetery charges). The community-sourced lists of markets and cemeteries are from OpenStreetMap._

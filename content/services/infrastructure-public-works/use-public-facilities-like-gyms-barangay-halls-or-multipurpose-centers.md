@@ -28,6 +28,23 @@ The charter does not list a city process for using a barangay hall, a multipurpo
 
 ---
 
+## 4) Gyms and Sports Venues on the Map (Community-Sourced)
+
+> **Not official information.** This section comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Government. It is **incomplete and may be outdated**. A venue on the map is not necessarily open for public booking, and the rules, fees and requirements depend on who runs it. **Ask the barangay or the venue's office first.**
+
+- Almendras Gym (M. L. Quezon Blvd.), see section 1 above for the official booking information
+- Calinan Gym
+- Mintal Gymnasium
+- Babak Multi-Purpose Gym
+- Catalunan Grande Sports Complex (tagged as government)
+- Davao City-UP Sports Complex (tagged as public)
+- USeP Gymnasium and Cultural Center
+- CYO Gym
+
+_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. You can view and correct the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+
+---
+
 ## Contact
 
 - **City Economic Enterprise**
@@ -36,4 +53,4 @@ The charter does not list a city process for using a barangay hall, a multipurpo
 
 ---
 
-_Sources: City Economic Enterprise page (davaocity.gov.ph) and the City Government of Davao Citizen's Charter, Volume I (2024 revision), City General Services Office services._
+_Official sources: City Economic Enterprise page (davaocity.gov.ph) and the City Government of Davao Citizen's Charter, Volume I (2024 revision), City General Services Office services. The community-sourced list of gyms and sports venues is from OpenStreetMap._
