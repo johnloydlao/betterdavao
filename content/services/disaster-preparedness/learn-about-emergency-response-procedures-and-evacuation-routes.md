@@ -40,6 +40,29 @@ The city has not published a citywide map of evacuation routes. Safe zones are s
 
 ---
 
+## 5) Evacuation Centers and Fire Stations on the Map (Community-Sourced)
+
+> **Not official information.** This section comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Government, the CDRRMO or the BFP. It is **incomplete and may be outdated**. Whether a place is open, safe or assigned to your barangay is decided by the city, so **always follow the instructions of your Barangay Hall and the CDRRMO** and confirm with them before a disaster.
+
+**Evacuation sites that volunteers have mapped**
+
+OpenStreetMap has only a few evacuation sites for Davao City. Most of the city's evacuation centers are not on the map, so this is not a full list.
+
+- Catalunan Grande Evacuation Center
+- Mahayag Evacuation Center
+- Regional Evacuation Center (in the Tugbok area)
+- An unnamed "Evacuation Area" in Toril
+
+**Fire stations that volunteers have mapped**
+
+Central Fire Station (Alvarez St.), C.B. Bangoy Sr. Fire Station, S.I.R. Fire Station, Bajada Fire Station (J.P. Laurel Ave.), Talomo Fire Station, Toril Fire Station, Mintal Fire Station, Buhangin Fire Station, Panacan Fire Station, Bunawan Fire Station, Calinan Fire Station, Cabantian Fire Station and Inawayan Fire Station. Some volunteer fire brigades are also on the map.
+
+In an emergency, **dial 911**. Do not rely on station phone numbers from the map. They are left out here because they could not be checked against an official source.
+
+_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. You can view and correct the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+
+---
+
 ## Contact
 
 - **Central 911:** 911 Building, Daang Patnubay St., SIR Matina, Davao City. Email 911@davaocity.gov.ph.
@@ -47,4 +70,4 @@ The city has not published a citywide map of evacuation routes. Safe zones are s
 
 ---
 
-_Sources: Davao City Emergency Hotlines (onlineservices.davaocity.gov.ph), the Central 911 and CDRRMO pages, and CDRRMO news from the City Government of Davao (davaocity.gov.ph)._
+_Official sources: Davao City Emergency Hotlines (onlineservices.davaocity.gov.ph), the Central 911 and CDRRMO pages, and CDRRMO news from the City Government of Davao (davaocity.gov.ph). The community-sourced section above is from OpenStreetMap._
