@@ -1,98 +1,95 @@
-# Go to the Local Hospital for Treatment or Confinement — Lapu-Lapu City
+# Go to the Local Hospital for Treatment or Confinement — Davao City
 
-This guide covers **where to go**, **what to bring**, and **how admission works** at local hospitals in Lapu-Lapu City, including the city-run facility and nearby private hospitals.
-
----
-
-## A) Government Hospital (City-Run)
-
-### Sta. Rosa Community Hospital (Lapu-Lapu City)
-
-**Services & Hours**
-
-- **Emergency (Medical & Medico-legal):** 24/7
-- **Ward (In-patient confinement):** 24/7
-- **Out-Patient:** Mon–Fri, 8:00 AM–5:00 PM (except holidays)
-
-**Emergency (Medical cases) – Quick Steps**
-| Step | What you do | Hospital does | Typical time |
-|---|---|---|---|
-| 1 | Seek care at ER | Triage, vitals, initial MD orders | ~10–25 min |
-| 2 | Sign consent (treatment/admission if needed) | Prepare meds/tests; set for transfer to ward if admitted | ~20–25 min |
-| 3 | Transfer to ward (if for confinement) | ER endorses to Ward Nurse on duty | ~10 min |
-
-**Requirements (bring if available):** Registration data sheet (onsite), **PhilHealth ID/MDR (optional)**, doctor’s referral/admitting orders (if coming from clinic).
-
-**Ward (In-patient) – What to expect**
-
-- Follow doctor’s orders; nurses administer meds/tests; dietary issued as ordered.
-- For discharge: instructions & schedule for follow-ups are given; proceed to Billing for clearance; release at Ward/Nurse station.
-- **Fees:** Posted at Billing.
-- **Note:** If not enrolled in PhilHealth, staff will guide processing if a relative can provide documents.
+For basic and preventive care, start at your barangay **health center** or the **City Health Office (CHO)**. For hospital treatment or confinement, one of the main public hospitals in Davao City is the **Southern Philippines Medical Center (SPMC)**, operated under the Department of Health.
 
 ---
 
-## B) Private Hospitals Nearby
+## 1) Southern Philippines Medical Center (SPMC)
 
-| Hospital                                     | Where                 | Beds/Notes                            | Admissions basics                                                                                                                     |
-| -------------------------------------------- | --------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mactan Doctors’ Hospital (CebuDoc Group)** | Basak, Lapu-Lapu City | **151-bed tertiary** private hospital | Bring valid ID; company/HMO authorization if applicable; PhilHealth forms; fill out admission forms and submit to Admissions/Billing. |
-| **ARC Hospitals**                            | Lapu-Lapu City        | **~100-bed** private hospital         | Standard private-hospital admission flow; coordinate with Admissions/HMO/PhilHealth desk.                                             |
+- **Address:** J.P. Laurel Avenue, Bajada, Davao City 8000
+- **Telephone:** (082) 227-2731
+- **Telefax:** (082) 221-7029
+- **Email:** coh.spmc@gmail.com
+- **Website:** [spmc.doh.gov.ph](https://spmc.doh.gov.ph/)
 
-> Private hospitals typically require **initial deposits** (varies by case/room) unless fully covered by HMO/PhilHealth arrangements. Confirm at the **Billing/Admissions** desk.
-
----
-
-## C) What to Bring (All Hospitals)
-
-- **Valid ID** (with photo & signature)
-- **PhilHealth** ID and **MDR** (Member Data Record); if a dependent, bring proof of dependency
-- **Doctor’s referral/admitting order** (if elective admission)
-- **HMO/Company**: LOA/guarantee letter, membership/ID cards (if applicable)
-- **Personal necessities** (for confinement)
+SPMC's website lists clinical departments and an Emergency and Trauma complex. Its published pages do not give a separate emergency hotline, so call the main line.
 
 ---
 
-## D) Costs & PhilHealth Coverage
+## 2) Before You Go
 
-- **City hospital:** Fees are posted at **Billing**; **PhilHealth** benefits may apply at admission/discharge processing.
-- **No Balance Billing (NBB):** For **indigent/sponsored**, **senior citizens**, and certain categories in **government hospitals**, no other fees beyond PhilHealth package should be charged during confinement (subject to policy and facility capacity).
-
----
-
-## E) How to Avail — At a Glance
-
-### Emergency (any hospital)
-
-1. **Go straight to ER** (24/7).
-2. **Triage & initial orders** → stabilization/tests.
-3. **If admitted:** sign consent → transfer to ward → submit IDs/PhilHealth/HMO at Admissions/Billing.
-
-### Elective Admission (planned confinement/procedure)
-
-1. Obtain **doctor’s admitting order** & **referral**.
-2. Prepare **IDs, PhilHealth, HMO/LOA** (if any).
-3. Proceed to **Admissions** for room assignment, forms, and initial billing arrangements.
+- Bring a **valid ID**.
+- Bring your **PhilHealth** details if you have them, and ask the hospital which documents it requires.
+- If you are unsure where to go, the CHO can provide **counseling and referral**.
 
 ---
 
-## F) Useful Contacts
+## 3) Help With Hospital Bills: Lingap para sa Mahirap
 
-- **Lapu-Lapu City Hospital / District Hospital (Gov’t)**
-  - A. Tumulak St., Gun-ob, Lapu-Lapu City
-  - **Tel:** (032) 340-0249 / 340-0248
-  - **Email:** lapulapucityhospital@yahoo.com
+The Mayor's **Lingap para sa Mahirap Program** gives medical assistance to Davao City residents in a crisis situation. It issues a **Guarantee Letter** (with a Certificate of Eligibility and Certificate of Indigency) for hospital bills, dialysis, procedures and laboratories, medicine, and funeral expenses. There is **no fee**, and the charter lists about **19 minutes** of processing at the office.
 
-- **Mactan Doctors’ Hospital (Private, CebuDoc Group)**
-  - Basak, Lapu-Lapu City
-  - **Trunkline:** +63 (32) 239-7002 to 7016
+**What to bring** (requirements vary by type of assistance):
 
-- **ARC Hospitals (Private)**
-  - Lapu-Lapu City (100-bed facility)
+- **Proof of residency:** a barangay certificate stating _Lingap Assistance_ as the purpose, a voter's certificate, or (for a government hospital or medicine) a government-issued ID
+- **Hospital (private):** final and updated hospital bill, and a medical certificate, certificate of confinement or clinical summary. If the patient is already discharged, add a promissory note from the hospital billing section.
+- **Hospital (government):** final hospital bill (3 originals)
+- **Dialysis:** price quotation and a medical abstract from the dialysis center
+- **Procedures, apparatus or laboratories:** price quotation and a medical certificate, abstract or clinical summary
+- **Funeral:** funeral contract and a certified true copy of the death certificate
+- **Accidents or criminal incidents:** a police report or traffic incident report
+
+**Where:** Lingap para sa Mahirap Program, DMC Compound, J.P. Laurel Ave., Davao City. Phone: 233-4961.
+
+The charter does not state the amount of assistance. Ask the office.
 
 ---
 
-### Notes
+## 4) City Health Office (referrals and basic services)
 
-- Bring your **PhilHealth** documents even for emergencies; if unavailable, the hospital can guide you on follow-up submission.
-- Schedules and processes can change; confirm by calling the hospital **Admissions/Billing** desk before a planned confinement.
+- **City Health Office (CHO)**
+  Magallanes Street, Davao City (open 8:00 AM – 5:00 PM). The Citizen's Charter's office directory lists A. Pichon St., so call ahead.
+  Phone: (082) 227-4749, or mobile 0926 686 1531 / 0999 938 0540
+  Email: cho@davaocity.gov.ph
+
+---
+
+## 5) Other Hospitals in Davao City (Community-Sourced)
+
+> **Not official information.** This list comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Government or the Department of Health. It may be incomplete, outdated or wrong, and it does not say which hospitals are accredited, open 24 hours, or accept PhilHealth or Lingap guarantee letters. **Call the hospital first** and check with the City Health Office.
+
+Ownership is shown only where OpenStreetMap contributors have recorded it.
+
+| Hospital                                             | Ownership (as tagged)    |
+| ---------------------------------------------------- | ------------------------ |
+| Adventist Hospital Davao (MacArthur Highway)         | Private                  |
+| Alterado General Hospital                            | Not stated               |
+| Anda Riverview Medical Center (A. Pichon St.)        | Not stated               |
+| Brokenshire Hospital                                 | Not stated               |
+| Dela Cerna Hospital                                  | Not stated               |
+| Davao Doctors Hospital (E. Quirino Ave.)             | Private                  |
+| Davao Medical School Foundation Hospital             | Not stated               |
+| Davao Mediquest Hospital (Toril area)                | Not stated               |
+| Davao Mental Hospital (Villa Abrille St.)            | Not stated               |
+| Ecoland Medical and Wellness Center                  | Not stated               |
+| Fabie General Hospital                               | Not stated               |
+| Gig Oca Robles Seamen Hospital                       | Not stated               |
+| Holy Spirit Hospital (Sampaguita St.)                | Not stated               |
+| Isaac T. Robillo Memorial Hospital (Calinan area)    | Not stated               |
+| Lanang Premiere Doctors Hospital                     | Not stated               |
+| Malta Medical Center (MacArthur Highway)             | Not stated               |
+| Marilog District Hospital                            | City Government of Davao |
+| Metro Davao Medical and Research Center              | Not stated               |
+| Naval Forces Hospital                                | Government               |
+| Paquibato District Hospital                          | Government               |
+| Ricardo Limso Medical Center (Ilustre St.)           | Not stated               |
+| San Pedro Hospital                                   | Not stated               |
+| Southern Philippines Medical Center (see above)      | Department of Health     |
+| St. Felix Hospital                                   | Not stated               |
+| Tebow Cure Hospital (J.P. Laurel Ave.)               | Not stated               |
+| United Davao Specialists Hospital and Medical Center | Not stated               |
+
+_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. Telephone numbers are left out on purpose, because the OpenStreetMap entries could not be checked against an official source. You can browse the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+
+---
+
+_Official sources: Southern Philippines Medical Center contact page (spmc.doh.gov.ph), the City Health Office page (davaocity.gov.ph) and the City Government of Davao Citizen's Charter, Volume II (2024 revision), Lingap para sa Mahirap Program. The community-sourced list above is the only source for hospitals other than SPMC._
