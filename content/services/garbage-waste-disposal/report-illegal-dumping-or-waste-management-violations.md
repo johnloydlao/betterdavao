@@ -1,65 +1,57 @@
-# Report Illegal Dumping & Waste Management Violations — Lapu-Lapu City
+# Report Illegal Dumping & Waste Management Violations — Davao City
 
-Illegal dumping, open burning, and improper waste practices are violations of **Republic Act 9003 (Ecological Solid Waste Management Act)** and city ordinances. Residents are encouraged to report offenders to help keep Lapu-Lapu City clean and safe.
+Illegal dumping, open burning and non-segregation are prohibited under **City Ordinance No. 0361-10** (as amended). CENRO's anti-littering enforcers apprehend violators and issue citation tickets.
 
 ---
 
-## 1) What to Report
+## 1) What Is Prohibited (Section 44)
 
-| Violation                           | Examples                                                                                              |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Illegal dumping**                 | Throwing trash in vacant lots, rivers, canals, sidewalks, or open spaces                              |
-| **Open burning**                    | Burning household or yard waste, plastics, or tires                                                   |
-| **Improper disposal by businesses** | Mixing segregated waste, throwing garbage outside collection days, failing to hire accredited haulers |
-| **Hazardous waste violations**      | Disposing of batteries, chemicals, medical waste with household trash                                 |
-| **Uncollected garbage sites**       | Overflowing bins or uncollected waste attracting pests                                                |
+- Littering, scattering, throwing or dumping waste in public places: roads, sidewalks, canals, esteros, gutters, parks, school campuses, public buildings, riverbanks, coastlines, rivers, creeks and seas
+- Throwing waste at a collection point outside the prescribed schedule
+- Littering from vehicles
+- Leaving construction materials or debris on a public road
+- Dumping human excreta or animal carcasses in garbage bins or collection points
+- Removing a mobile garbage bin from its collection point without Barangay authorization
+- **Open burning** of solid waste
+- **Non-segregation** of solid waste
+- Mixing toxic and hazardous waste with city-collected waste
+- Dumping waste anywhere other than the city's disposal facility
+- Open dumping or burying waste in flood-prone areas
+- Operating a business without a Solid Waste Management Certificate
 
 ---
 
 ## 2) How to Report
 
-1. **Barangay Level (First Step)**
-   - Go to your **Barangay Hall** or message the **Barangay Facebook Page**.
-   - Ask for the **Barangay Environment/Solid Waste Committee**.
-   - Provide: **exact location**, **type of violation**, **time/date**, and **photos/videos** if possible.
-
-2. **City Environment and Natural Resources Office (CENRO)**
-   - If the violation is large-scale, recurring, or unaddressed by the barangay, contact **CENRO** at City Hall.
-   - Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)
-   - Updates and announcements: [Lapu-Lapu City Government Facebook Page](https://www.facebook.com/lapulapucitygovernment)
-
-3. **Other Hotlines**
-   - **City Information Office (CIO):** (032) 340-1615 (for reports and follow-up).
-   - **Philippine National Police (PNP):** for dumping that threatens public safety or involves large-scale transport.
+1. Go to your **Barangay Hall** and give the exact location, type of violation, date and time, and photos or video if you have them.
+2. For repeated or large-scale violations, contact **CENRO**, Environmental and Waste Management Division, at (082) 227-2655, or visit the office at Maa Motorpool.
 
 ---
 
-## 3) What Happens After Reporting
+## 3) What Happens to a Violator
 
-- **Barangay/CENRO inspection team** will visit the site.
-- **Offenders may be fined or penalized** under city ordinances.
-- For businesses, repeated violations can lead to **closure or suspension of business permits**.
-- Collected evidence (photos, witness accounts) strengthens enforcement action.
+1. An anti-littering enforcer **apprehends the violator and issues a Citation Ticket**.
+2. The violator attends a mandatory **Solid Waste Management seminar** at the CENRO office, Maa Motorpool.
+3. The violator pays at the **City Treasurer's Office** (or renders community service at the barangay) and submits the receipt to CENRO, which issues a **Certificate of Completion** and closes the case.
 
----
+Failing to pay or render community service is grounds for filing a case in court.
 
-## 4) Tips for Effective Reporting
+| Offense                                          | No Contest settlement                          |
+| ------------------------------------------------ | ---------------------------------------------- |
+| First offense                                    | ₱500 or 4 working hours of community service   |
+| Repeat offense                                   | ₱1,000 or 8 working hours of community service |
+| Major offense (Sec. 44 pars. 10, 11, 13, 14, 15) | ₱5,000 per violation                           |
 
-- Take **clear photos or videos** (include street names/landmarks).
-- Note the **time and date** you saw the violation.
-- Submit your **name and contact info** if you want updates (anonymous tips are still accepted).
-- Encourage neighbors to also report — multiple reports prompt quicker action.
-
----
-
-## 5) Penalties (as a reminder)
-
-- **Illegal dumping & open burning**: Fines and/or community service.
-- **Businesses without accredited haulers**: Higher penalties, possible permit suspension.
-- **Repeat offenders**: May face higher fines, legal cases, or closure orders.
+Contested cases are punished by court-imposed fines of up to ₱5,000 and/or community service or imprisonment. See the [penalty table](/learn-proper-waste-segregation-and-disposal-methods).
 
 ---
 
-### Key Reminder
+## Contact
 
-✅ Reporting waste violations is a **civic duty**. By promptly alerting your barangay or CENRO, you help protect your community’s health, prevent flooding, and keep Lapu-Lapu City sustainable.
+- **CENRO**, Environmental and Waste Management Division
+  Maa Motorpool, Davao City
+  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
+
+---
+
+_Sources: Davao City Ordinance 0361-10 / amended 0987-22 flyer and the CENRO service guidelines, both published by the City Government of Davao._

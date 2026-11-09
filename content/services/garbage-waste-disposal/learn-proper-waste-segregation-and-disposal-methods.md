@@ -1,73 +1,66 @@
-# Guidelines for Proper Waste Segregation and Disposal — Lapu-Lapu City
+# Guidelines for Proper Waste Segregation and Disposal — Davao City
 
-Proper waste segregation is **mandatory** in Lapu-Lapu City under **Republic Act 9003 (Ecological Solid Waste Management Act)** and local ordinances. Following these rules helps keep the city clean, prevents flooding, and protects health.
-
----
-
-## 1) Waste Categories You Must Separate
-
-| Category                    | Examples                                                                         | How to Dispose                                                                                                     |
-| --------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Biodegradable**           | Food scraps, vegetable/fruit peelings, garden waste, paper towels                | Place in green container/biodegradable bin; collected by trucks; can also be composted at home/barangay MRF        |
-| **Recyclable**              | Plastic bottles, glass, tin/aluminum cans, paper, cartons, scrap metal           | Clean and dry before disposal; place in blue container/recyclable bin; bring to junkshops or barangay MRF          |
-| **Residual**                | Used diapers, styrofoam, plastic wrappers, sachets, contaminated paper, ceramics | Place in black container/residual bin; collected by trucks and sent to sanitary landfill                           |
-| **Special/Hazardous Waste** | Batteries, light bulbs, e-waste, paint cans, chemicals, medical waste            | Do **not** mix with regular waste; bring to barangay/CENRO special collection drives or accredited drop-off points |
+Segregating waste at the source is **mandatory** in Davao City under **City Ordinance No. 0361-10**, the _Davao City Ecological Solid Waste Management Ordinance of 2009_ (as amended, including by City Ordinance No. 0706-21 and 0987-22). The city's campaign slogan is **"Mag Segregate Ta!"**
 
 ---
 
-## 2) General Rules for Segregation
+## 1) Waste Categories You Must Separate (Section 11)
 
-- **Always use labeled bins** or color-coded plastic bags (green = biodegradable, blue = recyclable, black = residual).
-- **Rinse recyclables** to avoid pests and foul odor.
-- **Do not burn waste** — open burning is prohibited under RA 9003 and the Clean Air Act.
-- **Put garbage out only on your barangay’s collection day** to avoid clutter and flooding.
-- For **bulk items (furniture, appliances)** → request a **special pickup** through your Barangay Hall or CENRO.
-- **Construction debris** must be hauled by accredited haulers; not allowed in household collection.
+| Category                                       | Examples                                                                                                                                                                                                                     | Where it goes                   |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| **Biodegradable** (_I-compost/Pataba_)         | Yard waste (branches, flowers, leaves), vegetable and fruit residues, food and kitchen waste, animal carcasses, agricultural waste                                                                                           | Compost                         |
+| **Recyclable** (_Ipunon/Ibaligya sa junkshop_) | PET bottles, PE plastics (shampoo/lotion containers), metal (tin cans, aluminum), bottle caps, damaged plastics (chairs, tables, buckets), paper and carton, glass bottles, rubber tires and interiors                       | Collect and sell to a junkshop  |
+| **Residual** (_Walay pulos na basura_)         | Sando bags, thin-film plastics, plastic wrappers and sachets, textile and leather trimmings, worn-out garments, styrofoam, cigarette butts, diapers, sanitary napkins, tissues, broken ceramics                              | Collection point                |
+| **Special waste** (_Makalanag na basura_)      | Busted lightings, paint thinners and solvents, rugby, roof cement, disinfectant/sanitizer/insecticide containers, worn-out appliances, spent batteries, expired drugs, asbestos, cosmetic waste, household health care waste | Collection point, kept separate |
 
----
-
-## 3) Barangay Materials Recovery Facilities (MRFs)
-
-- Each barangay is required to operate an **MRF** to handle recyclables and compostables.
-- Residents can bring segregated recyclables and kitchen/garden waste to the MRF.
-- Some barangays have **“exchange programs”** (e.g., recyclables for rice or grocery packs).
+See [Request special waste collection](/request-special-waste-collection-hazardous-materials-electronics) for special waste.
 
 ---
 
-## 4) For Businesses & Establishments
+## 2) Segregation and Storage (Section 12)
 
-- Must maintain **segregated waste bins** accessible to customers and staff.
-- Required to **contract accredited haulers** for industrial, medical, or hazardous waste.
-- Keep disposal receipts/hauler contracts for inspection by CENRO.
-- Restaurants/food-related establishments should explore **onsite composting** or regular turnover to barangay MRFs.
-
----
-
-## 5) Penalties for Non-Compliance
-
-- **Improper waste disposal or open dumping** can result in fines or penalties under city ordinances and RA 9003.
-- Repeated violations may lead to **business permit suspension** (for establishments).
+- Keep **separate, labeled receptacles** for biodegradable, recyclable, residual and special waste.
+- Households are encouraged to **compost** biodegradable waste (Section 25). Establishments are also covered by a composting provision (Section 26).
+- **Commercial establishments and residential subdivision developments** must maintain a **Materials Recovery Facility (MRF)** (Section 28).
+- Waste may be thrown at designated collection points **only within the prescribed time schedule**. Dumping outside that schedule is prohibited.
 
 ---
 
-## 6) Quick Tips for Households
+## 3) For Business Establishments
 
-- Keep **3–4 labeled bins** at home (biodegradable, recyclable, residual, hazardous).
-- Reduce waste by avoiding single-use plastics; bring reusable bags/containers.
-- Compost biodegradable waste if you have space (simple backyard compost pit or container).
-- Encourage kids and household members to follow segregation as a habit.
+CENRO inspections check that:
 
----
+1. The **CENRO Solid Waste Management Certificate** is displayed and renewed every year.
+2. The establishment has **four (4) garbage receptacles**.
+3. Each receptacle has a **proper label and a cover**.
 
-## Contact for Support
-
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (ask for CENRO)  
-  Updates via: [Lapu-Lapu City Information Office Facebook Page](https://www.facebook.com/lapulapucitygovernment)
+See [Renew permits and pay local business taxes](/renew-permits-and-pay-local-business-taxes) for how the certificate fits into the business permit process.
 
 ---
 
-### Key Reminder
+## 4) Penalties (Section 44–45, as amended)
 
-✅ Proper segregation is a **shared responsibility**. By separating waste correctly, you help reduce landfill use, promote recycling, and keep Lapu-Lapu City safe and sustainable.
+| Violation                                                                                                          | Fine            | Other penalty                           |
+| ------------------------------------------------------------------------------------------------------------------ | --------------- | --------------------------------------- |
+| Non-segregation of solid waste; causing or permitting collection of unsorted waste                                 | ₱3,000 – ₱5,000 | and/or 15 days to 6 months imprisonment |
+| Open burning                                                                                                       | ₱2,000 – ₱5,000 | and/or 1–15 days imprisonment           |
+| Littering in public places                                                                                         | ₱1,000 – ₱5,000 | and/or 1–15 days community service      |
+| Operating without a Solid Waste Management Certificate; mixing toxic and hazardous waste with city-collected waste | ₱4,000 – ₱5,000 | and/or 1 to 6 months imprisonment       |
+
+Fines are set by the court. Under the **No Contest Provision** (Section 48-A), a cited person who does not contest may instead pay at the City Treasurer's Office or render community service, and must attend a mandatory Solid Waste Management seminar:
+
+- **First offense:** ₱500 or 4 working hours of community service
+- **Repeat offense:** ₱1,000 or 8 working hours of community service
+- **Major offenses** (mixing toxic/hazardous waste, dumping outside the city disposal facility, operating without a certificate, not implementing your SWM plan, refusing entry to CENRO): ₱5,000 per violation
+
+---
+
+## Contact
+
+- **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
+  Maa Motorpool, Davao City
+  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
+
+---
+
+_Sources: Davao City Ordinance 0361-10 / amended 0987-22 flyer ("Mag Segregate Ta!") and the CENRO service guidelines, both published by the City Government of Davao._
