@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -19,6 +20,7 @@ interface OfficialsPageProps {
 interface CongressionalRep {
   district: string;
   name: string;
+  photo?: string;
 }
 
 interface CouncilMember {
@@ -39,6 +41,8 @@ interface OfficialsData {
   VICE_MAYOR?: string;
   MAYOR_CONTACT?: string;
   VICE_MAYOR_CONTACT?: string;
+  MAYOR_PHOTO?: string;
+  VICE_MAYOR_PHOTO?: string;
   congressionalReps?: CongressionalRep[];
   councilDistricts?: CouncilDistrict[];
 }
@@ -72,17 +76,67 @@ function parseSections(content: string): { heading: string; body: string }[] {
     .filter(s => s.body);
 }
 
+const NAME_SUFFIXES = new Set(['jr', 'sr', 'ii', 'iii', 'iv', 'v']);
+
+function getInitials(name: string): string {
+  const words = name
+    .replace(/^Hon\.\s*/, '')
+    .split(/\s+/)
+    .filter(w => w && !NAME_SUFFIXES.has(w.replace(/\./g, '').toLowerCase()));
+  if (words.length === 0) return '';
+  const first = words[0][0];
+  const last = words.length > 1 ? words[words.length - 1][0] : '';
+  return `${first}${last}`.toUpperCase();
+}
+
+function OfficialPhoto({
+  src,
+  name,
+  sizeClassName,
+  className = '',
+}: {
+  src?: string;
+  name: string;
+  sizeClassName: string;
+  className?: string;
+}) {
+  const [failed, setFailed] = useState(false);
+  const showImage = src && !failed;
+
+  return (
+    <div
+      className={`${sizeClassName} mx-auto rounded-full overflow-hidden flex items-center justify-center shrink-0 ${className}`}
+    >
+      {showImage ? (
+        <img
+          src={src}
+          alt={`Photo of ${name}`}
+          className="w-full h-full object-cover object-top"
+          loading="lazy"
+          onError={() => setFailed(true)}
+        />
+      ) : (
+        <span aria-hidden="true" className="font-semibold">
+          {getInitials(name)}
+        </span>
+      )}
+    </div>
+  );
+}
+
 function OfficialCard({
   role,
   name,
   government,
   contactNumber,
+  photo,
   variant = 'primary',
 }: {
   role: string;
   name: string;
   government: string;
   contactNumber?: string;
+  photo?: string;
   variant?: 'primary' | 'dark';
 }) {
   const bgClass =
@@ -94,6 +148,12 @@ function OfficialCard({
     <div
       className={`rounded-2xl overflow-hidden mt-6 mb-6 shadow-lg p-5 text-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl ${bgClass}`}
     >
+      <OfficialPhoto
+        src={photo}
+        name={name}
+        sizeClassName="w-28 h-28 text-3xl"
+        className="mb-4 ring-4 ring-white/30 bg-white/10 text-white"
+      />
       <p className="text-xs font-semibold uppercase tracking-widest mb-1 text-secondary-200">
         {role} of {government}
       </p>
@@ -110,11 +170,15 @@ function CompactOfficialCard({
   role,
   vacant = false,
   accentClassName,
+  photo,
+  showPhoto = false,
 }: {
   name?: string;
   role: string;
   vacant?: boolean;
   accentClassName?: string;
+  photo?: string;
+  showPhoto?: boolean;
 }) {
   if (vacant) {
     return (
@@ -128,6 +192,14 @@ function CompactOfficialCard({
     <div
       className={`rounded-xl border border-gray-200 shadow-sm p-4 text-center h-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md ${accentClassName ?? ''}`}
     >
+      {showPhoto && name && (
+        <OfficialPhoto
+          src={photo}
+          name={name}
+          sizeClassName="w-20 h-20 text-xl"
+          className="mb-3 bg-primary-50 text-primary-700 ring-2 ring-primary-100"
+        />
+      )}
       <p className="text-sm font-semibold text-gray-900 leading-snug">{name}</p>
       <p className="text-xs text-gray-500">{role}</p>
     </div>
@@ -194,6 +266,7 @@ export default function OfficialsPage({
                     name={mayor}
                     government={gov}
                     contactNumber={data.MAYOR_CONTACT}
+                    photo={data.MAYOR_PHOTO}
                   />
                 </div>
 
@@ -203,6 +276,7 @@ export default function OfficialsPage({
                     name={viceMayor}
                     government={gov}
                     contactNumber={data.VICE_MAYOR_CONTACT}
+                    photo={data.VICE_MAYOR_PHOTO}
                     variant="dark"
                   />
                 </div>
@@ -218,6 +292,8 @@ export default function OfficialsPage({
                     name={`${honorific}${rep.name}`}
                     role={`${rep.district}, House of Representatives`}
                     accentClassName="border-t-4 border-t-primary-600"
+                    photo={rep.photo}
+                    showPhoto
                   />
                 ))}
               </div>
