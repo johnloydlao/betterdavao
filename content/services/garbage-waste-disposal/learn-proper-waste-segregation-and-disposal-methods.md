@@ -13,16 +13,16 @@ Segregating waste at the source is **mandatory** in Davao City under **City Ordi
 | **Residual** (_Walay pulos na basura_)         | Sando bags, thin-film plastics, plastic wrappers and sachets, textile and leather trimmings, worn-out garments, styrofoam, cigarette butts, diapers, sanitary napkins, tissues, broken ceramics                              | Collection point                |
 | **Special waste** (_Makalanag na basura_)      | Busted lightings, paint thinners and solvents, rugby, roof cement, disinfectant/sanitizer/insecticide containers, worn-out appliances, spent batteries, expired drugs, asbestos, cosmetic waste, household health care waste | Collection point, kept separate |
 
-See [Request special waste collection](/request-special-waste-collection-hazardous-materials-electronics) for special waste.
+See [Dispose of special waste](/services/garbage-waste-disposal/request-special-waste-collection-hazardous-materials-electronics) for special waste.
 
 ---
 
-## 2) Segregation and Storage (Section 12)
+## 2) Segregation and Storage
 
-- Keep **separate, labeled receptacles** for biodegradable, recyclable, residual and special waste.
-- Households are encouraged to **compost** biodegradable waste (Section 25). Establishments are also covered by a composting provision (Section 26).
+- Keep biodegradable, recyclable, residual and special waste **in separate receptacles** (Section 12).
+- Composting is covered by **Section 25 ("Composting by Households")** and **Section 26 ("Composting by Establishment")**.
 - **Commercial establishments and residential subdivision developments** must maintain a **Materials Recovery Facility (MRF)** (Section 28).
-- Waste may be thrown at designated collection points **only within the prescribed time schedule**. Dumping outside that schedule is prohibited.
+- Waste may be thrown at designated collection points **only within the prescribed time schedule**. Dumping outside that schedule is prohibited (Section 44(1)).
 
 ---
 
@@ -34,33 +34,36 @@ CENRO inspections check that:
 2. The establishment has **four (4) garbage receptacles**.
 3. Each receptacle has a **proper label and a cover**.
 
-See [Renew permits and pay local business taxes](/renew-permits-and-pay-local-business-taxes) for how the certificate fits into the business permit process.
+The certificate is one of the business permit requirements. See [Check garbage collection schedules](/services/garbage-waste-disposal/check-garbage-collection-schedules-and-request-pickup) for the certificate fees.
 
 ---
 
 ## 4) Penalties (Section 44–45, as amended)
 
-| Violation                                                                                                          | Fine            | Other penalty                           |
-| ------------------------------------------------------------------------------------------------------------------ | --------------- | --------------------------------------- |
-| Non-segregation of solid waste; causing or permitting collection of unsorted waste                                 | ₱3,000 – ₱5,000 | and/or 15 days to 6 months imprisonment |
-| Open burning                                                                                                       | ₱2,000 – ₱5,000 | and/or 1–15 days imprisonment           |
-| Littering in public places                                                                                         | ₱1,000 – ₱5,000 | and/or 1–15 days community service      |
-| Operating without a Solid Waste Management Certificate; mixing toxic and hazardous waste with city-collected waste | ₱4,000 – ₱5,000 | and/or 1 to 6 months imprisonment       |
+| Violation                                                                                                                                                                            | Fine            | Other penalty                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- | --------------------------------------- |
+| Non-segregation of solid waste; causing or permitting collection of unsorted waste                                                                                                   | ₱3,000 – ₱5,000 | and/or 15 days to 6 months imprisonment |
+| Open burning                                                                                                                                                                         | ₱2,000 – ₱5,000 | and/or 1–15 days imprisonment           |
+| Littering in public places                                                                                                                                                           | ₱1,000 – ₱5,000 | and/or 1–15 days community service      |
+| Operating without a Solid Waste Management Certificate; mixing toxic and hazardous wastes from health care facilities, industries and other THW generators with city-collected waste | ₱4,000 – ₱5,000 | and/or 1 to 6 months imprisonment       |
 
 Fines are set by the court. Under the **No Contest Provision** (Section 48-A), a cited person who does not contest may instead pay at the City Treasurer's Office or render community service, and must attend a mandatory Solid Waste Management seminar:
 
 - **First offense:** ₱500 or 4 working hours of community service
 - **Repeat offense:** ₱1,000 or 8 working hours of community service
-- **Major offenses** (mixing toxic/hazardous waste, dumping outside the city disposal facility, operating without a certificate, not implementing your SWM plan, refusing entry to CENRO): ₱5,000 per violation
+- **Major offenses** (mixing toxic and hazardous wastes from health care facilities, industries and other THW generators with city-collected waste, dumping outside the city disposal facility, operating without a certificate, not implementing your SWM plan, refusing entry to CENRO): ₱5,000 per violation
 
 ---
 
 ## Contact
 
-- **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
-  Maa Motorpool, Davao City
-  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
+**City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
+
+- Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Phone: (082) 227-2655 or (082) 244-0094
+- Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
+- Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)
 
 ---
 
-_Sources: Davao City Ordinance 0361-10 / amended 0987-22 flyer ("Mag Segregate Ta!") and the CENRO service guidelines, both published by the City Government of Davao._
+_Sources: [City Ordinance 0361-10, as amended by 0987-22 (flyer)](https://www.davaocity.gov.ph/wp-content/uploads/2024/12/City-Ordinance-0361-10-Amended-0987-22-FLYER.pdf), [CENRO service guidelines](https://www.davaocity.gov.ph/wp-content/uploads/2025/01/CENRO_guidelines.pdf) and the [CENRO office page](https://www.davaocity.gov.ph/city-environment-and-natural-resources-office), all published by the City Government of Davao. Last verified: 2026-11-17._

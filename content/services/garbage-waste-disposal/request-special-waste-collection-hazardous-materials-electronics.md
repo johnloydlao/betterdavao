@@ -1,6 +1,6 @@
-# Request Special Collection Services for Hazardous Waste & E-Waste — Davao City
+# Dispose of Special Waste (Hazardous Items and Electronics) — Davao City
 
-Under City Ordinance No. 0361-10, hazardous items are classed as **special waste** (_makalanag na basura_) and must be kept separate from other garbage. **Mixing toxic and hazardous waste with city-collected waste is a major offense** with a ₱5,000 penalty per violation.
+Under City Ordinance No. 0361-10, household hazardous items are classed as **special waste** (_makalanag na basura_) and must be segregated from other garbage (Sections 10–11). **Non-segregation of solid waste is a prohibited act** (Section 44(8)); see the [penalty table](/services/garbage-waste-disposal/learn-proper-waste-segregation-and-disposal-methods).
 
 ---
 
@@ -20,20 +20,25 @@ Under City Ordinance No. 0361-10, hazardous items are classed as **special waste
 
 ## 2) How to Dispose of It
 
-1. Keep special waste in its own labeled, covered receptacle. Never mix it with biodegradable, recyclable or residual waste.
+1. Keep special waste in a separate container. Never mix it with biodegradable, recyclable or residual waste.
 2. Bring it to your barangay's collection point only within the collection schedule.
-3. For special collection (bulk or non-routine pickups), contact CENRO's Environmental and Waste Management Division. CENRO issues an **Order of Payment for Special Collection and Tipping Fees**.
+3. CENRO issues an **Order of Payment for Special Collection and Tipping Fees**. Ask CENRO's Environmental and Waste Management Division what special collection covers and how much it costs.
 
 > CENRO's published guidelines do not list a separate e-waste drop-off or collection program. Call CENRO before disposing of large quantities or electronics.
+
+Separately, mixing toxic and hazardous wastes **from health care facilities, industries and other THW generators** with city-collected waste is a major offense (Section 44(10)).
 
 ---
 
 ## Contact
 
-- **CENRO**, Environmental and Waste Management Division
-  Maa Motorpool, Davao City
-  Phone: (082) 227-2655, (082) 244-0094 or (082) 225-0744
+**City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
+
+- Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Phone: (082) 227-2655 or (082) 244-0094
+- Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
+- Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)
 
 ---
 
-_Sources: Davao City Ordinance 0361-10 / amended 0987-22 flyer and the CENRO service guidelines, both published by the City Government of Davao._
+_Sources: [City Ordinance 0361-10, as amended by 0987-22 (flyer)](https://www.davaocity.gov.ph/wp-content/uploads/2024/12/City-Ordinance-0361-10-Amended-0987-22-FLYER.pdf), [CENRO service guidelines](https://www.davaocity.gov.ph/wp-content/uploads/2025/01/CENRO_guidelines.pdf) and the [CENRO office page](https://www.davaocity.gov.ph/city-environment-and-natural-resources-office), all published by the City Government of Davao. Last verified: 2026-11-17._
