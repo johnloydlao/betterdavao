@@ -1,74 +1,46 @@
-# Check Garbage Collection Schedules and Request Pickup — Lapu-Lapu City
+# Check Garbage Collection Schedules and Request Pickup — Davao City
 
-The City Government of Lapu-Lapu manages **regular garbage collection** through the **City Environment and Natural Resources Office (CENRO)** and barangays. Residents and business owners are encouraged to follow the schedule and proper segregation rules.
-
----
-
-## 1) Regular Garbage Collection
-
-**How it works**
-
-- Collection schedules vary **by barangay** (usually **every other day** or **3 times per week**).
-- Trucks assigned to barangays cover **household waste**, **biodegradable**, and **residual/non-recyclable** garbage.
-- Segregation at source is **mandatory** — separate biodegradable, recyclable, residual, and special/hazardous waste.
-
-**Where to check schedules**
-
-1. **Barangay Hall** — each barangay posts its official collection schedule.
-2. **Barangay Facebook Pages** — most update residents when trucks are delayed or rescheduled.
-3. **City Information Office (CIO)** or **CENRO** announcements for citywide advisories (e.g., during holidays or typhoon disruptions).
-
-> Tip: Post the collection calendar on your fridge or gate to remind the household which days to take bins out.
+The **City Environment and Natural Resources Office (CENRO)** provides **solid waste collection services** and operates the city's sanitary landfill through its **Environmental and Waste Management Division**. Waste is thrown at **designated collection points**, and each collection point has a prescribed time schedule.
 
 ---
 
-## 2) Special Garbage Pickup (Bulk or Non-Routine Waste)
+## 1) Regular Collection
 
-For **bulk waste** (e.g., furniture, appliances, construction debris, yard trimmings), collection is not part of the regular schedule.
+- Segregate your waste first. **Non-segregation is a prohibited act** under City Ordinance 0361-10, and collecting unsorted waste is also prohibited.
+- Bring residual and special waste to your barangay's **designated collection point**, and **only within the prescribed time schedule**. Throwing waste at a collection point outside the schedule is prohibited.
+- Do not remove a mobile garbage bin from its collection point without authorization from the Barangay.
+- Biodegradable waste can be composted, and recyclables sold or given to a junkshop. See [waste segregation guidelines](/services/garbage-waste-disposal/learn-proper-waste-segregation-and-disposal-methods).
 
-**How to request**
+**Where to check your schedule**
 
-1. Visit your **Barangay Hall** or contact the **Barangay Environment Committee**.
-2. Provide details: type of waste, estimated volume, and address.
-3. Barangay coordinates with **CENRO** for scheduling a **special truck pickup**.
-4. Some barangays may require a **minimal fee** for bulk or special disposal.
-
-**Items usually needing special pickup**
-
-- Large furniture, mattresses, appliances, e-waste
-- Construction/demolition debris
-- Hazardous household waste (paints, chemicals, batteries)
+The city publishes no single citywide schedule. Ask **CENRO** for the collection point and time schedule in your area (see Contact below). Your barangay may also know the local collection point.
 
 ---
 
-## 3) Contact Information
+## 2) Special Collection
 
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)  
-  Updates: via **City Information Office** FB page
-
-- **Barangay Halls** — each barangay has an Environment/ Solid Waste desk for local schedules and pickup requests.
+CENRO issues an **Order of Payment for Special Collection and Tipping Fees**. The fee amounts are not published. Ask CENRO's Environmental and Waste Management Division what special collection covers and how much it costs.
 
 ---
 
-## 4) Quick Tips for Residents
+## 3) Businesses
 
-- Put garbage out **only on collection day**, early morning or night before.
-- Use durable, closed containers to prevent animal scattering.
-- For recyclables, check if your barangay has a **Materials Recovery Facility (MRF)** or partner junkshop.
-- During **rainy season/typhoons**, expect **schedule adjustments** — follow CIO or barangay announcements.
-- Avoid burning waste (strictly prohibited under RA 9003 / Clean Air Act).
-
----
-
-## 5) Businesses & Establishments
-
-- Businesses must comply with **segregation** and may need to contract **accredited private haulers** for bulk/industrial waste.
-- Keep proof of disposal (receipts/hauling contracts) for compliance inspections by CENRO.
+- Every establishment must secure a **Solid Waste Management Certificate** each year, as part of the business permit requirements.
+- Certificate fee: **₱500** (low-risk and high-risk business permits); **₱1,000** for PALC (Preliminary Approval of Locational Clearance) applications. High-risk and PALC applications require a site inspection first.
+- Fine for not renewing the certificate: **₱500** for a first-time offender, **₱1,000** for repeat offenders.
+- Keep your certificate displayed, and keep four garbage receptacles, each with a proper label and a cover.
 
 ---
 
-### Key Reminder
+## Contact
 
-Following your barangay’s **garbage collection schedule** and properly requesting **special pickups** keeps the city clean and prevents flooding, pests, and health risks.
+**City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
+
+- Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Phone: (082) 227-2655 or (082) 244-0094
+- Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
+- Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)
+
+---
+
+_Sources: [City Ordinance 0361-10, as amended by 0987-22 (flyer)](https://www.davaocity.gov.ph/wp-content/uploads/2024/12/City-Ordinance-0361-10-Amended-0987-22-FLYER.pdf), [CENRO service guidelines](https://www.davaocity.gov.ph/wp-content/uploads/2025/01/CENRO_guidelines.pdf) and the [CENRO office page](https://www.davaocity.gov.ph/city-environment-and-natural-resources-office), all published by the City Government of Davao. Last verified: 2026-11-17._
