@@ -6,20 +6,21 @@ The City Government of Davao supports senior citizens, solo parents and persons 
 
 ## 1) Senior Citizens
 
-**Annual cash assistance**
+**Annual Financial Assistance (AFA)**
 
-Under City Ordinance No. 0954-22 (the Amended Annual Financial Assistance to All Qualified Senior Citizens Ordinance), qualified seniors receive an annual cash grant, and the payout is scheduled every November. The grant was ₱1,500 when the ordinance was passed. Check with OSCA for the current amount and payout dates.
+Qualified seniors receive a yearly cash subsidy under City Ordinance No. 0954-22. According to OSCA (June 2026):
 
-Requirements, as explained by the CSWDO:
+- **Amount:** 2026 is the first year of the **₱2,000** annual subsidy, up from the ₱1,500 paid in 2025.
+- **Who qualifies:** seniors aged **60 and above** with a valid **OSCA ID issued in Davao City** who are registered in the OSCA database. You do **not** need to belong to a senior citizens organization.
+- **Cutoff:** registration for the 2026 list closed on **May 31**. Seniors who turn 60 after May 31 are not included in that year's list.
+- **Payout schedules** are posted on the City Social Welfare and Development Office – Davao Facebook page.
 
-- An **OSCA ID issued in Davao City**. IDs from outside Davao City are not accepted.
-- Being on the list of **registered voters** in Davao City. A voter's ID alone is not enough if you were delisted. Bedridden seniors aged 75 and up who are not on the voters' list can present a barangay certificate of residency of at least five years. Seniors with disabilities who are not registered voters can present their Davao City PWD ID.
-- **Membership in a senior citizens organization** recognized by OSCA and the CSWDO. A new organization submits its requirements to the district social worker, and the ideal size is 15–50 members.
+OSCA checks each senior's address, voter registration and IDs before adding them to the list. Confirm the other eligibility rules with OSCA. If your record has a clerical error, get a certification from OSCA so you can still claim.
 
 **Milestone and centenarian incentives**
 
-- Seniors who turn **80, 85, 90 and 95** are covered by the expanded centenarian program. Claimants present a photocopy of their OSCA ID with three specimen signatures. A bedridden senior can authorize a direct family member to claim, using the authorization form from the OSCA office.
-- Centenarians (100 years and above) who are registered voters and have lived in Davao City for at least three consecutive years receive **₱100,000** on top of the national incentive, plus a felicitation letter or plaque (Ordinance 0727-21). Get the application form at your CSWDO district office, and bring a birth certificate or other proof of age and a barangay certificate of residency.
+- Seniors who turn **80, 85, 90 and 95** receive a cash subsidy under the national **Expanded Centenarians Act**, released through OSCA. Claimants present a photocopy of their OSCA ID with three specimen signatures. A bedridden senior can authorize a direct family member to claim, using the authorization form from the OSCA office.
+- Centenarians (100 years and above) who are registered voters and have lived in Davao City for at least three consecutive years receive **₱100,000** on top of the national incentive, plus a letter or plaque of felicitation (City Ordinance No. 0727-21). Get the application form at your CSWDO district office, and bring a birth certificate or other proof of age and a barangay certificate of residency. Process the requirements before the senior's 100th birthday.
 
 **OSCA ID and discount booklet** (RA 9994: 20% discount, and 5% on prime commodities and basic necessities). It is **free** and processed in minutes. Bring:
 
@@ -29,21 +30,21 @@ Requirements, as explained by the CSWDO:
 - Two 1x1 pictures
 - An authorization letter and valid ID, if a spouse, child or next of kin processes it for you
 
-**Death benefit:** the CSWDO gives **up to ₱5,000** to the family of a deceased senior citizen who was not a member of SSS, GSIS or PVAO. File at the CSWDO district office with the death certificate, the senior's OSCA ID or another valid government ID, and proof of relationship (a marriage contract for a surviving spouse, or a birth certificate or barangay certification for next of kin).
+**Death benefit:** the 2024 Citizen's Charter describes it as financial assistance of "not more than Php5,000.00 granted to the family/benefactor of the senior citizens, who is not a member of SSS/GSIS/PVAO". The CSWDO assesses whether the claimant qualifies (the 2022 Citizen's Charter described it as for the family of an indigent senior). File at the CSWDO district office with the death certificate, the senior's OSCA ID or another valid government ID, and proof of relationship (a marriage contract for a surviving spouse, or a birth certificate or barangay certification for next of kin).
 
-**OSCA contact:** ground floor, Sangguniang Panlungsod Building. Phone (082) 222-8061 or (082) 241-1000 local 394. Email osca@davaocity.gov.ph.
+**OSCA contact:** ground floor, Legislative Building, Sangguniang Panlungsod, Magallanes St. Phone (082) 222-8061 or (082) 241-1000 local 394. Email osca@davaocity.gov.ph.
 
 ---
 
 ## 2) Solo Parents
 
-Under Executive Order No. 25, Series of 2024 (the implementing rules of the Solo Parent Ordinance), eligible solo parents receive a **monthly cash subsidy of ₱1,000**.
+Under Executive Order No. 25, Series of 2024 (the implementing rules of the city's Solo Parent Ordinance), eligible solo parents receive a **monthly cash subsidy of ₱1,000**.
 
 **Eligibility**
 
-- A resident of Davao City with a valid **Solo Parent ID** issued by the CSWDO.
-- Earning at or below the minimum wage, with dependent children aged 0–22 (unemployed, or employed at the daily minimum wage).
-- Assessed by a social worker, who prepares a Social Case Study Report.
+- You live in Davao City and have a valid **Solo Parent ID** issued by the CSWDO.
+- You earn at or below the minimum wage, and you have dependent children aged 0–22.
+- A social worker assesses your case and prepares a Social Case Study Report.
 
 **Documents**
 
@@ -53,18 +54,18 @@ Under Executive Order No. 25, Series of 2024 (the implementing rules of the Solo
 - CENOMAR (Certificate of No Marriage), for unmarried solo parents
 - Proof of income: Income Tax Return, official pay slip or low-income certification
 
-Submit them at your **nearest CSWDO district office**. Payout schedules are announced through the presidents of solo parent organizations in your barangay. Solo parents in crisis can also ask for **Assistance to Individuals in Crisis Situation (AICS)**, and the CSWDO offers capability-building and psychosocial support.
+Submit them at your **nearest CSWDO district office**. The CSWDO passes on payout schedules and other information through the city's organized solo parent groups. Solo parents can also ask for **Assistance to Individuals in Crisis Situation (AICS)**, and the CSWDO offers capability-building programs and sociocultural and psychosocial support.
 
-**Solo Parent ID** (CSWDO district office). The ID is **free** and the charter lists about **7 days** to process. The documents depend on why you are a solo parent. Everyone submits the child's **birth certificate** and a **sworn affidavit** that you are not cohabiting with a partner and have sole parental care of the child; the ID booklet is renewed yearly with a new affidavit. Examples:
+**Solo Parent ID** (CSWDO district office). The ID is **free**, and the 2024 Citizen's Charter lists about **7 days** to process, including a Solo Parent Orientation. The documents depend on why you are a solo parent. Everyone submits the child's **birth certificate** and a **sworn affidavit** that you are not cohabiting with a partner or co-parent and have sole parental care and support of the child. For the yearly renewal of the ID or booklet, you submit a new affidavit (and, in some categories, updated supporting documents). Examples:
 
 - **Death of spouse:** marriage certificate and death certificate
-- **Unmarried parent:** CENOMAR and an affidavit from a barangay official that you live in the barangay with your child
+- **Unmarried parent:** CENOMAR and an affidavit from a barangay official that you live in the barangay and the children are in your care
 - **Abandonment:** marriage certificate, an affidavit of two disinterested persons, and a police or barangay record
-- **Spouse in detention:** marriage certificate and a certificate of detention from the BJMP, police or court
-- **Spouse incapacitated:** marriage certificate and a medical abstract not older than three months
-- **Separation, annulment, or OFW family:** the matching court decree or OFW documents
+- **Spouse in detention:** marriage certificate and a certificate of detention from the BJMP (Bureau of Jail Management and Penology), police or court
+- **Spouse incapacitated:** marriage certificate and a medical record or abstract issued not more than three months before you apply
+- **Separation, annulment, or OFW family:** the matching court decree or OFW documents (Overseas Employment Certificate and passport stamps)
 
-To receive the subsidy and discounts, also bring an affidavit of no employment, an Income Tax Return, a social case study from the DSWD or CSWDO, or other verifiable proof of income.
+To receive the subsidy and discounts, the charter also asks for one of these: an affidavit of no employment, an Income Tax Return, a social case study from the DSWD or CSWDO, or other verifiable proof of income.
 
 ---
 
@@ -72,14 +73,25 @@ To receive the subsidy and discounts, also bring an affidavit of no employment, 
 
 The **Persons with Disability Affairs Office (PDAO)** issues **PWD ID cards**, which give the **20% discount and VAT exemption** on essential goods and services under Republic Act 10754. The PDAO also offers **legal assistance and free notarization**.
 
-- **Free movies:** under Ordinance 0155-23, PWDs with a Davao City PWD ID can watch a movie free once a week, every Monday, during the first screening. The PDAO issues the Movie Pass Booklet. Some screening types and special events are excluded.
-- **Skills training:** the CSWDO's PWD Welfare Program offers capacity-building and skills training.
+**Annual financial assistance**
+
+City Ordinance No. 049-25 (approved November 25, 2025) grants **₱1,500 a year** to qualified PWDs. Its implementing rules are in Executive Order No. 23, Series of 2026:
+
+- **Who qualifies:** PWDs with a valid PWD ID issued by the PDAO who are registered voters of Davao City. PWDs who are not registered voters can present a barangay certificate of residency of at least three years. For children with disabilities, and for PWDs with intellectual, learning or mental disabilities or who are bedridden and not registered voters, the guardian also presents a certification from the CSWDO assigned to their barangay.
+- **Who is excluded:** among others, people already receiving the senior citizen or solo parent subsidies or other city programs, and anyone with an expired PWD ID.
+- **How to claim:** the PWD claims in person with their PWD ID. A bedridden PWD can send a representative with an authorization letter or notarized affidavit, the PWD's ID and the representative's own government ID. For PWDs with intellectual, learning or mental disabilities and for children with disabilities, a family member or guardian claims.
+- Payout schedules are posted on the CSWDO Facebook page.
+
+**Other benefits**
+
+- **Free movies:** under City Ordinance 0155-23, PWDs with a Davao City PWD ID can watch a regular screening free once a week, every Monday, during the first screening. The benefit applies at cinemas covered by the city's agreements with mall operators (for example, NCCC). Present your Movie Pass Booklet at the entrance. Special cinemas (such as Dolby Atmos, IMAX, Director's Club, 3D and 4D) are excluded, and companions pay for their own tickets.
+- **Skills training:** the CSWDO's PWD Welfare Program provides capacity-building skills training for PWDs.
 - **Where to go:** PDAO, CSWDO Annex, City Hall Building. Phone 0952-599-7710 (Globe) or 0962-505-8784 (Smart), or the Persons with Disability Affairs Office – Davao City Facebook page.
 
-**How to get a PWD ID** (CSWDO district office, for PWDs residing in Davao City). The ID is **free** and the charter lists a processing time of about **7 days**. Bring:
+**How to get a PWD ID.** Apply at your **CSWDO district office** (for PWDs residing in Davao City). The district office forwards your application to the PDAO, which prepares the ID. The ID is **free**, and the 2024 Citizen's Charter lists about **7 days** to process. Bring:
 
 1. Barangay certification of residency
-2. Certificate of Disability confirmed or signed by a government or private physician (from the City Health Office, a district health center, your attending physician or SPMC)
+2. Certificate of Disability confirmed or signed by a government or private physician (from the City Health Office, a district health center, your attending physician or the Southern Philippines Medical Center)
 3. Medical certificate
 4. Recent 1x1 ID picture
 5. PWD application form (from the CSWDO district office or at pwd.doh.gov.ph)
@@ -91,6 +103,8 @@ The **Persons with Disability Affairs Office (PDAO)** issues **PWD ID cards**, w
 A. Pichon St. (at the back of City Hall Annex Building), Davao City. Open 8:00 AM – 5:00 PM.
 Phone: (082) 225-0417, 227-1617 or 295-3500. Email: cswdo@davaocity.gov.ph.
 
+> The CSWDO's own department page gives both A. Pichon St. and the Old City Library Building, Bolton St. Call ahead to confirm where to go.
+
 ---
 
-_Sources: CSWDO, OSCA and PDAO news and the CSWDO page (davaocity.gov.ph); City Government of Davao Citizen's Charter, Volume II (2024 revision); City Ordinance 0155-23._
+_Sources: [City Government of Davao Citizen's Charter, Volume II (2024 revision, archived copy)](https://web.archive.org/web/2025/https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-II_20240426.pdf); [2022 Citizen's Charter Handbook](https://www.davaocity.gov.ph/wp-content/uploads/2022/04/The-City-Government-of-Davao-Citizens-Charter-Handbook-1-compressed.pdf); City Government of Davao news: [OSCA on the 2026 annual aid](https://davaocity.gov.ph/social-services/osca-says-200k-seniors-to-get-annual-aid/), [senior subsidies, April 2025](https://www.davaocity.gov.ph/?p=19398), [expanded centenarian subsidy, July 2025](https://www.davaocity.gov.ph/?p=20462), [centenarian ordinance IRR](https://www.davaocity.gov.ph/?p=7317), [solo parent subsidies, May 2025](https://davaocity.gov.ph/social-services/cswdo-continues-giving-subsidies-to-4k-solo-parents/), [PDAO services, March 2025](https://www.davaocity.gov.ph/?p=19125), [IRR for the PWD aid ordinance](https://davaocity.gov.ph/local-government/davao-city-issues-irr-for-pwd-aid-ordinance/), [free movies for PWDs](https://davaocity.gov.ph/social-services/sp-grants-free-movie-access-to-pwds/) and [NCCC cinema agreement](https://davaocity.gov.ph/local-government/sp-authorizes-city-to-sign-a-moa-expanding-free-cinema-areas-for-pwds/); [CSWDO department page](https://davaocity.gov.ph/departments/social-services/city-social-services-development-office/); [OSCA department page](https://davaocity.gov.ph/departments/social-services/office-for-senior-citizens-affairs/). Last verified: 2026-11-23._
