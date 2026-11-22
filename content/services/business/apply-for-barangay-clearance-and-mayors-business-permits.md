@@ -12,7 +12,13 @@ Barangay requirements and fees are set by each barangay. Ask your Barangay Hall 
 
 ---
 
-## 2) Documents to Upload
+## 2) Documents
+
+Which list to follow depends on how you apply.
+
+### If you apply online
+
+Upload these on the [Online BPLS](https://appbts.davaocity.gov.ph/):
 
 | Document                                                    | Who needs it                   |
 | ----------------------------------------------------------- | ------------------------------ |
@@ -30,9 +36,9 @@ Barangay requirements and fees are set by each barangay. Ask your Barangay Hall 
 
 You can also attach additional documents if the Business Bureau asks for them.
 
----
+### If you apply onsite at the Business Bureau
 
-The Business Bureau's own charter lists these documents for a **new** permit. They overlap with the portal's list above, so bring whatever your application form asks for:
+The 2024 Citizen's Charter lists these documents for a **new** permit:
 
 - Notarized Unified Application Form (from the Business Bureau, busbureau.davaocity.gov.ph or the Online BPLS)
 - Sketch of the business location
@@ -54,17 +60,17 @@ The Business Bureau's own charter lists these documents for a **new** permit. Th
 3. **Wait for a call from the Business Bureau** to verify your information. Make sure the contact number you gave is reachable. **If you cannot be reached three (3) times, your application will be denied.**
 4. After the call, **confirm your application** using the Confirm checkbox at the bottom of the application page. It then goes through the approval process.
 5. **Pay your business tax** at the City Treasurer's Office or through Online Payment (LandBank or the Development Bank of the Philippines).
-   The City Treasurer's Business Tax Assessment Division assesses your business tax once your application is approved by the regulatory offices. The tax is based on the 2017 Revenue Code of the City of Davao (Ordinance No. 0291-17), including the graduated tax on businesses in Section 76. The Treasurer's Office checks that your real property tax clearance is up to date.
+   The City Treasurer's Business Tax Assessment Division assesses your business tax once your application is approved by the regulatory offices. The tax is based on the 2017 Revenue Code of the City of Davao (Ordinance No. 0291-17). The Treasurer's Office checks that your real property tax clearance is up to date.
 6. **Monitor your application** using Permit Tracking on the portal.
 7. **Print your Mayor's Permit** from the portal, or through the link sent to your email.
 
-At the Business Bureau, pre-assessment takes about 10 minutes. After the regulatory offices approve and you pay, the Bureau's final approval takes about an hour, and you then claim your **Business Identification Plate and Sticker** at the Business Bureau office. If you apply onsite, submit your documents and application form at the Bureau and receive a Control Number form with a QR code to follow the updates from the regulatory offices.
+The 2024 Citizen's Charter puts the Business Bureau's own processing at about **2 hours 10 minutes** for an online application and **2 hours 30 minutes** onsite. Pre-assessment takes about 10 minutes. This does not include the time the regulatory offices take to approve your application or the time you spend paying at the City Treasurer's Office. After approval and payment, you claim your **Business Identification Plate and Sticker** at the Business Bureau office. If you apply onsite, submit your documents and application form at the Bureau and receive a Control Number form with a QR code to follow the updates from the regulatory offices.
 
 ---
 
 ## 4) Other Requirements to Prepare
 
-- **Solid Waste Management Certificate:** every business permit applicant must attend CENRO's Solid Waste Management orientation and obtain this certificate. For a low-risk establishment the certificate fee is ₱500. See [Garbage collection and pickup](/check-garbage-collection-schedules-and-request-pickup).
+- **Solid Waste Management Certificate:** every business permit applicant must attend CENRO's Solid Waste Management orientation and obtain this certificate. For a low-risk establishment the certificate fee is ₱500. See [Garbage collection and pickup](/services/garbage-waste-disposal/check-garbage-collection-schedules-and-request-pickup).
 
 ---
 
@@ -76,13 +82,14 @@ At the Business Bureau, pre-assessment takes about 10 minutes. After the regulat
 | --------------------------------------------- | ------- | ------ | ------ | ------- |
 | Manufacturers, importers, producers           | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
 | Wholesalers, retailers, dealers, distributors | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
+| Transloading operations                       | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
 | Other financial institutions                  | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
 | Contractors and service establishments        | ₱1,000  | ₱1,200 | ₱2,500 | ₱6,000  |
 | Other businesses                              | ₱1,000  | ₱2,000 | ₱4,000 | ₱6,000  |
 
 Banks pay ₱5,000 (rural, thrift and savings), ₱8,000 (commercial, industrial and development) or ₱10,000 (universal).
 
-**Regulatory fees** are assessed at the City Treasurer's Office. Examples from the charter:
+**Regulatory fees** are assessed at the City Treasurer's Office. Examples from the 2024 Citizen's Charter:
 
 - Occupational permit: ₱125 per employee
 - Sanitary permit: ₱200; sanitary inspection: ₱200 per line of business
@@ -90,10 +97,10 @@ Banks pay ₱5,000 (rural, thrift and savings), ₱8,000 (commercial, industrial
 - Solid waste: ₱500; garbage fee varies by area and business line
 - Signage: minimum ₱300; electrical: minimum ₱350; building permit: minimum ₱120
 - Bureau of Fire Protection fee: 15% of all regulatory fees
-- ICAB fee: ₱100 for the first 10 units, plus ₱10 for each additional unit
+- ICAB fee (Internet Café Accreditation, for internet cafés and coin-operated internet machines): ₱100 for the first 10 units, plus ₱10 for each additional unit
 - Other fees: ask the City Treasurer's Office
 
-The Business Bureau also charges a **₱50 service fee** for amendments to a business permit (for example a change of address or an additional business line). In addition to these fees, the business tax is assessed separately by the City Treasurer.
+An amendment to a business permit (for example a change of address or an additional business line) has a **₱50 service fee**, paid at the City Treasurer's Office. In addition to these fees, the business tax is assessed separately by the City Treasurer.
 
 ## Contact
 
@@ -108,4 +115,4 @@ The Business Bureau also charges a **₱50 service fee** for amendments to a bus
 
 ---
 
-_Sources: Online Business Permit Licensing System (appbts.davaocity.gov.ph) and the City Government of Davao's Business Bureau and CENRO service guidelines; City Government of Davao Citizen's Charter, Volumes I and II (2024 revision)._
+_Sources: [Online Business Permit Licensing System](https://appbts.davaocity.gov.ph/); [City Government of Davao Citizen's Charter, Volume I (2024 revision)](https://web.archive.org/web/2025/https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf), Business Bureau and CENRO sections; [Business Bureau](https://www.davaocity.gov.ph/?p=1391) and [City Treasurer's Office](https://davaocity.gov.ph/departments/fiscal-management/city-treasurers-office/) pages. Last verified: 2026-11-23._

@@ -6,7 +6,11 @@ Business permits in Davao City must be renewed every year. You can renew online 
 
 ## 1) When to Renew
 
-A Business Permit is valid for not more than one year and **expires on December 31**. The charter says it **must be renewed within the month of January**. The Business Bureau sets up extra processing sites during the renewal period, and it urges owners not to wait for the last days. Check the Bureau for this year's sites and hours.
+A Business Permit is valid for not more than one year and **expires on December 31**. The 2024 Citizen's Charter says it **must be renewed within the month of January**. For 2026 the renewal period ran **January 5 to 31**, with extra processing sites at Almendras Gym, Gaisano Grand Citygate Mall and district processing sites ([SunStar, January 3, 2026](https://www.sunstar.com.ph/davao/davao-city-sets-jan-5-31business-permit-renewal)). Check with the Business Bureau for this year's dates, sites and hours.
+
+### If you renew late
+
+The Business Bureau's officer-in-charge told the City Information Office that renewals filed after January 31 incur a **25% penalty** and other charges, and that late filers are still allowed to renew ([SunStar, January 3, 2026](https://www.sunstar.com.ph/davao/davao-city-sets-jan-5-31business-permit-renewal)). This comes from a news report, not an official city document, so confirm the penalty with the City Treasurer's Office.
 
 ---
 
@@ -16,21 +20,21 @@ A Business Permit is valid for not more than one year and **expires on December 
 - Financial statement
 - Special Power of Attorney, Secretary's Certificate or Board Resolution (if someone else is transacting for you)
 - Government IDs of the owner and of the authorized representative
-- Certification
+- Certification (the portal does not say which certification; ask the Business Bureau)
 - Fire Safety Inspection Certificate (FSIC)
 - Previous Mayor's Permit
-- Barangay Certification (if blocked)
+- Barangay Certification (if your permit is _blocked_, meaning a regulatory office has put a hold on it until you meet its requirements)
 - Certified list of employees
 
-> If you do not have all of the documents above, the portal says to go to your respective **District Office** to renew in person.
+> If you do not have all of the documents above, the [portal](https://appbts.davaocity.gov.ph/) says to go to your respective **District Office** to renew your business permit.
 
-You will also need a valid **Solid Waste Management Certificate** from CENRO. It is renewed every year, for ₱500, and CENRO issues a citation if it has not been renewed. See [Garbage collection and pickup](/check-garbage-collection-schedules-and-request-pickup).
+You will also need a valid **Solid Waste Management Certificate** from CENRO. It is renewed every year, for ₱500, and CENRO issues a citation if it has not been renewed. See [Garbage collection and pickup](/services/garbage-waste-disposal/check-garbage-collection-schedules-and-request-pickup).
 
 ---
 
-The Business Bureau's charter lists these renewal requirements: a list of employees with names and positions; a Special Power of Attorney, partnership resolution, or board resolution or secretary's certificate, if someone represents you; a valid ID of a newly designated representative; a valid Fire Safety Inspection Certificate; and specific requirements for your line of business. The portal's list above is the one to follow when you renew online.
+If you renew **onsite**, the 2024 Citizen's Charter lists these renewal requirements: a list of employees with names and positions; a Special Power of Attorney, partnership resolution, or board resolution or secretary's certificate, if someone represents you; a valid ID of a newly designated representative; a valid Fire Safety Inspection Certificate; and specific requirements for your line of business. The portal's list above is the one to follow when you renew online.
 
-**Onsite or online, the Bureau:** pre-assesses your documents (about 10 minutes), tells you if your permit is _blocked_ and which regulatory office to see, and, once you have paid, checks and approves the permit (about an hour in total) and releases it.
+**Onsite or online, the Bureau** pre-assesses your documents (about 10 minutes) and tells you if your permit is blocked and which regulatory office's requirements you must meet. Once you have paid, it checks, approves and releases the permit.
 
 ## 3) Steps to Renew Online
 
@@ -41,36 +45,13 @@ The Business Bureau's charter lists these renewal requirements: a list of employ
 4. **Monitor your application** using Permit Tracking.
 5. **Print your Mayor's Permit** from the portal, or through the link sent to your email.
 
-Other transactions such as additional business line, additional capital, change of business address, transfer of ownership, and partial or full retirement are also listed on the portal. The portal marks that section as under development, so ask the Business Bureau how to file them.
+Other transactions such as additional business line, additional capital, change of business address, transfer of ownership, and partial or full retirement are also listed on the portal. The [portal](https://appbts.davaocity.gov.ph/) marks that section as "currently under development", so ask the Business Bureau how to file them.
 
 ---
 
 ## Fees
 
-**Mayor's Permit fee** depends on your **asset size** (Cottage: up to ₱499,999; Small: ₱500,000–₱1,999,999; Medium: ₱2,000,000–₱9,999,999; Large: ₱10,000,000 and above) and the nature of your business, and is paid at the City Treasurer's Office:
-
-| Business type                                 | Cottage | Small  | Medium | Large   |
-| --------------------------------------------- | ------- | ------ | ------ | ------- |
-| Manufacturers, importers, producers           | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
-| Wholesalers, retailers, dealers, distributors | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
-| Other financial institutions                  | ₱2,000  | ₱5,000 | ₱8,000 | ₱10,000 |
-| Contractors and service establishments        | ₱1,000  | ₱1,200 | ₱2,500 | ₱6,000  |
-| Other businesses                              | ₱1,000  | ₱2,000 | ₱4,000 | ₱6,000  |
-
-Banks pay ₱5,000 (rural, thrift and savings), ₱8,000 (commercial, industrial and development) or ₱10,000 (universal).
-
-**Regulatory fees** are assessed at the City Treasurer's Office. Examples from the charter:
-
-- Occupational permit: ₱125 per employee
-- Sanitary permit: ₱200; sanitary inspection: ₱200 per line of business
-- Health certificate: ₱50; laboratory fee: ₱80
-- Solid waste: ₱500; garbage fee varies by area and business line
-- Signage: minimum ₱300; electrical: minimum ₱350; building permit: minimum ₱120
-- Bureau of Fire Protection fee: 15% of all regulatory fees
-- ICAB fee: ₱100 for the first 10 units, plus ₱10 for each additional unit
-- Other fees: ask the City Treasurer's Office
-
-The Business Bureau also charges a **₱50 service fee** for amendments to a business permit (for example a change of address or an additional business line). In addition to these fees, the business tax is assessed separately by the City Treasurer.
+The Mayor's Permit fee (by asset size and type of business), the regulatory fees and the ₱50 amendment fee are the same for new and renewing businesses. See the full schedule on [Apply for a Mayor's Business Permit](/services/business/apply-for-barangay-clearance-and-mayors-business-permits). The business tax is assessed separately by the City Treasurer.
 
 ## Contact
 
@@ -85,4 +66,4 @@ The Business Bureau also charges a **₱50 service fee** for amendments to a bus
 
 ---
 
-_Sources: Online Business Permit Licensing System (appbts.davaocity.gov.ph), the City Government of Davao's Business Bureau announcements, and the CENRO service guidelines; City Government of Davao Citizen's Charter, Volumes I and II (2024 revision)._
+_Sources: [Online Business Permit Licensing System](https://appbts.davaocity.gov.ph/); [City Government of Davao Citizen's Charter, Volume I (2024 revision)](https://web.archive.org/web/2025/https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf), Business Bureau and CENRO sections; [Business Bureau](https://www.davaocity.gov.ph/?p=1391) and [City Treasurer's Office](https://davaocity.gov.ph/departments/fiscal-management/city-treasurers-office/) pages; [SunStar Davao, January 3, 2026](https://www.sunstar.com.ph/davao/davao-city-sets-jan-5-31business-permit-renewal) (news report). Last verified: 2026-11-23._
