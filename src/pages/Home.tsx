@@ -9,15 +9,15 @@ const Home: React.FC = () => {
     <>
       <SEO
         title="Home"
-        description="Official website of your local government. Access government services, information, and resources."
-        keywords="government, local government, services, public services, civic services"
+        description="An independent, community-run guide to Davao City government services: what you need, where to go, and how much it costs, with links to official sources."
+        keywords="Davao City, government services, permits, hotlines, community guide"
       />
-      <main className="flex-grow">
+      <div className="flex-grow">
         <Hero />
         <ServicesSection />
         <GovernmentActivitySection />
         <HistorySection />
-      </main>
+      </div>
     </>
   );
 };

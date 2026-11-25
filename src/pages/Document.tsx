@@ -163,7 +163,9 @@ export default function Document({
         <Section className="p-3 mb-12">
           <Breadcrumbs className="mb-8" items={breadcrumbs} />
           {nestedIndex.title && (
-            <Heading level={2}>{nestedIndex.title}</Heading>
+            <Heading level={1} size={2}>
+              {nestedIndex.title}
+            </Heading>
           )}
           {nestedIndex.description && (
             <Text className="text-gray-600 mb-4">
@@ -175,9 +177,9 @@ export default function Document({
               {nestedPages.map((page, i) => (
                 <Card hoverable key={page.slug ?? i} className="h-full">
                   <CardContent>
-                    <h4 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 text-balance">
                       {page.name}
-                    </h4>
+                    </h2>
                     {page.description && (
                       <p className="mt-2 text-sm text-gray-600">
                         {page.description}
@@ -192,9 +194,9 @@ export default function Document({
               {nestedPages.map((page, i) => (
                 <Card key={page.slug ?? i} className="mb-4">
                   <CardContent>
-                    <h4 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 text-balance">
                       {page.name}
-                    </h4>
+                    </h2>
                     {page.description && (
                       <p className="mt-2 text-sm text-gray-600">
                         {page.description}

@@ -8,7 +8,7 @@ import {
   type Subcategory,
   type CategoryIndex,
 } from '../data/yamlLoader';
-import * as LucideIcons from 'lucide-react';
+import { getIcon } from '../lib/icons';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import ServicesSection from '../components/home/ServicesSection';
 import SEO from '../components/SEO';
@@ -30,9 +30,7 @@ const Services: React.FC = () => {
   };
 
   const categoryData = getCategory();
-  const Icon = LucideIcons[
-    categoryData?.icon as keyof typeof LucideIcons
-  ] as React.ComponentType<{ className?: string }>;
+  const Icon = getIcon(categoryData?.icon);
 
   useEffect(() => {
     if (category && categoryData) {
@@ -49,12 +47,12 @@ const Services: React.FC = () => {
       <>
         <SEO
           title="Services"
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
-          keywords="government services, public services, local government, civic services"
+          description={`Services offered by the ${import.meta.env.VITE_GOVERNMENT_NAME}, explained in plain language: permits, health, education, social welfare, and more.`}
+          keywords="Davao City services, permits, health, education, social welfare"
         />
         <ServicesSection
-          title={`All local government services`}
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
+          title="All services"
+          description={`Services offered by the ${import.meta.env.VITE_GOVERNMENT_NAME}. Find what you need for permits, health, education, and more.`}
         />
       </>
     );
@@ -73,6 +71,9 @@ const Services: React.FC = () => {
     );
   }
 
+  // Cards sit under the index title when there is one; keep the outline nested.
+  const CardTitle = categoryIndex.title ? 'h3' : 'h2';
+
   return (
     <>
       <SEO
@@ -82,7 +83,12 @@ const Services: React.FC = () => {
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" />
-        <Icon className="h-8 w-8 mb-4 text-primary-600 rounded-md" />
+        {Icon && (
+          <Icon
+            className="h-8 w-8 mb-4 text-primary-600 rounded-md"
+            aria-hidden="true"
+          />
+        )}
         <Heading>{categoryData.category || category}</Heading>
         <Text className="text-gray-600 mb-6">{categoryData.description}</Text>
 
@@ -93,7 +99,9 @@ const Services: React.FC = () => {
         ) : (
           <>
             {categoryIndex.title && (
-              <Heading level={3}>{categoryIndex.title}</Heading>
+              <Heading level={2} size={3}>
+                {categoryIndex.title}
+              </Heading>
             )}
             {categoryIndex.description && (
               <Text className="text-gray-600 mb-4">
@@ -112,9 +120,9 @@ const Services: React.FC = () => {
                       className="h-full border-t-4 border-primary-500"
                     >
                       <CardContent>
-                        <h4 className="text-lg font-medium text-gray-900">
+                        <CardTitle className="text-lg font-medium text-gray-900 text-balance">
                           {subcategory.name}
-                        </h4>
+                        </CardTitle>
                         {subcategory.description && (
                           <p className="mt-2 text-sm text-gray-600">
                             {subcategory.description}
@@ -137,9 +145,9 @@ const Services: React.FC = () => {
                   >
                     <Card hoverable className="mb-4">
                       <CardContent>
-                        <h4 className="text-lg font-medium text-gray-900">
+                        <CardTitle className="text-lg font-medium text-gray-900 text-balance">
                           {subcategory.name}
-                        </h4>
+                        </CardTitle>
                         {subcategory.description && (
                           <p className="mt-2 text-sm text-gray-600">
                             {subcategory.description}

@@ -156,7 +156,7 @@ export const TableWithToggle = ({
           onClick={() => setViewMode('table')}
           className={`px-3 py-2 text-sm font-medium rounded-md transition-colors flex items-center gap-2 ${
             viewMode === 'table'
-              ? 'bg-blue-600 text-white'
+              ? 'bg-primary-600 text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >
@@ -167,7 +167,7 @@ export const TableWithToggle = ({
           onClick={() => setViewMode('list')}
           className={`px-3 py-2 text-sm font-medium rounded-md transition-colors flex items-center gap-2 ${
             viewMode === 'list'
-              ? 'bg-blue-600 text-white'
+              ? 'bg-primary-600 text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >
@@ -191,13 +191,10 @@ export const TableWithToggle = ({
           </table>
         </div>
       ) : (
-        <div className="space-y-4 px-4 sm:px-0">
+        <div className="divide-y divide-gray-200 border-y border-gray-200">
           {tableData?.rows && tableData.rows.length > 0 ? (
             tableData.rows.map((row, index) => (
-              <div
-                key={index}
-                className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm mx-2 sm:mx-0"
-              >
+              <div key={index} className="py-4">
                 <div className="grid gap-3">
                   {tableData.headers.map((header, headerIndex) => (
                     <div
@@ -216,8 +213,8 @@ export const TableWithToggle = ({
               </div>
             ))
           ) : (
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mx-2 sm:mx-0">
-              <div className="text-yellow-800 text-sm">
+            <div className="bg-warning-50 border border-warning-200 rounded-lg p-4 mx-2 sm:mx-0">
+              <div className="text-warning-800 text-sm">
                 <strong>Debug Info:</strong>
                 <br />
                 Headers: {JSON.stringify(tableData?.headers || [])}

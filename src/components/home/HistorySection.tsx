@@ -28,11 +28,14 @@ function TimelineItem({
 }) {
   const { t } = useTranslation('common');
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  // Visitors who ask for reduced motion see the timeline at rest, no reveal.
+  const [visible, setVisible] = useState(
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  );
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
+    if (!el || visible) return;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -44,7 +47,7 @@ function TimelineItem({
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [visible]);
 
   const year = t(`history.events.${eventKey}.year`);
   const title = t(`history.events.${eventKey}.title`);
@@ -74,7 +77,9 @@ function TimelineItem({
           {year}
         </span>
         <h3 className="font-bold text-gray-900 text-sm mb-1">{title}</h3>
-        <p className="text-gray-700 text-sm leading-relaxed">{text}</p>
+        <p className="text-gray-700 text-sm leading-relaxed max-w-[68ch]">
+          {text}
+        </p>
       </div>
     </div>
   );
@@ -87,7 +92,9 @@ export default function HistorySection() {
     <Section className="bg-secondary">
       <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-12">
         <div>
-          <Heading level={3}>{t('history.title')}</Heading>
+          <Heading level={2} size={3}>
+            {t('history.title')}
+          </Heading>
           <div className="pl-2">
             {EVENT_KEYS.map((key, i) => (
               <TimelineItem key={key} eventKey={key} index={i} />
@@ -96,21 +103,28 @@ export default function HistorySection() {
         </div>
 
         <div className="hidden lg:flex flex-col justify-center gap-4">
-          <div className="bg-primary-700 rounded-2xl p-6 text-white">
+          <div
+            className="bg-primary-700 rounded-2xl p-6 text-white"
+            data-dark-surface
+          >
             <div className="text-4xl font-black mb-2">
               {t('history.charteredYear')}
             </div>
-            <div className="text-blue-100 font-semibold text-lg mb-2">
+            <div className="text-primary-100 font-semibold text-lg mb-2">
               {t('history.charteredLabel')}
             </div>
-            <p className="text-blue-200 text-sm leading-relaxed">
+            <p className="text-primary-100 text-sm leading-relaxed">
               {t('history.charteredDesc')}
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
             <img
               src={t('history.middleImageSrc')}
-              alt="Historical Artwork"
+              alt={t('history.middleImageAlt')}
+              width="900"
+              height="636"
+              loading="lazy"
+              decoding="async"
               className="w-full h-100 object-cover"
             />
           </div>

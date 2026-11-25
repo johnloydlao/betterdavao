@@ -40,7 +40,6 @@
   --color-accent-700: #917524;
   --color-accent-800: #6b551a;
   --color-accent-900: #453610;
-  --color-accent-900: #5c3700;
 
   --color-success-50: #e6f7ef;
   --color-success-100: #ccefdf;
@@ -81,7 +80,8 @@
   --color-gray-300: #dee2e6;
   --color-gray-400: #ced4da;
   --color-gray-500: #adb5bd;
-  --color-gray-600: #868e96;
+  /* 4.7:1 on white: the lightest gray allowed for readable text (WCAG AA). */
+  --color-gray-600: #6c757d;
   --color-gray-700: #495057;
   --color-gray-800: #343a40;
   --color-gray-900: #212529;
@@ -134,14 +134,78 @@
   z-index: 10;
   width: var(--first-col-width, 12rem);
   min-width: var(--first-col-width, 12rem);
-  background-color: white;
-  border-right: 2px solid #9ca3af;
+  background-color: var(--color-white);
+  border-right: 2px solid var(--color-gray-400);
 }
 
 .sticky-table thead th:first-child {
-  background-color: #f9fafb;
+  background-color: var(--color-gray-50);
 }
 
 .sticky-table tbody tr:hover td:first-child {
-  background-color: #f3f4f6;
+  background-color: var(--color-gray-100);
+}
+
+/* ── Browser surfaces ─────────────────────────────────────── */
+
+::selection {
+  background-color: var(--color-accent-200);
+  color: var(--color-primary-900);
+}
+
+html {
+  caret-color: var(--color-primary-600);
+  text-underline-offset: 0.2em;
+}
+
+/* One visible keyboard focus ring everywhere; mouse clicks stay clean. */
+:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+}
+
+/* On the red hotline band a blue ring disappears; use white. */
+[data-hotline-bar] :focus-visible {
+  outline-color: var(--color-white);
+}
+
+/* Same on navy and charcoal surfaces (hero, info strip, footer, banners). */
+[data-dark-surface] :focus-visible {
+  outline-color: var(--color-white);
+}
+
+/* ── Text wrapping ────────────────────────────────────────── */
+
+p,
+li,
+dd,
+blockquote {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+/* Long-form documents: keep reading lines near 70 characters.
+   Tables and rules still use the full width. */
+.markdown-content :where(p, ul, ol, blockquote, h1, h2, h3, h4) {
+  max-width: 72ch;
+}
+
+/* ── Reduced motion ───────────────────────────────────────── */
+/* Keep color and shadow feedback; drop movement (hover lifts, entrances). */
+@media (prefers-reduced-motion: reduce) {
+  *:hover,
+  *:focus-visible {
+    translate: none !important;
+    scale: none !important;
+  }
+
+  .animate-fade-in,
+  .animate-slide-in {
+    animation: none;
+  }
 }

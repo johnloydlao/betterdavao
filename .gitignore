@@ -63,3 +63,12 @@ terraform.rc
 .claude/
 
 code-reviews/
+
+# impeccable-ignore-start
+**/.impeccable/*.png
+**/.impeccable/review/
+**/.impeccable/questions/
+**/.impeccable/hook.pending.json
+**/.impeccable/live/*
+!**/.impeccable/live/config.json
+# impeccable-ignore-end

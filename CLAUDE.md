@@ -35,7 +35,7 @@ Content is stored as YAML and Markdown files under `content/`. Two parallel cont
 
 #### Services (`content/services/`)
 
-1. **`src/data/services.yaml`** — Top-level service categories (name, slug, icon, description). The `icon` field must be a valid Lucide React icon name.
+1. **`src/data/services.yaml`** — Top-level service categories (name, slug, icon, description). The `icon` field must be a Lucide React icon name that is registered in `src/lib/icons.ts` (icons are imported explicitly there to keep the bundle small; add new ones to that map).
 2. **`content/services/{category-slug}/index.yaml`** — Lists pages under each category (`pages:` array with `name`, `slug`, `description`).
 3. **`content/services/{category-slug}/{page-slug}.md`** — Actual markdown content for each service page.
 
