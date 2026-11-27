@@ -96,10 +96,11 @@ OCBO also issues occupancy, fencing, excavation, scaffolding, demolition and sig
 - **Office of the City Building Official (OCBO)**
   City Hall Drive, San Pedro St., Davao City
   Phone: (082) 224-4144 or (082) 225-0932 (the charter directory also lists (082) 227-2960). Email: ocbo@davaocity.gov.ph
+  **Confirm the location before visiting.** The Online BPLS contact page gives the address above, but the Citizen's Charter office directory lists OCBO at the "CEO and OCBO Building, Pichon St., Davao City." Call ahead to check which office handles your application.
 - **City Treasurer's Office**
   Room 1, City Hall Building, San Pedro St., Davao City
   Phone: (082) 241-1000 local 232. Email: cto@davaocity.gov.ph
 
 ---
 
-_Sources: City Government of Davao Citizen's Charter (2024 revision): [Volume I](https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf), City Planning and Development Office, pp. 563-584; [Volume II](https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-II_20240426.pdf), Office of the City Building Official, pp. 445-548, and office directory; contacts from the [Online BPLS contact page](https://appbts.davaocity.gov.ph/contact) and the [CPDO page](https://davaocity.gov.ph/city-planning-and-development-office/). Last verified: 2026-11-24._
+_Sources: City Government of Davao Citizen's Charter (2024 revision): [Volume I](https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf), City Planning and Development Office, pp. 563-584; [Volume II](https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-II_20240426.pdf), Office of the City Building Official, pp. 445-548, and office directory, p. 626; contacts from the [Online BPLS contact page](https://appbts.davaocity.gov.ph/contact) and the [CPDO page](https://davaocity.gov.ph/city-planning-and-development-office/). Last verified: 2026-11-26._
