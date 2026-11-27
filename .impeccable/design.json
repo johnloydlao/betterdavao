@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-25T06:05:58.348Z",
+  "generatedAt": "2026-11-25T07:32:24.016Z",
   "title": "Design System: BetterDavao",
   "extensions": {
     "colorMeta": {
-      "deep-mandaya-blue": {
+      "davao-navy": {
         "role": "primary",
-        "displayName": "Deep Mandaya Blue",
+        "displayName": "Davao Navy",
         "canonical": "#1e3a8a",
         "tonalRamp": [
           "#0f172a",
@@ -14,29 +14,14 @@
           "#1e306e",
           "#1e3a8a",
           "#1e40af",
-          "#60a5fa",
-          "#bfdbfe",
+          "#93c5fd",
+          "#dbeafe",
           "#eff6ff"
         ]
       },
-      "mandaya-blue-bright": {
+      "navy-ink": {
         "role": "primary",
-        "displayName": "Mandaya Blue, bright",
-        "canonical": "#1e40af",
-        "tonalRamp": [
-          "#0f172a",
-          "#172154",
-          "#1e306e",
-          "#1e3a8a",
-          "#1e40af",
-          "#60a5fa",
-          "#bfdbfe",
-          "#eff6ff"
-        ]
-      },
-      "mandaya-blue-ink": {
-        "role": "primary",
-        "displayName": "Mandaya Blue, ink",
+        "displayName": "Navy Ink",
         "canonical": "#1e306e",
         "tonalRamp": [
           "#0f172a",
@@ -44,14 +29,14 @@
           "#1e306e",
           "#1e3a8a",
           "#1e40af",
-          "#60a5fa",
-          "#bfdbfe",
+          "#93c5fd",
+          "#dbeafe",
           "#eff6ff"
         ]
       },
-      "mandaya-blue-night": {
+      "navy-strip": {
         "role": "primary",
-        "displayName": "Mandaya Blue, night",
+        "displayName": "Navy Strip",
         "canonical": "#172154",
         "tonalRamp": [
           "#0f172a",
@@ -59,44 +44,14 @@
           "#1e306e",
           "#1e3a8a",
           "#1e40af",
-          "#60a5fa",
-          "#bfdbfe",
-          "#eff6ff"
-        ]
-      },
-      "mandaya-blue-mist": {
-        "role": "primary",
-        "displayName": "Mandaya Blue, mist",
-        "canonical": "#dbeafe",
-        "tonalRamp": [
-          "#0f172a",
-          "#172154",
-          "#1e306e",
-          "#1e3a8a",
-          "#1e40af",
-          "#60a5fa",
+          "#93c5fd",
           "#dbeafe",
           "#eff6ff"
         ]
       },
-      "mandaya-blue-wash": {
+      "navy-night": {
         "role": "primary",
-        "displayName": "Mandaya Blue, wash",
-        "canonical": "#eff6ff",
-        "tonalRamp": [
-          "#0f172a",
-          "#172154",
-          "#1e306e",
-          "#1e3a8a",
-          "#1e40af",
-          "#60a5fa",
-          "#dbeafe",
-          "#eff6ff"
-        ]
-      },
-      "night-ink": {
-        "role": "neutral",
-        "displayName": "Night Ink",
+        "displayName": "Navy Night",
         "canonical": "#0f172a",
         "tonalRamp": [
           "#0f172a",
@@ -104,14 +59,59 @@
           "#1e306e",
           "#1e3a8a",
           "#1e40af",
-          "#60a5fa",
-          "#bfdbfe",
+          "#93c5fd",
+          "#dbeafe",
           "#eff6ff"
         ]
       },
-      "durian-gold": {
+      "navy-bright": {
+        "role": "primary",
+        "displayName": "Navy Bright",
+        "canonical": "#1e40af",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-mist": {
+        "role": "primary",
+        "displayName": "Navy Mist",
+        "canonical": "#dbeafe",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-wash": {
+        "role": "primary",
+        "displayName": "Navy Wash",
+        "canonical": "#eff6ff",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "golden-time": {
         "role": "secondary",
-        "displayName": "Durian Gold",
+        "displayName": "Golden Time",
         "canonical": "#d4af37",
         "tonalRamp": [
           "#453610",
@@ -124,10 +124,70 @@
           "#fdf9ec"
         ]
       },
-      "durian-gold-deep": {
+      "golden-time-light": {
         "role": "secondary",
-        "displayName": "Durian Gold, deep",
-        "canonical": "#b8962e",
+        "displayName": "Golden Time, light",
+        "canonical": "#debb3d",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "gold-highlight": {
+        "role": "secondary",
+        "displayName": "Gold Highlight",
+        "canonical": "#f2e099",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "stamp-wash": {
+        "role": "secondary",
+        "displayName": "Stamp Wash",
+        "canonical": "#fdf9ec",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "stamp-rule": {
+        "role": "secondary",
+        "displayName": "Stamp Rule",
+        "canonical": "#6b551a",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "stamp-ink": {
+        "role": "secondary",
+        "displayName": "Stamp Ink",
+        "canonical": "#453610",
         "tonalRamp": [
           "#453610",
           "#6b551a",
@@ -154,9 +214,129 @@
           "oklch(97.1% 0.013 17.38)"
         ]
       },
-      "bulletin-ink": {
+      "hotline-red-deep": {
+        "role": "tertiary",
+        "displayName": "Hotline Red, deep",
+        "canonical": "oklch(50.5% 0.213 27.518)",
+        "tonalRamp": [
+          "oklch(25.8% 0.092 26.042)",
+          "oklch(39.6% 0.141 25.723)",
+          "oklch(50.5% 0.213 27.518)",
+          "oklch(57.7% 0.245 27.325)",
+          "oklch(63.7% 0.237 25.331)",
+          "oklch(80.8% 0.114 19.571)",
+          "oklch(93.6% 0.032 17.717)",
+          "oklch(97.1% 0.013 17.38)"
+        ]
+      },
+      "thread-red": {
+        "role": "thread",
+        "displayName": "Thread Red",
+        "canonical": "#9b2d20",
+        "tonalRamp": [
+          "#2f0e0a",
+          "#551912",
+          "#7c241a",
+          "#9b2d20",
+          "#b96c63",
+          "#d2a19b",
+          "#e9d1ce",
+          "#f7eeed"
+        ]
+      },
+      "thread-amber": {
+        "role": "thread",
+        "displayName": "Thread Amber",
+        "canonical": "#e0a030",
+        "tonalRamp": [
+          "#43300e",
+          "#7b581a",
+          "#b38026",
+          "#e0a030",
+          "#e9bd6e",
+          "#f1d4a2",
+          "#f8ead1",
+          "#fdf7ee"
+        ]
+      },
+      "thread-green": {
+        "role": "thread",
+        "displayName": "Thread Green",
+        "canonical": "#5b7f2a",
+        "tonalRamp": [
+          "#1b260d",
+          "#324617",
+          "#496622",
+          "#5b7f2a",
+          "#8ca56a",
+          "#b5c59f",
+          "#dbe3d0",
+          "#f2f5ee"
+        ]
+      },
+      "thread-orchid": {
+        "role": "thread",
+        "displayName": "Thread Orchid",
+        "canonical": "#c2577f",
+        "tonalRamp": [
+          "#3a1a26",
+          "#6b3046",
+          "#9b4666",
+          "#c2577f",
+          "#d489a5",
+          "#e4b3c5",
+          "#f2dae3",
+          "#faf2f5"
+        ]
+      },
+      "thread-teal": {
+        "role": "thread",
+        "displayName": "Thread Teal",
+        "canonical": "#2a7f86",
+        "tonalRamp": [
+          "#0d2628",
+          "#17464a",
+          "#22666b",
+          "#2a7f86",
+          "#6aa5aa",
+          "#9fc5c9",
+          "#d0e3e4",
+          "#eef5f5"
+        ]
+      },
+      "thread-indigo": {
+        "role": "thread",
+        "displayName": "Thread Indigo",
+        "canonical": "#2b3a8a",
+        "tonalRamp": [
+          "#0d1129",
+          "#18204c",
+          "#222e6e",
+          "#2b3a8a",
+          "#6b75ad",
+          "#a0a6ca",
+          "#d0d4e5",
+          "#eeeff6"
+        ]
+      },
+      "thread-black": {
+        "role": "thread",
+        "displayName": "Thread Black",
+        "canonical": "#1b1b1b",
+        "tonalRamp": [
+          "#080808",
+          "#0f0f0f",
+          "#161616",
+          "#1b1b1b",
+          "#5f5f5f",
+          "#989898",
+          "#cdcdcd",
+          "#ededed"
+        ]
+      },
+      "ink": {
         "role": "neutral",
-        "displayName": "Bulletin Ink",
+        "displayName": "Ink",
         "canonical": "#212529",
         "tonalRamp": [
           "#212529",
@@ -184,9 +364,9 @@
           "#f8f9fa"
         ]
       },
-      "slate-text": {
+      "slate": {
         "role": "neutral",
-        "displayName": "Slate Text",
+        "displayName": "Slate",
         "canonical": "#495057",
         "tonalRamp": [
           "#212529",
@@ -214,9 +394,9 @@
           "#f8f9fa"
         ]
       },
-      "rule-gray": {
+      "field-rule": {
         "role": "neutral",
-        "displayName": "Rule Gray",
+        "displayName": "Field Rule",
         "canonical": "#dee2e6",
         "tonalRamp": [
           "#212529",
@@ -229,9 +409,9 @@
           "#f8f9fa"
         ]
       },
-      "hairline-gray": {
+      "hairline": {
         "role": "neutral",
-        "displayName": "Hairline Gray",
+        "displayName": "Hairline",
         "canonical": "#e9ecef",
         "tonalRamp": [
           "#212529",
@@ -244,9 +424,9 @@
           "#f8f9fa"
         ]
       },
-      "paper-gray": {
+      "row-rule": {
         "role": "neutral",
-        "displayName": "Paper Gray",
+        "displayName": "Row Rule",
         "canonical": "#f1f3f5",
         "tonalRamp": [
           "#212529",
@@ -293,27 +473,35 @@
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Page and hero titles; scales 1.875rem → 2.25rem (md) → 3rem (lg); tight leading, balanced wrap."
+        "purpose": "The hero question only; 1.875rem → 2.25rem (md) → 3rem (lg), capped at 15ch."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Home section headings; scales 1.25rem → 1.5rem → 1.875rem."
+        "purpose": "Page titles on listings and guides."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Home section headings; 1.25rem → 1.5rem → 1.875rem."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "At-a-glance values in Navy Ink, tabular numerals."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Card and list-item titles."
+        "purpose": "Tile names, task rows, tabs; 700 on buttons."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Descriptions and markdown content; intros capped near 32rem."
+        "purpose": "Guide text and leads; prose capped at 72ch."
       },
       "body-small": {
         "displayName": "Body small",
-        "purpose": "Card descriptions, footer links, inputs, dropdown rows."
+        "purpose": "Card descriptions, footer links, Try: queries."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Uppercase eyebrow labels (HOTLINES, POPULAR SERVICES) and tag chips."
+        "purpose": "Hotline bar and info strip only."
       },
       "mono": {
         "displayName": "Mono",
@@ -322,51 +510,66 @@
     },
     "shadows": [
       {
-        "name": "resting-hairline",
-        "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
-        "purpose": "Cards at rest; the border does the work."
-      },
-      {
         "name": "masthead",
         "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
-        "purpose": "Sticky nav over scrolling content."
+        "purpose": "Sticky masthead over scrolling content."
       },
       {
-        "name": "card-hover-lift",
+        "name": "tile-hover",
         "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
-        "purpose": "Clickable cards on hover, paired with translateY(-4px)."
+        "purpose": "Clickable tiles on hover, with the border shifting to primary-200. No lift."
+      },
+      {
+        "name": "results-float",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Search results listbox."
       },
       {
         "name": "menu-float",
         "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
-        "purpose": "Nav dropdowns and search result menus."
+        "purpose": "Desktop nav dropdowns."
       },
       {
-        "name": "hero-panel",
+        "name": "search-panel",
         "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
-        "purpose": "The home hero search panel only."
+        "purpose": "The hero search panel on navy only."
+      },
+      {
+        "name": "weave-shade",
+        "value": "linear-gradient(180deg, transparent 50%, rgb(0 0 0 / 0.18) 50%)",
+        "purpose": "Lower-half shade of the woven band; texture, sanctioned only in .weave."
+      },
+      {
+        "name": "weave-weft",
+        "value": "repeating-linear-gradient(90deg, transparent 0 7px, rgb(255 255 255 / 0.28) 7px 14px)",
+        "purpose": "Plain-weave over-stripe of the woven band; sanctioned only in .weave."
       }
     ],
     "motion": [
       {
         "name": "color-transition",
-        "value": "300ms ease-in-out",
-        "purpose": "Link and button color changes."
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default colour, border and shadow changes on buttons, rows and tiles."
       },
       {
-        "name": "nav-underline",
-        "value": "width 400ms ease-in-out",
-        "purpose": "Gold underline growing under desktop nav links."
+        "name": "menu-fade",
+        "value": "opacity 150ms",
+        "purpose": "Desktop nav dropdown open and close."
       },
       {
-        "name": "card-lift",
-        "value": "all 300ms",
-        "purpose": "Card hover shadow and translate."
+        "name": "chevron-turn",
+        "value": "transform 200ms",
+        "purpose": "Dropdown chevron rotation."
       },
       {
         "name": "fade-in",
         "value": "fadeIn 0.5s ease-in-out",
-        "purpose": "Hero intro text on load."
+        "purpose": "Rotating exchange rate in the info strip; motion-safe only."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "translate: none; scale: none; animation: none",
+        "purpose": "Under prefers-reduced-motion, colour and shadow feedback stay, movement goes."
       }
     ],
     "breakpoints": [
@@ -381,135 +584,156 @@
       {
         "name": "lg",
         "value": "1024px"
-      },
-      {
-        "name": "xl",
-        "value": "1280px"
-      },
-      {
-        "name": "2xl",
-        "value": "1536px"
       }
     ]
   },
   "components": [
     {
-      "name": "Primary Button",
+      "name": "Primary Button (gold)",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Durian Gold call to action; one or two per screen.",
-      "html": "<a class=\"ds-btn-primary\" href=\"#\">Browse Services</a>",
-      "css": ".ds-btn-primary { display: inline-block; background: #d4af37; color: #0f172a; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-weight: 600; font-size: 1rem; padding: 12px 24px; border-radius: 8px; text-decoration: none; transition: background-color 150ms; } .ds-btn-primary:hover { background: #b8962e; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1e40af; }"
+      "description": "The one main action on a surface: hero Search, the guide summary portal button.",
+      "html": "<a class=\"ds-btn-gold\" href=\"#\">Open the Online BPLS <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-btn-gold { display: inline-flex; align-items: center; gap: 8px; height: 48px; padding: 0 24px; border-radius: 8px; background: #d4af37; color: #1e306e; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 700; text-decoration: none; transition: background-color 150ms; } .ds-btn-gold:hover { background: #debb3d; } .ds-btn-gold:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
     },
     {
-      "name": "Search Button",
+      "name": "Secondary Button (navy)",
       "kind": "button",
-      "refersTo": "button-search",
-      "description": "Masthead search trigger with icon; lifts on hover.",
-      "html": "<a class=\"ds-btn-search\" href=\"#\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg>Search</a>",
-      "css": ".ds-btn-search { display: inline-flex; align-items: center; gap: 8px; background: #d4af37; color: #0f172a; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-weight: 500; font-size: 0.875rem; padding: 8px 16px; border-radius: 8px; text-decoration: none; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1); transition: all 300ms ease-in-out; } .ds-btn-search:hover { background: #b8962e; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); transform: translateY(-1px); } .ds-btn-search:focus-visible { outline: none; box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1e40af; }"
+      "refersTo": "button-secondary",
+      "description": "Every other filled action, e.g. Report a mistake.",
+      "html": "<a class=\"ds-btn-navy\" href=\"#\">Report a mistake</a>",
+      "css": ".ds-btn-navy { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 20px; border-radius: 8px; background: #1e3a8a; color: #fff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 700; text-decoration: none; transition: background-color 150ms; } .ds-btn-navy:hover { background: #1e306e; } .ds-btn-navy:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
     },
     {
-      "name": "Nav Link",
-      "kind": "nav",
-      "refersTo": "nav-link",
-      "description": "Desktop masthead link with a growing Durian Gold underline.",
-      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#\">Services</a><a class=\"ds-nav-link\" href=\"#\">Government</a></nav>",
-      "css": ".ds-nav { display: flex; gap: 4px; background: #fff; padding: 16px; } .ds-nav-link { position: relative; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 500; color: #495057; padding: 8px 16px; text-decoration: none; transition: color 300ms ease-in-out; } .ds-nav-link::after { content: ''; position: absolute; left: 0; bottom: -8px; height: 2px; width: 0; background: #d4af37; transition: width 400ms ease-in-out; } .ds-nav-link:hover { color: #1e3a8a; } .ds-nav-link:hover::after { width: 100%; } .ds-nav-link:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; border-radius: 4px; }"
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Quiet alternative beside a filled action.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Help write a guide</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 20px; border-radius: 8px; border: 1px solid #bfdbfe; background: #fff; color: #1e3a8a; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 700; text-decoration: none; transition: background-color 150ms; } .ds-btn-outline:hover { background: #eff6ff; } .ds-btn-outline:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
     },
     {
-      "name": "Category Card",
-      "kind": "card",
-      "refersTo": "card",
-      "description": "Service category card: Mandaya Blue top rule, icon tile, title, description; whole card is the link.",
-      "html": "<a class=\"ds-card-category\" href=\"#\"><div class=\"ds-card-head\"><span class=\"ds-icon-tile\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/></svg></span><h3 class=\"ds-card-title\">Health Services</h3></div><p class=\"ds-card-desc\">Where to go for free check-ups, vaccines, and medicines.</p></a>",
-      "css": ".ds-card-category { display: block; max-width: 300px; background: #fff; border: 1px solid #e9ecef; border-top: 4px solid #1e40af; border-radius: 8px; padding: 24px; text-decoration: none; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: all 300ms; font-family: Inter, ui-sans-serif, system-ui, sans-serif; } .ds-card-category:hover { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); transform: translateY(-4px); } .ds-card-category:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-card-head { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; } .ds-icon-tile { display: inline-flex; background: #dbeafe; color: #1e3a8a; padding: 12px; border-radius: 6px; } .ds-card-title { margin: 0; font-size: 1.125rem; font-weight: 600; color: #212529; } .ds-card-desc { margin: 0; font-size: 1rem; line-height: 1.5; color: #343a40; }"
-    },
-    {
-      "name": "List Card with Tag",
-      "kind": "card",
-      "refersTo": "card",
-      "description": "Full-width service list item: title, muted description, category chip.",
-      "html": "<a class=\"ds-card-list\" href=\"#\"><h4 class=\"ds-list-title\">Renew permits and pay local business taxes</h4><p class=\"ds-list-desc\">Information about renewing business permits and paying local business taxes.</p><span class=\"ds-chip\">Business and Livelihood</span></a>",
-      "css": ".ds-card-list { display: block; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 24px; text-decoration: none; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: all 300ms; font-family: Inter, ui-sans-serif, system-ui, sans-serif; } .ds-card-list:hover { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); transform: translateY(-4px); } .ds-card-list:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-list-title { margin: 0; font-size: 1.125rem; font-weight: 500; color: #212529; } .ds-list-desc { margin: 8px 0 0; font-size: 0.875rem; color: #495057; } .ds-chip { display: inline-block; margin-top: 8px; padding: 4px 8px; font-size: 0.75rem; font-weight: 500; background: #f1f3f5; color: #343a40; border-radius: 4px; }"
-    },
-    {
-      "name": "Tag Chip",
-      "kind": "chip",
-      "refersTo": "chip-tag",
-      "description": "Static category label; not a filter.",
-      "html": "<span class=\"ds-tag\">Business and Livelihood</span>",
-      "css": ".ds-tag { display: inline-block; padding: 4px 8px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; background: #f1f3f5; color: #343a40; border-radius: 4px; }"
-    },
-    {
-      "name": "Search Input",
+      "name": "Search Field",
       "kind": "input",
       "refersTo": "input-search",
-      "description": "Service search field with inset icon and Mandaya Blue focus ring.",
-      "html": "<label class=\"ds-search\"><svg class=\"ds-search-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-search-input\" type=\"search\" placeholder=\"Search for a service...\" aria-label=\"Search for a service\"></label>",
-      "css": ".ds-search { position: relative; display: block; max-width: 420px; } .ds-search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #adb5bd; pointer-events: none; } .ds-search-input { width: 100%; box-sizing: border-box; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; color: #343a40; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 10px 16px 10px 36px; } .ds-search-input::placeholder { color: #adb5bd; } .ds-search-input:focus { outline: none; border-color: transparent; box-shadow: 0 0 0 2px #1e40af; }"
+      "description": "Hero search input with inset icon and Navy Bright focus ring.",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-search-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-search-input\" type=\"search\" placeholder=\"e.g. permit, scholarship\" aria-label=\"Search services\"></label>",
+      "css": ".ds-search { position: relative; display: block; max-width: 420px; } .ds-search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #6c757d; pointer-events: none; } .ds-search-input { width: 100%; box-sizing: border-box; height: 48px; padding: 0 16px 0 40px; border: 1px solid #dee2e6; border-radius: 8px; background: #fff; color: #212529; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; } .ds-search-input::placeholder { color: #6c757d; } .ds-search-input:focus { outline: none; border-color: transparent; box-shadow: 0 0 0 2px #1e40af; }"
+    },
+    {
+      "name": "Masthead Nav",
+      "kind": "nav",
+      "refersTo": "text-size-option",
+      "description": "Desktop links with the gold active underline, and the A / A+ / A++ text-size switch.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link is-active\" href=\"#\">Services</a><a class=\"ds-nav-link\" href=\"#\">Government</a><div class=\"ds-size\" role=\"group\" aria-label=\"Text size\"><button class=\"is-on\" aria-pressed=\"true\" style=\"font-size:.875rem\">A</button><button aria-pressed=\"false\" style=\"font-size:1rem\">A+</button><button aria-pressed=\"false\" style=\"font-size:1.125rem\">A++</button></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 4px; background: #fff; padding: 12px 16px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; } .ds-nav-link { padding: 10px 14px; color: #495057; font-size: 1rem; font-weight: 500; text-decoration: none; transition: color 150ms; } .ds-nav-link:hover { color: #1e3a8a; } .ds-nav-link.is-active { color: #1e3a8a; box-shadow: inset 0 -2px 0 #d4af37; } .ds-nav-link:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-size { display: inline-flex; margin-left: auto; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden; } .ds-size button { min-width: 44px; height: 40px; padding: 0 8px; border: 0; background: #fff; color: #343a40; font-weight: 700; font-family: inherit; cursor: pointer; } .ds-size button + button { border-left: 1px solid #dee2e6; } .ds-size button:hover { background: #eff6ff; } .ds-size button.is-on { background: #172154; color: #fff; } .ds-size button:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
+    },
+    {
+      "name": "Topic Tile",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Hairline card with icon tile, thread bar, description and guide count; the whole tile is the link.",
+      "html": "<a class=\"ds-tile\" href=\"#\"><span class=\"ds-tile-head\"><span class=\"ds-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg><span class=\"ds-icon-thread\"></span></span><span class=\"ds-tile-title\">Business</span></span><span class=\"ds-tile-desc\">Permits, registration and local business taxes.</span><span class=\"ds-tile-count\">3 guides</span></a>",
+      "css": ".ds-tile { display: flex; flex-direction: column; gap: 10px; max-width: 280px; padding: 20px; border: 1px solid #e9ecef; border-radius: 8px; background: #fff; text-decoration: none; font-family: Inter, ui-sans-serif, system-ui, sans-serif; transition: border-color 150ms, box-shadow 150ms; } .ds-tile:hover { border-color: #bfdbfe; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); } .ds-tile:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-tile-head { display: flex; align-items: center; gap: 12px; } .ds-icon { position: relative; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 6px; background: #dbeafe; color: #1e3a8a; } .ds-icon-thread { position: absolute; bottom: -2px; left: 6px; right: 6px; height: 4px; border-radius: 9999px; background: #2b3a8a; } .ds-tile-title { font-size: 1rem; font-weight: 600; color: #212529; } .ds-tile:hover .ds-tile-title { color: #1e306e; } .ds-tile-desc { font-size: 0.875rem; line-height: 1.625; color: #495057; } .ds-tile-count { font-size: 0.875rem; font-weight: 700; color: #1e3a8a; }"
+    },
+    {
+      "name": "Task Row with Thread",
+      "kind": "custom",
+      "refersTo": "thread-marker",
+      "description": "Listing and task-hub row: topic thread marker, title, category, chevron.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-thread\" style=\"background:#9b2d20\"></span><span class=\"ds-row-text\"><span class=\"ds-row-title\">Get a health certificate</span><span class=\"ds-row-cat\">Health Services</span></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1e40af\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></a></li><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-thread\" style=\"background:#2a7f86\"></span><span class=\"ds-row-text\"><span class=\"ds-row-title\">Apply for a senior citizen ID</span><span class=\"ds-row-cat\">Social Welfare</span></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1e40af\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></a></li></ul>",
+      "css": ".ds-rows { list-style: none; margin: 0; padding: 0; max-width: 520px; border: 1px solid #e9ecef; border-radius: 8px; background: #fff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; } .ds-rows li + li { border-top: 1px solid #f1f3f5; } .ds-row { display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 12px 20px; text-decoration: none; } .ds-row:hover { background: #eff6ff; } .ds-row:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-thread { width: 6px; height: 28px; border-radius: 9999px; flex-shrink: 0; } .ds-row-text { flex: 1; min-width: 0; } .ds-row-title { display: block; font-weight: 600; font-size: 1rem; line-height: 1.375; color: #212529; } .ds-row:hover .ds-row-title { color: #1e306e; } .ds-row-cat { display: block; font-size: 0.875rem; color: #6c757d; }"
+    },
+    {
+      "name": "Melting Pot Weave",
+      "kind": "custom",
+      "refersTo": "weave-band",
+      "description": "The woven band of artwork threads that closes the hero and opens the footer.",
+      "html": "<div class=\"ds-weave-demo\"><div class=\"ds-weave\" aria-hidden=\"true\"></div></div>",
+      "css": ".ds-weave-demo { background: #1e3a8a; padding-top: 32px; } .ds-weave { position: relative; height: 12px; background: repeating-linear-gradient(90deg, #9b2d20 0 14px, #e0a030 14px 28px, #5b7f2a 28px 42px, #c2577f 42px 56px, #2a7f86 56px 70px, #2b3a8a 70px 84px, #e0a030 84px 98px, #1b1b1b 98px 112px); } .ds-weave::after { content: \"\"; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, transparent 0 7px, rgb(255 255 255 / 0.28) 7px 14px), linear-gradient(180deg, transparent 50%, rgb(0 0 0 / 0.18) 50%); }"
     },
     {
       "name": "Hotline Bar",
       "kind": "custom",
       "refersTo": "hotline-bar",
-      "description": "Signature emergency band above the masthead on every page; every number is a tel: link.",
-      "html": "<div class=\"ds-hotline\"><span class=\"ds-hotline-label\">Hotlines</span><a class=\"ds-hotline-pill\" href=\"tel:911\">911</a><a class=\"ds-hotline-link\" href=\"#\"><b>Davao City Contact Center:</b> 0918 901 9991</a></div>",
-      "css": ".ds-hotline { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; background: oklch(57.7% 0.245 27.325); color: #fff; padding: 10px 16px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; } .ds-hotline-label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.025em; opacity: 0.8; } .ds-hotline-pill { background: #fff; color: oklch(57.7% 0.245 27.325); font-weight: 900; padding: 2px 12px; border-radius: 9999px; text-decoration: none; transition: background-color 150ms; } .ds-hotline-pill:hover { background: oklch(97.1% 0.013 17.38); } .ds-hotline-link { color: #fff; text-decoration: none; } .ds-hotline-link:hover { text-decoration: underline; opacity: 0.8; } .ds-hotline a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }"
+      "description": "Always-visible emergency band; every number is a tel: link.",
+      "html": "<div class=\"ds-hotline\"><span class=\"ds-hotline-label\">Hotlines</span><a class=\"ds-hotline-pill\" href=\"tel:911\">911 Emergency</a><a class=\"ds-hotline-link\" href=\"#\"><b>Contact Center:</b> 0918 901 9991</a></div>",
+      "css": ".ds-hotline { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; padding: 6px 16px; background: oklch(57.7% 0.245 27.325); color: #fff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; } .ds-hotline-label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.025em; } .ds-hotline-pill { padding: 4px 12px; border-radius: 9999px; background: #fff; color: oklch(50.5% 0.213 27.518); font-weight: 800; text-decoration: none; } .ds-hotline-pill:hover { background: oklch(97.1% 0.013 17.38); } .ds-hotline-link { padding: 6px 10px; color: #fff; text-decoration: none; } .ds-hotline-link:hover { text-decoration: underline; } .ds-hotline a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }"
+    },
+    {
+      "name": "Guide Steps",
+      "kind": "custom",
+      "refersTo": "guide-step-marker",
+      "description": "Numbered navy steps joined by a mist line; the last step in gold.",
+      "html": "<ol class=\"ds-steps\"><li>Prepare your barangay clearance.</li><li>File the application online.</li><li>Pay the fees and claim your permit.</li></ol>",
+      "css": ".ds-steps { list-style: none; counter-reset: step; margin: 0; padding: 0; max-width: 480px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #343a40; line-height: 1.625; } .ds-steps li { counter-increment: step; position: relative; padding: 0 0 16px 44px; min-height: 34px; } .ds-steps li::before { content: counter(step); position: absolute; left: 0; top: -2px; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9999px; background: #1e3a8a; color: #fff; font-weight: 700; font-size: 0.875rem; } .ds-steps li:not(:last-child)::after { content: \"\"; position: absolute; left: 14px; top: 30px; bottom: 2px; border-left: 2px solid #dbeafe; } .ds-steps li:last-child::before { background: #d4af37; color: #0f172a; }"
     }
   ],
   "narrative": {
-    "northStar": "The Plain-Spoken Bulletin",
-    "overview": "BetterDavao reads like a well-kept notice board for the city: information first, sober colors, and a clear order of importance. A resident should be able to glance at any page and know what it covers, where to tap next, and what number to call if something is wrong. The page doesn't decorate itself. It posts the facts neatly and gets out of the way.\n\nThe system is built on three bands that are always present: a hotline bar in alarm red, a white masthead with the eagle wordmark and a gold Search button, and a thin Mandaya Blue info strip (exchange rate, weather, Philippine time). Below that, content sits on white in a standard centered container. Section headings are bold and large, descriptions are in muted gray, and cards are bordered rectangles. Deep Mandaya Blue fills the home hero. Durian Gold appears only on the one or two things the visitor should press. The charcoal footer closes every page.\n\nDensity is moderate and mobile-first. Grids drop to a single column on phones, tap targets stay generous, and the hotline bar restacks into a full-width 911 button with a two-column list beneath it. The user has rejected two looks outright: campaign or political styling (tarpaulin-poster energy) and generic SaaS landing-page patterns (gradient blobs, glassmorphism, startup heroes).",
+    "northStar": "Davao, the Melting Pot",
+    "overview": "BetterDavao is one guide for everyone who calls Davao home, built on the BetterGov standard. The frame is institutional and steady: a red hotline bar that never hides, a white masthead, a navy info strip, a navy hero, white content bands and a charcoal footer. Inside that frame the city's many peoples appear as threads. Seven colours sampled from the artwork \"Davao's Golden Time of 2021\" by Rembert Vergara Jr. are woven into one cloth: a band that closes the hero and opens the footer. Each service topic keeps one of those threads, so a resident can follow a colour from the home page to the guide.\n\nThe site is task-first and dense in a calm way. The first viewport answers \"What do you need to do today?\" with a search panel and an \"I want to…\" hub, and every task is one tap from its guide. Guides read like a clear notice: a summary block (where, how long, how much, how long it lasts), one gold action to the official portal, numbered steps, sources and verification stamps. The home page shows only checked figures. Unverified home figures are hidden, not stamped.\n\nIt refuses two looks: the generic BetterGov clone (navy and gold with nothing of Davao in it) and festival or tourism styling (fiesta bunting, postcard heroes, decorative ethnic patterns). The threads are the only ornament, and they always carry meaning: the city's peoples, or a topic.",
     "keyCharacteristics": [
-      "Information first: bold headings, plain descriptions, and bordered cards. Little else.",
-      "Three-band header: hotline red, white masthead, Mandaya Blue info strip.",
-      "Navy carries the structure and gold marks the action. Both stay disciplined.",
-      "Flat surfaces. Shadows are reserved for things that float.",
-      "Sturdy, plain components built to be used one-handed on a phone.",
-      "One typeface (Inter) does all the work."
+      "Three-band header on every page: hotline red, white masthead with the A/A+/A++ switch, navy info strip.",
+      "Navy carries the structure; gold marks the main action and the end of a process; red means emergency.",
+      "Seven artwork threads, woven into the Melting Pot band and assigned one per service topic.",
+      "Flat white cards with 1px hairlines and 8px corners; shadows only for hover and floating panels.",
+      "Inter only, sized in rem so the reader's text-size choice scales everything.",
+      "Built for cheap phones: 44px tap targets, one column on phones, nothing that depends on images loading."
     ],
     "rules": [
       {
         "name": "The Gold Means Go Rule",
-        "body": "Durian Gold marks the action the visitor should take, at most one or two per screen. It is never a background for reading text, never decoration, and never a heading color.",
+        "body": "Golden Time fills the one main action on a surface (hero Search, the guide's portal button), with Navy Ink text at bold weight. Never white text on gold, never near-black text on gold, never more than one gold button in view. Everything else that acts is navy.",
         "section": "colors"
       },
       {
         "name": "The Red Is for Emergencies Rule",
-        "body": "Hotline Red belongs to the hotline bar and emergency calls only. Validation errors and warnings use the error-* ramp, so red always means \"call for help\".",
+        "body": "Hotline Red belongs to the hotline bar, the 911 pill and hotline links. Validation and errors use the error-* ramp.",
+        "section": "colors"
+      },
+      {
+        "name": "The Thread Carries Meaning Rule",
+        "body": "A thread colour appears only in the woven band, on a topic marker, or on a people chip. It is never a background for text, a button fill, or decoration without a topic behind it.",
         "section": "colors"
       },
       {
         "name": "The One Typeface Rule",
-        "body": "Inter carries everything. Don't add a display or serif face for character. Emphasis comes from weight (500/600/700) and size.",
+        "body": "Inter carries everything. No serif or display face for character, even though --font-serif is still defined.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rem Rule",
+        "body": "Type and spacing are set in rem so the A / A+ / A++ switch (100%, 112.5%, 125% on html) scales the whole page. Never set text in px.",
         "section": "typography"
       },
       {
         "name": "The Float Earns Shadow Rule",
-        "body": "A surface gets a real shadow only if it sits above other content: a menu, a popover, or the hero search panel. Static content uses a border.",
+        "body": "A surface gets a resting shadow only if it sits above other content: the masthead, a menu, the results list, or the hero search panel. Static cards use a 1px border.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do keep the three-band header (hotline red, white masthead, Mandaya Blue info strip) on every page.",
-      "Do use Durian Gold with Night Ink text for the primary action, and only one or two gold elements per screen.",
-      "Do put static content on white cards with a 1px hairline border and an 8px radius. Shadows are for things that float.",
-      "Do keep readable text at Muted Gray (#6c757d, 4.7:1) or darker. Never make text \"secondary\" with opacity or light tints.",
-      "Do keep tap targets at least 44px tall (min-h-11), and make whole cards the link.",
-      "Do gate movement on motion-safe:. Hover lifts and entrance fades must not run when the visitor prefers reduced motion.",
-      "Do register any icon named in YAML in src/lib/icons.ts. Never import * as from lucide-react.",
-      "Do extend the existing tokens in src/index.css (@theme). That file is the source of truth."
+      "Do keep the three-band header (hotline red, white masthead with the text-size switch, navy info strip) on every page.",
+      "Do wrap every band in site-container (80rem max, 1.25rem / 2rem / 3rem side padding).",
+      "Do give the main action a Golden Time fill with bold Navy Ink text (#1e306e), hovering to #debb3d; make every other filled action Davao Navy with white text, hovering to Navy Ink.",
+      "Do mark every service topic with its thread from src/lib/threads.ts on task rows, topic tiles, listings and search results.",
+      "Do keep the weave's shading at rgb(255 255 255 / 0.28) and rgb(0 0 0 / 0.18); they are part of the woven band.",
+      "Do put content on white cards with a 1px Hairline border and 8px corners, with shadow only on hover or for floating panels.",
+      "Do keep text at Muted Gray (#6c757d) or darker on white, and tap targets at least 44px.",
+      "Do keep sources, the summary block and verification stamps on guides.",
+      "Do size type in rem so the A / A+ / A++ switch scales it, and drop movement under prefers-reduced-motion.",
+      "Do meet WCAG 2.2 AA, with the WAI-ARIA tabs pattern on the \"I want to…\" hub."
     ],
     "donts": [
-      "Don't use campaign or political styling: no tarpaulin-poster type, no candidate-style portraits as hero art, no patriotic flourishes.",
-      "Don't use generic SaaS landing-page patterns: no gradient blobs, glassmorphism, or floating 3D illustrations.",
-      "Don't use Hotline Red for anything other than emergency contacts.",
-      "Don't use gray-400/gray-500 or opacity-* for text on white, or pink tints on Hotline Red. They fail WCAG AA.",
-      "Don't add a second typeface, and don't set headings in gold.",
-      "Don't recreate tailwind.config.js. Tailwind v4 reads tokens and keyframes from @theme in src/index.css.",
-      "Don't put an eyebrow label (small tracked uppercase text) directly above a heading. The heading carries its own weight.",
-      "Don't put a colored bar down one side of a rounded box, or nest cards inside cards. The officials page uses flat bordered cards and district dividers."
+      "Don't set gold buttons with white or near-black text; Navy Ink is the only text colour on gold.",
+      "Don't use Hotline Red outside the hotline bar and hotline actions.",
+      "Don't use a thread colour without a topic or a people behind it, or as a text background.",
+      "Don't add festival or tourism styling (bunting, postcard heroes, decorative ethnic patterns), or strip Davao out into a generic BetterGov clone.",
+      "Don't put an eyebrow label (small tracked uppercase text) above a heading.",
+      "Don't put a coloured side-stripe on a card or nest cards inside cards.",
+      "Don't show sources, \"Needs verification\" stamps, unverified figures, an A–Z index, or a language switcher on the home page.",
+      "Don't add a second typeface or set text in px.",
+      "Don't recreate tailwind.config.js; tokens live in @theme in src/index.css."
     ]
   }
 }

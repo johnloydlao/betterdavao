@@ -50,7 +50,7 @@ export const HOTLINE_CATEGORIES: HotlineCategory[] = [
         numbers: [
           { number: '0917 131 4333', tel: '09171314333' },
           { number: '0999 227 1111', tel: '09992271111' },
-          { number: '(082) 224 0911', tel: '082224091' },
+          { number: '(082) 224 0911', tel: '0822240911' },
         ],
       },
       {
@@ -84,7 +84,7 @@ export const HOTLINE_CATEGORIES: HotlineCategory[] = [
       {
         label: 'Davao City Reports',
         numbers: [
-          { number: '0916 131 2333', tel: '09161312333', navbar: true },
+          { number: '0917 131 2333', tel: '09171312333', navbar: true },
           { number: '0919 072 2222', tel: '09190722222' },
         ],
       },

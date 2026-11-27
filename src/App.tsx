@@ -13,10 +13,11 @@ const Services = lazy(() => import('./pages/Services'));
 const Document = lazy(() => import('./pages/Document'));
 const Government = lazy(() => import('./pages/Government'));
 const Hotlines = lazy(() => import('./pages/Hotlines'));
+const History = lazy(() => import('./pages/History'));
 
 function PageFallback() {
   return (
-    <div className="flex-grow container mx-auto px-4 py-12" role="status">
+    <div className="flex-grow site-container py-12" role="status">
       <p className="text-gray-600">Loading…</p>
     </div>
   );
@@ -60,6 +61,7 @@ function App() {
                     element={<Document categoryType="government" />}
                   />
                   <Route path="/hotlines" element={<Hotlines />} />
+                  <Route path="/history" element={<History />} />
                   <Route path="/:lang/:documentSlug" element={<Document />} />
                   <Route path="/:documentSlug" element={<Document />} />
                 </Routes>

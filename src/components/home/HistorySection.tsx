@@ -2,6 +2,11 @@ import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Heading } from '../ui/Heading';
 import Section from '../ui/Section';
+import {
+  ARTWORK_ARTIST,
+  ARTWORK_SOURCE,
+  ARTWORK_TITLE,
+} from '../../data/artwork';
 
 const EVENT_KEYS = [
   '1620',
@@ -73,7 +78,7 @@ function TimelineItem({
       </div>
 
       <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-4 mb-5 flex-1 hover:shadow-md transition-shadow">
-        <span className="inline-block text-xs font-black text-primary-700 bg-primary-50 px-2.5 py-0.5 rounded-full mb-2 border border-primary-100">
+        <span className="inline-block text-xs font-extrabold text-primary-700 bg-primary-50 px-2.5 py-0.5 rounded-full mb-2 border border-primary-100">
           {year}
         </span>
         <h3 className="font-bold text-gray-900 text-sm mb-1">{title}</h3>
@@ -89,10 +94,10 @@ export default function HistorySection() {
   const { t } = useTranslation('common');
 
   return (
-    <Section className="bg-secondary">
+    <Section className="pt-4 md:pt-6">
       <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-12">
         <div>
-          <Heading level={2} size={3}>
+          <Heading level={1} size={2}>
             {t('history.title')}
           </Heading>
           <div className="pl-2">
@@ -100,46 +105,42 @@ export default function HistorySection() {
               <TimelineItem key={key} eventKey={key} index={i} />
             ))}
           </div>
+          <p className="mt-6 text-sm text-gray-700 leading-relaxed">
+            Source:{' '}
+            <a
+              href="https://davaocity.gov.ph/wp-content/uploads/2018/09/Davao-History.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary-600 underline underline-offset-2 hover:text-primary-700"
+            >
+              Davao: A Brief History (PDF)
+            </a>
+            , City Government of Davao, 2018.
+          </p>
         </div>
 
-        <div className="hidden lg:flex flex-col justify-center gap-4">
-          <div
-            className="bg-primary-700 rounded-2xl p-6 text-white"
-            data-dark-surface
-          >
-            <div className="text-4xl font-black mb-2">
-              {t('history.charteredYear')}
-            </div>
-            <div className="text-primary-100 font-semibold text-lg mb-2">
-              {t('history.charteredLabel')}
-            </div>
-            <p className="text-primary-100 text-sm leading-relaxed">
-              {t('history.charteredDesc')}
-            </p>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-            <img
-              src={t('history.middleImageSrc')}
-              alt={t('history.middleImageAlt')}
-              width="900"
-              height="636"
-              loading="lazy"
-              decoding="async"
-              className="w-full h-100 object-cover"
-            />
-          </div>
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <div className="text-4xl font-black text-primary-700 mb-2">
-              {t('history.extraInfoYear')}
-            </div>
-            <div className="text-gray-800 font-semibold text-lg mb-2">
-              {t('history.extraInfoLabel')}
-            </div>
-            <p className="text-gray-700 text-sm leading-relaxed">
-              {t('history.extraInfoDesc')}
-            </p>
-          </div>
-        </div>
+        <figure className="hidden lg:block lg:sticky lg:top-28 self-start">
+          <img
+            src={t('history.middleImageSrc')}
+            alt={t('history.middleImageAlt')}
+            width="900"
+            height="636"
+            loading="lazy"
+            decoding="async"
+            className="w-full h-auto rounded-xl"
+          />
+          <figcaption className="mt-2 text-xs text-gray-700">
+            <a
+              href={ARTWORK_SOURCE}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-primary-600"
+            >
+              “{ARTWORK_TITLE}”
+            </a>{' '}
+            by {ARTWORK_ARTIST}
+          </figcaption>
+        </figure>
       </div>
     </Section>
   );

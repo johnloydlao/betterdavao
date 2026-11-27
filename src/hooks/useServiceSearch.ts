@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { serviceCategories, loadCategoryIndex } from '../data/yamlLoader';
+import { getAllServicePages, loadCategoryIndex } from '../data/yamlLoader';
 
 export interface SearchItem {
   id: string;
@@ -31,26 +31,18 @@ export function useServiceSearch() {
     const fetchAllData = async () => {
       const items: SearchItem[] = [];
 
-      const serviceCats = serviceCategories.categories as {
-        category: string;
-        slug: string;
-      }[];
-      const serviceResults = await Promise.all(
-        serviceCats.map(cat =>
-          loadCategoryIndex(cat.slug).then(idx => ({ cat, pages: idx.pages }))
-        )
-      );
-      for (const { cat, pages } of serviceResults) {
-        for (const page of pages) {
-          items.push({
-            id: `service-${cat.slug}-${page.slug}`,
-            name: page.name,
-            slug: page.slug,
-            categorySlug: cat.slug,
-            categoryName: cat.category,
-            type: 'service',
-          });
-        }
+      // Only written guides: a listed page without Markdown would open
+      // "Document Not Found", which the Services list already avoids.
+      for (const page of getAllServicePages()) {
+        if (!page.hasGuide) continue;
+        items.push({
+          id: `service-${page.categorySlug}-${page.slug}`,
+          name: page.name,
+          slug: page.slug,
+          categorySlug: page.categorySlug,
+          categoryName: page.categoryName,
+          type: 'service',
+        });
       }
 
       const govtResults = await Promise.all(

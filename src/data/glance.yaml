@@ -1,0 +1,35 @@
+# "Davao at a glance" figures on the home page.
+#
+# Every figure needs a source, listed below and in docs/data-sources.md.
+# Sources are not shown on the home page. Set `verified: false` when the
+# only source is secondary (not PSA or the City Government): the figure is
+# then hidden until an official source confirms it.
+
+sources:
+  - label: 'PSA, 2024 Census of Population, Davao Region highlights'
+    url: 'https://rsso11.psa.gov.ph/content/highlights-davao-regions-population-based-2024-census-population-popcen'
+  - label: 'PSA Davao del Sur, statistical tables'
+    url: 'https://rsso11.psa.gov.ph/system/files/11RSSO-DEL-SUR/Attachments/QS-2025-02PSO24-04.pdf'
+
+figures:
+  - value: '1,848,947'
+    label: 'People'
+    note: '2024 Census, as of July 1, 2024'
+    verified: true
+  - value: '182'
+    label: 'Barangays'
+    note: 'In 11 administrative districts'
+    verified: true
+  - value: '3'
+    label: 'Congressional districts'
+    note: 'Each elects its own councilors'
+    verified: true
+  - value: '2,443'
+    unit: 'km²'
+    label: 'Land area'
+    note: 'From secondary sources (PhilAtlas)'
+    verified: false
+  - value: '1936'
+    label: 'Became a city'
+    note: 'Commonwealth Act No. 51'
+    verified: true

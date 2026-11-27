@@ -86,6 +86,21 @@
   --color-gray-800: #343a40;
   --color-gray-900: #212529;
 
+  /* Hotline red: the emergency bar and hotline actions only, never errors. */
+  --color-hotline: oklch(57.7% 0.245 27.325);
+  --color-hotline-deep: oklch(50.5% 0.213 27.518);
+  --color-white: #ffffff;
+
+  /* Threads: colours sampled from "Davao's Golden Time of 2021" by Rembert Vergara Jr. Woven together
+     they are the Melting Pot band; one thread also marks each service topic. */
+  --color-thread-red: #9b2d20;
+  --color-thread-amber: #e0a030;
+  --color-thread-green: #5b7f2a;
+  --color-thread-orchid: #c2577f;
+  --color-thread-teal: #2a7f86;
+  --color-thread-indigo: #2b3a8a;
+  --color-thread-black: #1b1b1b;
+
   --animate-fade-in: fadeIn 0.5s ease-in-out;
   --animate-slide-in: slideIn 0.5s ease-out;
 
@@ -115,6 +130,152 @@
 @theme inline {
   --font-sans: var(--font-kapwa-sans);
   --font-mono: var(--font-kapwa-mono);
+}
+
+body {
+  color: var(--color-gray-900);
+}
+
+/* ── Site container ───────────────────────────────────────── */
+/* One measure for every band: capped at 80rem so lines and cards never
+   stretch to the monitor's edges, with side padding that grows with the
+   screen. Full-bleed pieces inside it use -mx-5 sm:-mx-8 to escape. */
+@utility site-container {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 40rem) {
+    padding-inline: 2rem;
+  }
+
+  @media (width >= 64rem) {
+    padding-inline: 3rem;
+  }
+}
+
+/* Reader text size (A / A+ / A++). Every rem in the type scale follows. */
+html[data-text-size='lg'] {
+  font-size: 112.5%;
+}
+
+html[data-text-size='xl'] {
+  font-size: 125%;
+}
+
+/* ── Davao weave ──────────────────────────────────────────── */
+/* Abaca ikat after the Bagobo inabal and Mandaya dagmay: stepped lozenges
+   on hero navy, each in cream, one artwork thread (red, amber, green,
+   orchid, teal) and a gold core, so the band hems the hero and keeps the
+   topic threads. Tile is 100 × 12 units and scales with the band height.
+   Generated: edit colours in the SVG, not by hand per path. */
+.weave {
+  position: relative;
+  height: 0.75rem;
+  background-color: var(--color-primary-600);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 12' shape-rendering='crispEdges'%3E%3Cpath fill='%231e3a8a' d='M0 0h100v12H0z'/%3E%3Cpath fill='%23f5efe6' d='M8 1h4v1h-4zM6 2h8v1h-8zM4 3h12v1h-12zM2 4h16v1h-16zM0 5h20v1h-20zM0 6h20v1h-20zM2 7h16v1h-16zM4 8h12v1h-12zM6 9h8v1h-8zM8 10h4v1h-4z'/%3E%3Cpath fill='%239b2d20' d='M8 2h4v1h-4zM6 3h8v1h-8zM4 4h12v1h-12zM2 5h16v1h-16zM2 6h16v1h-16zM4 7h12v1h-12zM6 8h8v1h-8zM8 9h4v1h-4z'/%3E%3Cpath fill='%231e3a8a' d='M8 3h4v1h-4zM6 4h8v1h-8zM4 5h12v1h-12zM4 6h12v1h-12zM6 7h8v1h-8zM8 8h4v1h-4z'/%3E%3Cpath fill='%23d4af37' d='M8 4h4v1h-4zM6 5h8v1h-8zM6 6h8v1h-8zM8 7h4v1h-4z'/%3E%3Cpath fill='%23f5efe6' d='M28 1h4v1h-4zM26 2h8v1h-8zM24 3h12v1h-12zM22 4h16v1h-16zM20 5h20v1h-20zM20 6h20v1h-20zM22 7h16v1h-16zM24 8h12v1h-12zM26 9h8v1h-8zM28 10h4v1h-4z'/%3E%3Cpath fill='%23e0a030' d='M28 2h4v1h-4zM26 3h8v1h-8zM24 4h12v1h-12zM22 5h16v1h-16zM22 6h16v1h-16zM24 7h12v1h-12zM26 8h8v1h-8zM28 9h4v1h-4z'/%3E%3Cpath fill='%231e3a8a' d='M28 3h4v1h-4zM26 4h8v1h-8zM24 5h12v1h-12zM24 6h12v1h-12zM26 7h8v1h-8zM28 8h4v1h-4z'/%3E%3Cpath fill='%23d4af37' d='M28 4h4v1h-4zM26 5h8v1h-8zM26 6h8v1h-8zM28 7h4v1h-4z'/%3E%3Cpath fill='%23f5efe6' d='M48 1h4v1h-4zM46 2h8v1h-8zM44 3h12v1h-12zM42 4h16v1h-16zM40 5h20v1h-20zM40 6h20v1h-20zM42 7h16v1h-16zM44 8h12v1h-12zM46 9h8v1h-8zM48 10h4v1h-4z'/%3E%3Cpath fill='%235b7f2a' d='M48 2h4v1h-4zM46 3h8v1h-8zM44 4h12v1h-12zM42 5h16v1h-16zM42 6h16v1h-16zM44 7h12v1h-12zM46 8h8v1h-8zM48 9h4v1h-4z'/%3E%3Cpath fill='%231e3a8a' d='M48 3h4v1h-4zM46 4h8v1h-8zM44 5h12v1h-12zM44 6h12v1h-12zM46 7h8v1h-8zM48 8h4v1h-4z'/%3E%3Cpath fill='%23d4af37' d='M48 4h4v1h-4zM46 5h8v1h-8zM46 6h8v1h-8zM48 7h4v1h-4z'/%3E%3Cpath fill='%23f5efe6' d='M68 1h4v1h-4zM66 2h8v1h-8zM64 3h12v1h-12zM62 4h16v1h-16zM60 5h20v1h-20zM60 6h20v1h-20zM62 7h16v1h-16zM64 8h12v1h-12zM66 9h8v1h-8zM68 10h4v1h-4z'/%3E%3Cpath fill='%23c2577f' d='M68 2h4v1h-4zM66 3h8v1h-8zM64 4h12v1h-12zM62 5h16v1h-16zM62 6h16v1h-16zM64 7h12v1h-12zM66 8h8v1h-8zM68 9h4v1h-4z'/%3E%3Cpath fill='%231e3a8a' d='M68 3h4v1h-4zM66 4h8v1h-8zM64 5h12v1h-12zM64 6h12v1h-12zM66 7h8v1h-8zM68 8h4v1h-4z'/%3E%3Cpath fill='%23d4af37' d='M68 4h4v1h-4zM66 5h8v1h-8zM66 6h8v1h-8zM68 7h4v1h-4z'/%3E%3Cpath fill='%23f5efe6' d='M88 1h4v1h-4zM86 2h8v1h-8zM84 3h12v1h-12zM82 4h16v1h-16zM80 5h20v1h-20zM80 6h20v1h-20zM82 7h16v1h-16zM84 8h12v1h-12zM86 9h8v1h-8zM88 10h4v1h-4z'/%3E%3Cpath fill='%232a7f86' d='M88 2h4v1h-4zM86 3h8v1h-8zM84 4h12v1h-12zM82 5h16v1h-16zM82 6h16v1h-16zM84 7h12v1h-12zM86 8h8v1h-8zM88 9h4v1h-4z'/%3E%3Cpath fill='%231e3a8a' d='M88 3h4v1h-4zM86 4h8v1h-8zM84 5h12v1h-12zM84 6h12v1h-12zM86 7h8v1h-8zM88 8h4v1h-4z'/%3E%3Cpath fill='%23d4af37' d='M88 4h4v1h-4zM86 5h8v1h-8zM86 6h8v1h-8zM88 7h4v1h-4z'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
+.weave::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0 1px,
+    rgb(0 0 0 / 0.12) 1px 2px
+  );
+}
+
+.weave-thin {
+  height: 0.375rem;
+}
+
+.weave-thin::after {
+  display: none;
+}
+
+/* ── Guide steps ──────────────────────────────────────────── */
+/* Ordered lists in guides are steps: numbered markers on one line, the
+   last step in gold so a resident sees where the process ends. */
+.markdown-content ol {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.markdown-content ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.75rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  min-height: 2.125rem;
+}
+
+.markdown-content ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -0.125rem;
+  display: grid;
+  place-items: center;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 9999px;
+  background-color: var(--color-primary-600);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.markdown-content ol > li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: calc(0.9375rem - 1px);
+  top: 1.875rem;
+  bottom: 0.125rem;
+  border-left: 2px solid var(--color-primary-100);
+}
+
+.markdown-content ol > li:last-child::before {
+  background-color: var(--color-accent-500);
+  color: var(--color-primary-700);
+}
+
+.markdown-content ul:not(.contains-task-list) > li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.markdown-content ul:not(.contains-task-list) > li::before {
+  content: '';
+  position: absolute;
+  left: 0.125rem;
+  top: 0.65em;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 9999px;
+  background-color: var(--color-primary-500);
+}
+
+/* "Needs verification" stays visible as a stamp, never hidden. */
+.stamp-unverified {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.0625rem 0.375rem;
+  border: 1px dashed var(--color-accent-800);
+  border-radius: 4px;
+  background-color: var(--color-accent-50);
+  color: var(--color-accent-900);
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 /* Checklist styling */
@@ -156,6 +317,8 @@
 html {
   caret-color: var(--color-primary-600);
   text-underline-offset: 0.2em;
+  scrollbar-color: var(--color-primary-300) var(--color-gray-100);
+  accent-color: var(--color-primary-600);
 }
 
 /* One visible keyboard focus ring everywhere; mouse clicks stay clean. */

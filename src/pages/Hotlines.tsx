@@ -20,7 +20,7 @@ const Hotlines: React.FC = () => {
       <div className="flex-grow bg-gray-50">
         {/* Hero banner */}
         <div className="bg-primary-800 text-white" data-dark-surface>
-          <div className="container mx-auto px-4 py-10">
+          <div className="site-container py-10">
             <div className="mb-4 [&_a]:text-primary-300 [&_a:hover]:text-white [&_svg]:text-primary-400 [&_span]:text-primary-100">
               <Breadcrumbs
                 items={[{ label: 'Home', href: '/' }, { label: 'Hotlines' }]}
@@ -45,15 +45,15 @@ const Hotlines: React.FC = () => {
               >
                 <span className="flex items-center justify-center h-12 w-12 rounded-full bg-red-100 shrink-0">
                   <Phone
-                    className="h-6 w-6 text-red-600 motion-safe:animate-pulse group-hover:animate-none motion-safe:group-hover:scale-110 transition-transform duration-200"
+                    className="h-6 w-6 text-hotline motion-safe:animate-pulse group-hover:animate-none motion-safe:group-hover:scale-110 transition-transform duration-200"
                     aria-hidden="true"
                   />
                 </span>
                 <span>
-                  <span className="block text-xs font-semibold uppercase tracking-widest text-red-700 mb-0.5">
+                  <span className="block text-xs font-semibold uppercase tracking-widest text-hotline-deep mb-0.5">
                     {featuredHotline.label}
                   </span>
-                  <span className="block text-5xl font-black text-red-600 leading-none tabular-nums">
+                  <span className="block text-5xl font-extrabold text-hotline leading-none tabular-nums">
                     {featuredHotline.numbers[0].number}
                   </span>
                   {featuredHotline.description && (
@@ -68,7 +68,7 @@ const Hotlines: React.FC = () => {
         </div>
 
         {/* Categories */}
-        <div className="container mx-auto px-4 py-10 space-y-8">
+        <div className="site-container py-10 space-y-8">
           {HOTLINE_CATEGORIES.map(({ category, icon, hotlines }) => {
             const Icon = getIcon(icon);
 
@@ -94,7 +94,7 @@ const Hotlines: React.FC = () => {
                         className="flex items-start gap-3 bg-white rounded-xl border border-gray-200 px-4 py-3.5 hover:border-primary-400 hover:shadow-sm transition-all duration-200 group"
                       >
                         <Phone
-                          className="h-4 w-4 mt-0.5 text-red-600 shrink-0 motion-safe:group-hover:scale-110 transition-transform duration-200"
+                          className="h-4 w-4 mt-0.5 text-hotline shrink-0 motion-safe:group-hover:scale-110 transition-transform duration-200"
                           aria-hidden="true"
                         />
                         <div className="min-w-0">

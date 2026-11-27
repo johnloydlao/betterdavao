@@ -76,7 +76,7 @@ const Government: React.FC = () => {
   if (SpecializedCategory && categoryData) {
     if (loading || !specializedContent) {
       return (
-        <Section className="p-3 mb-12">
+        <Section className="py-6 md:py-10">
           <Breadcrumbs className="mb-8" />
           <div className="flex justify-center items-center p-8">
             <Text>Loading...</Text>
@@ -110,6 +110,7 @@ const Government: React.FC = () => {
           keywords="Davao City government, officials, departments, city council"
         />
         <GovernmentActivitySection
+          headingLevel={1}
           title="Government"
           description={`Officials, departments, and public information from the ${import.meta.env.VITE_GOVERNMENT_NAME}.`}
         />
@@ -118,7 +119,7 @@ const Government: React.FC = () => {
   }
   if (!categoryData) {
     return (
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Breadcrumbs className="mb-8" />
         <Banner
           type="error"
@@ -140,7 +141,7 @@ const Government: React.FC = () => {
         description={categoryData.description}
         keywords={`${categoryData.category}, government services, public services, local government`}
       />
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Breadcrumbs className="mb-8" />
         {Icon && (
           <Icon

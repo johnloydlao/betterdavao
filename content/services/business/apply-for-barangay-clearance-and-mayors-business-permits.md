@@ -115,4 +115,4 @@ An amendment to a business permit (for example a change of address or an additio
 
 ---
 
-_Sources: [Online Business Permit Licensing System](https://appbts.davaocity.gov.ph/); [City Government of Davao Citizen's Charter, Volume I (2024 revision)](https://web.archive.org/web/2025/https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf), Business Bureau and CENRO sections; [Business Bureau](https://www.davaocity.gov.ph/?p=1391) and [City Treasurer's Office](https://davaocity.gov.ph/departments/fiscal-management/city-treasurers-office/) pages. Last verified: 2026-11-23._
+_Sources: [Online Business Permit Licensing System](https://appbts.davaocity.gov.ph/); [City Government of Davao Citizen's Charter, Volume I (2024 revision)](https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf), Business Bureau and CENRO sections; [Business Bureau](https://www.davaocity.gov.ph/?p=1391) and [City Treasurer's Office](https://davaocity.gov.ph/departments/fiscal-management/city-treasurers-office/) pages. Last verified: 2026-11-23._

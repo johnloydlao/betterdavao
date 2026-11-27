@@ -1,27 +1,13 @@
 import { useId, useState } from 'react';
-import { Link } from 'react-router-dom';
-import {
-  Search,
-  Briefcase,
-  Heart,
-  GraduationCap,
-  Trash2,
-  TreePine,
-  Home,
-} from 'lucide-react';
+import { Search } from 'lucide-react';
+import { threadClass } from '../../lib/threads';
 import {
   useServiceSearch,
   type SearchItem,
 } from '../../hooks/useServiceSearch';
 
-const POPULAR_CATEGORIES = [
-  { label: 'Business', slug: 'business', icon: Briefcase },
-  { label: 'Health', slug: 'health-services', icon: Heart },
-  { label: 'Education', slug: 'education', icon: GraduationCap },
-  { label: 'Waste', slug: 'garbage-waste-disposal', icon: Trash2 },
-  { label: 'Environment', slug: 'environment', icon: TreePine },
-  { label: 'Housing', slug: 'housing-land-use', icon: Home },
-];
+// Example searches that match real guide titles.
+const TRY_QUERIES = ['business permit', 'housing', 'garbage', 'senior'];
 
 function highlight(text: string, query: string) {
   if (!query.trim()) return <>{text}</>;
@@ -63,12 +49,16 @@ function SearchResultItem({
         onSelect(item);
       }}
       onMouseEnter={onHover}
-      className={`cursor-pointer px-4 py-2.5 text-sm flex items-center gap-2 transition-colors ${
+      className={`cursor-pointer px-4 py-2.5 text-base flex items-center gap-3 transition-colors ${
         active ? 'bg-primary-50' : ''
       }`}
     >
-      <Search
-        className="h-3.5 w-3.5 text-primary-500 shrink-0"
+      <span
+        className={`w-1.5 h-7 rounded-full shrink-0 ${
+          item.type === 'service'
+            ? threadClass(item.categorySlug)
+            : 'bg-gray-400'
+        }`}
         aria-hidden="true"
       />
       <div className="flex flex-col flex-1 leading-tight">
@@ -129,26 +119,34 @@ export function ServiceSearch() {
     }
   };
 
+  const tryQuery = (q: string) => {
+    setQuery(q);
+    setShowDropdown(true);
+    setActiveIndex(-1);
+    inputRef.current?.focus();
+  };
+
   return (
-    <div className="bg-white rounded-2xl p-6 shadow-2xl">
-      <label
-        htmlFor={inputId}
-        className="block text-gray-800 font-bold text-base mb-3"
-      >
+    <div className="bg-white text-gray-900 rounded-2xl p-4 sm:p-6 shadow-2xl">
+      <label htmlFor={inputId} className="block font-bold text-base mb-2.5">
         Search services
       </label>
 
-      <div className="relative mb-5">
-        <form onSubmit={handleSearch} role="search">
-          <div className="relative">
+      <div className="relative">
+        <form
+          onSubmit={handleSearch}
+          role="search"
+          className="flex flex-col sm:flex-row gap-2"
+        >
+          <div className="relative flex-1">
             <Search
-              className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-600 pointer-events-none"
+              className="absolute left-3.5 top-1/2 -translate-y-1/2 h-[1.125rem] w-[1.125rem] text-gray-600 pointer-events-none"
               aria-hidden="true"
             />
             <input
               id={inputId}
               ref={inputRef}
-              type="text"
+              type="search"
               role="combobox"
               aria-autocomplete="list"
               aria-expanded={isOpen}
@@ -165,10 +163,16 @@ export function ServiceSearch() {
               }}
               onFocus={() => setShowDropdown(true)}
               onKeyDown={onKeyDown}
-              placeholder="e.g. business permit, scholarship"
-              className="w-full min-h-11 border border-gray-300 rounded-lg pl-9 pr-4 py-2.5 text-base sm:text-sm text-gray-800 placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              placeholder="e.g. permit, scholarship"
+              className="w-full h-12 border border-gray-300 rounded-lg pl-10 pr-4 text-base text-gray-900 placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             />
           </div>
+          <button
+            type="submit"
+            className="h-12 px-6 rounded-lg bg-accent-500 hover:bg-accent-400 text-primary-700 font-bold transition-colors"
+          >
+            Search
+          </button>
         </form>
 
         <div
@@ -196,29 +200,19 @@ export function ServiceSearch() {
         </div>
       </div>
 
-      <h2 className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-3">
-        Popular services
-      </h2>
-      <ul className="grid grid-cols-3 gap-2">
-        {POPULAR_CATEGORIES.map(cat => {
-          const Icon = cat.icon;
-          return (
-            <li key={cat.slug}>
-              <Link
-                to={`/services/${cat.slug}`}
-                className="flex h-full flex-col items-center gap-1.5 p-3 rounded-xl border border-gray-200 hover:border-primary-200 hover:bg-primary-50 transition-colors text-center group"
-              >
-                <span className="p-2 rounded-lg bg-primary-100 text-primary-600 motion-safe:group-hover:scale-110 transition-transform">
-                  <Icon className="h-5 w-5" aria-hidden="true" />
-                </span>
-                <span className="text-xs font-medium text-gray-700 leading-tight">
-                  {cat.label}
-                </span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+      <div className="flex flex-wrap items-center gap-2 mt-3.5 text-sm text-gray-700">
+        <span>Try:</span>
+        {TRY_QUERIES.map(q => (
+          <button
+            key={q}
+            type="button"
+            onClick={() => tryQuery(q)}
+            className="min-h-9 px-2.5 rounded-md border border-gray-200 font-semibold text-primary-600 hover:bg-primary-50 hover:border-primary-200"
+          >
+            {q}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

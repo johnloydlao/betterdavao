@@ -1,191 +1,166 @@
 import React, { useState } from 'react';
-import { X, Menu, ChevronDown, Globe, Search, Phone } from 'lucide-react';
-import { mainNavigation } from '../../data/navigation';
-import type { LanguageType } from '../../types/index';
-import { Link } from 'react-router-dom';
+import { X, Menu, ChevronDown, Phone, ArrowRight } from 'lucide-react';
+import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { LANGUAGES } from '../../i18n/languages';
+import { mainNavigation } from '../../data/navigation';
 import { NAVBAR_HOTLINES as HOTLINES } from '../../data/hotlines';
 import InfoStrip from './InfoStrip';
-
-const NAV_UNDERLINE =
-  "after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-accent-500 after:transition-[width] after:duration-[400ms] after:ease-in-out hover:after:w-full focus-visible:after:w-full";
+import TextSizeControl from './TextSizeControl';
 
 const MOBILE_LINK =
-  'flex items-center min-h-11 px-4 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-600';
+  'flex items-center min-h-11 px-4 text-base font-medium text-gray-800 hover:bg-gray-50 hover:text-primary-600';
+
+/** "Davao City Reports" reads as "Reports" in the tight mobile grid. */
+const shortLabel = (label: string) => label.replace(/^Davao City\s+/i, '');
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
 
   const navLabel = (label: string) =>
-    t(`navbar.${label.replace(' ', '').toLowerCase()}`);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    if (isOpen) {
-      setActiveMenu(null);
-    }
-  };
+    t(`navbar.${label.replace(' ', '').toLowerCase()}`, label);
 
   const closeMenu = () => {
     setIsOpen(false);
     setActiveMenu(null);
   };
 
-  const toggleSubmenu = (label: string) => {
-    setActiveMenu(activeMenu === label ? null : label);
-  };
+  const toggleMenu = () => (isOpen ? closeMenu() : setIsOpen(true));
 
-  const changeLanguage = (newLanguage: LanguageType) => {
-    i18n.changeLanguage(newLanguage);
-  };
+  const toggleSubmenu = (label: string) =>
+    setActiveMenu(activeMenu === label ? null : label);
+
+  const featured = HOTLINES.filter(h => h.featured);
+  const others = HOTLINES.filter(h => !h.featured);
 
   return (
     <>
-      {/* ── Emergency Hotlines Bar ─────────────────────────── */}
-      <div className="bg-red-600 text-white" data-hotline-bar>
-        <div className="px-4 py-2 mx-auto">
-          {/* Label: mobile only */}
-          <div className="flex items-center justify-center gap-2 mb-1.5 sm:hidden">
-            <Phone className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-            <span className="text-xs font-bold uppercase tracking-wide">
-              Hotlines
-            </span>
-          </div>
-          {/* Mobile: featured full-width, rest in 2-col grid */}
-          <div className="sm:hidden space-y-1">
-            {HOTLINES.filter(h => h.featured).map(h => (
+      {/* ── Emergency hotlines: always visible, every breakpoint ── */}
+      <div className="bg-hotline text-white" data-hotline-bar>
+        {/* Mobile: one big 911 button, three city numbers, then all */}
+        <div className="sm:hidden px-3 pt-2 pb-1">
+          {featured.map(h => (
+            <a
+              key={h.number.tel}
+              href={`tel:${h.number.tel}`}
+              className="flex items-center justify-center gap-2 min-h-11 bg-white text-hotline-deep rounded-lg font-extrabold text-base hover:bg-red-50 transition-colors"
+            >
+              <Phone className="h-4 w-4 shrink-0" aria-hidden="true" />
+              Call {h.number.number} · Emergency
+            </a>
+          ))}
+          <ul className="grid grid-cols-3 mt-1">
+            {others.map(h => (
+              <li key={h.number.tel}>
+                <a
+                  href={`tel:${h.number.tel}`}
+                  aria-label={`Call ${h.label}, ${h.number.number}`}
+                  className="flex flex-col items-center justify-center min-h-11 py-1 text-center text-xs leading-tight hover:underline"
+                >
+                  <span className="font-bold">{shortLabel(h.label)}</span>
+                  <span className="tabular-nums">{h.number.number}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <Link
+            to="/hotlines"
+            className="flex items-center justify-center min-h-9 text-xs font-semibold underline underline-offset-2 hover:no-underline"
+          >
+            View all hotlines
+            <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+          </Link>
+        </div>
+
+        {/* Desktop: one centered row */}
+        <div className="hidden sm:flex items-center justify-center gap-1 px-4 py-1.5 overflow-x-auto whitespace-nowrap text-xs">
+          <Phone className="h-3.5 w-3.5 mr-1 shrink-0" aria-hidden="true" />
+          <span className="font-bold uppercase tracking-wide mr-2">
+            Hotlines
+          </span>
+          {HOTLINES.map(h =>
+            h.featured ? (
               <a
                 key={h.number.tel}
                 href={`tel:${h.number.tel}`}
-                className="flex items-center justify-center gap-2 min-h-11 bg-white text-red-700 rounded-lg font-black text-sm hover:bg-red-50 transition-colors"
+                aria-label={`Call ${h.number.number}, ${h.label}`}
+                className="inline-flex items-center gap-1.5 bg-white text-hotline-deep font-extrabold px-3 py-1 rounded-full hover:bg-red-50 transition-colors mx-1"
               >
-                <Phone className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                {h.number.number} — {h.label}
+                {h.number.number} Emergency
               </a>
-            ))}
-            <div className="grid grid-cols-2 gap-x-2">
-              {HOTLINES.filter(h => !h.featured).map(h => (
+            ) : (
+              <React.Fragment key={h.number.tel}>
                 <a
-                  key={h.number.tel}
                   href={`tel:${h.number.tel}`}
-                  className="flex flex-col items-center justify-center min-h-11 py-1 text-center text-xs leading-snug hover:underline"
+                  className="px-2.5 py-1.5 hover:underline"
                 >
-                  <span className="font-bold">{h.label}</span>
+                  <span className="font-bold">{shortLabel(h.label)}:</span>{' '}
                   <span className="tabular-nums">{h.number.number}</span>
                 </a>
-              ))}
-            </div>
-          </div>
-          <div className="flex justify-center sm:hidden">
-            <Link
-              to="/hotlines"
-              className="inline-flex items-center min-h-11 px-3 text-xs font-semibold text-white underline underline-offset-2 hover:no-underline"
-            >
-              View all hotlines &rarr;
-            </Link>
-          </div>
-          {/* Desktop: single centered row */}
-          <div className="hidden sm:flex items-center justify-center gap-1 overflow-x-auto whitespace-nowrap">
-            <Phone className="h-3.5 w-3.5 mr-2 shrink-0" aria-hidden="true" />
-            <span className="text-xs font-bold uppercase tracking-wide mr-2">
-              Hotlines
-            </span>
-            {HOTLINES.map((h, i) => (
-              <React.Fragment key={h.number.tel}>
-                {h.featured ? (
-                  <a
-                    href={`tel:${h.number.tel}`}
-                    aria-label={`Call ${h.number.number}, ${h.label}`}
-                    className="inline-flex items-center gap-1.5 bg-white text-red-700 font-black text-xs px-3 py-1 rounded-full hover:bg-red-50 transition-colors mx-1"
-                  >
-                    <Phone className="h-3 w-3 shrink-0" aria-hidden="true" />
-                    {h.number.number}
-                  </a>
-                ) : (
-                  <a
-                    href={`tel:${h.number.tel}`}
-                    className="px-3 py-1.5 text-xs hover:underline"
-                  >
-                    <span className="font-bold">{h.label}:</span>{' '}
-                    <span className="tabular-nums">{h.number.number}</span>
-                  </a>
-                )}
-                {i < HOTLINES.length - 1 && !h.featured && (
-                  <span
-                    className="text-red-200 select-none mx-0.5"
-                    aria-hidden="true"
-                  >
-                    |
-                  </span>
-                )}
+                <span className="text-red-200 select-none" aria-hidden="true">
+                  |
+                </span>
               </React.Fragment>
-            ))}
-            <span
-              className="text-red-200 select-none mx-0.5"
-              aria-hidden="true"
-            >
-              |
-            </span>
-            <Link
-              to="/hotlines"
-              className="text-xs font-semibold text-white px-3 py-1.5 underline underline-offset-2 hover:no-underline"
-            >
-              View all &rarr;
-            </Link>
-          </div>
+            )
+          )}
+          <Link
+            to="/hotlines"
+            className="inline-flex items-center font-semibold px-2.5 py-1.5 underline underline-offset-2 hover:no-underline"
+          >
+            View all
+            <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+          </Link>
         </div>
       </div>
 
       <nav className="bg-white shadow-sm sticky top-0 z-50" aria-label="Main">
-        {/* Main navigation */}
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center h-20">
-            <div className="flex items-center">
-              <Link
-                to="/"
-                className="flex items-center rounded-md motion-safe:transition-transform motion-safe:duration-200 motion-safe:hover:-translate-y-px"
-              >
-                <img
-                  src="/logo-masthead.png"
-                  alt=""
-                  width="160"
-                  height="160"
-                  className="h-12 w-12 sm:h-16 sm:w-16 lg:h-20 lg:w-20"
-                />
-                <span className="ml-2 font-sans font-bold tracking-tight text-primary-700 text-base sm:text-lg leading-tight">
-                  {import.meta.env.VITE_WEBSITE_URL}
-                </span>
-              </Link>
-            </div>
+        <div className="site-container">
+          <div className="flex items-center gap-6 h-16 lg:h-19">
+            <Link to="/" className="flex items-center gap-2 rounded-md min-w-0">
+              <img
+                src="/logo-masthead.png"
+                alt=""
+                width="160"
+                height="160"
+                className="h-10 w-10 lg:h-12 lg:w-12 shrink-0"
+              />
+              <span className="truncate font-bold tracking-tight text-primary-700 text-base lg:text-lg leading-tight">
+                {import.meta.env.VITE_WEBSITE_URL}
+              </span>
+            </Link>
 
             {/* Desktop navigation */}
-            <div className="hidden lg:flex items-center space-x-1">
+            <ul className="hidden lg:flex items-center gap-1">
               {mainNavigation.map(item => (
-                <div key={item.label} className="relative group">
-                  <Link
+                <li key={item.label} className="relative group">
+                  <NavLink
                     to={item.href}
                     aria-haspopup={item.children ? 'true' : undefined}
-                    className={`relative font-sans flex items-center px-4 py-2 text-base font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out ${NAV_UNDERLINE}`}
+                    className={({ isActive }) =>
+                      `flex items-center px-3.5 py-2.5 text-base font-medium transition-colors ${
+                        isActive
+                          ? 'text-primary-600 shadow-[inset_0_-2px_0_var(--color-accent-500)]'
+                          : 'text-gray-700 hover:text-primary-600'
+                      }`
+                    }
                   >
                     {navLabel(item.label)}
                     {item.children && (
                       <ChevronDown
-                        className="ml-1 h-4 w-4 text-gray-600 transition-transform duration-300 ease-in-out group-hover:rotate-180 group-focus-within:rotate-180"
+                        className="ml-1 h-4 w-4 text-gray-600 transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180"
                         aria-hidden="true"
                       />
                     )}
-                  </Link>
+                  </NavLink>
                   {item.children && (
-                    <div className="absolute left-0 mt-1 w-64 rounded-xl shadow-xl bg-white border border-gray-100 opacity-0 invisible -translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 transition-all duration-200 ease-out z-50 overflow-hidden">
+                    <div className="absolute left-0 mt-1 w-72 rounded-xl shadow-xl bg-white border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-opacity duration-150 z-50 overflow-hidden">
                       <ul className="py-2">
                         {item.children.map(child => (
                           <li key={child.label}>
                             <Link
                               to={child.href}
-                              className="font-sans flex items-center min-h-11 px-5 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 focus-visible:bg-primary-50 transition-colors duration-150"
+                              className="flex items-center min-h-11 px-5 text-sm text-gray-800 hover:bg-primary-50 hover:text-primary-700 focus-visible:bg-primary-50"
                             >
                               {child.label}
                             </Link>
@@ -194,49 +169,29 @@ const Navbar: React.FC = () => {
                       </ul>
                     </div>
                   )}
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
 
-            {/* Right side actions */}
-            <div className="hidden lg:flex items-center space-x-6">
-              <Link
-                to="/about"
-                className={`relative font-sans text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors duration-300 ease-in-out ${NAV_UNDERLINE}`}
-              >
-                About
-              </Link>
-              <Link
-                to="/search"
-                className="group font-sans flex items-center px-4 py-2 text-sm font-medium text-primary-900 bg-accent-500 hover:bg-accent-600 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ease-in-out motion-safe:hover:-translate-y-px"
-              >
-                <Search
-                  className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out motion-safe:group-hover:scale-110 motion-safe:group-hover:rotate-[5deg]"
-                  aria-hidden="true"
-                />
-                Search
-              </Link>
+            <div className="hidden lg:flex items-center gap-3 ml-auto">
+              <TextSizeControl />
             </div>
 
             {/* Mobile menu button */}
-            <div className="lg:hidden flex items-center">
-              <button
-                type="button"
-                onClick={toggleMenu}
-                aria-expanded={isOpen}
-                aria-controls="mobile-menu"
-                className="inline-flex items-center justify-center h-11 w-11 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-100 transition-colors"
-              >
-                <span className="sr-only">
-                  {isOpen ? 'Close main menu' : 'Open main menu'}
-                </span>
-                {isOpen ? (
-                  <X className="block h-6 w-6" aria-hidden="true" />
-                ) : (
-                  <Menu className="block h-6 w-6" aria-hidden="true" />
-                )}
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={toggleMenu}
+              aria-expanded={isOpen}
+              aria-controls="mobile-menu"
+              className="lg:hidden ml-auto shrink-0 inline-flex items-center gap-2 h-11 px-3.5 rounded-lg border border-gray-300 font-semibold text-gray-800 hover:bg-gray-50"
+            >
+              {isOpen ? (
+                <X className="h-5 w-5" aria-hidden="true" />
+              ) : (
+                <Menu className="h-5 w-5" aria-hidden="true" />
+              )}
+              {isOpen ? 'Close' : 'Menu'}
+            </button>
           </div>
         </div>
 
@@ -245,7 +200,7 @@ const Navbar: React.FC = () => {
           id="mobile-menu"
           className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}
         >
-          <div className="container mx-auto px-2 pt-2 pb-4 space-y-1 border-t border-gray-200 bg-white">
+          <div className="site-container pt-2 pb-4 space-y-1 border-t border-gray-200 bg-white">
             {mainNavigation.map(item =>
               item.children ? (
                 <div key={item.label}>
@@ -283,7 +238,7 @@ const Navbar: React.FC = () => {
                           <Link
                             to={child.href}
                             onClick={closeMenu}
-                            className="flex items-center min-h-11 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary-600"
+                            className="flex items-center min-h-11 px-4 text-sm text-gray-800 hover:bg-gray-100 hover:text-primary-600"
                           >
                             {child.label}
                           </Link>
@@ -303,38 +258,11 @@ const Navbar: React.FC = () => {
                 </Link>
               )
             )}
-            <Link
-              to="/join-us"
-              onClick={closeMenu}
-              className="flex items-center min-h-11 px-4 text-base font-semibold text-primary-600 hover:bg-primary-50 hover:text-primary-700"
-            >
-              Join Us
-            </Link>
-            <Link to="/about" onClick={closeMenu} className={MOBILE_LINK}>
-              About
-            </Link>
-            <Link to="/search" onClick={closeMenu} className={MOBILE_LINK}>
-              Search
-            </Link>
-            <Link to="/sitemap" onClick={closeMenu} className={MOBILE_LINK}>
-              Sitemap
-            </Link>
-            <div className="px-4 py-3 border-t border-gray-200">
-              <label className="flex items-center gap-2">
-                <Globe className="h-5 w-5 text-gray-800" aria-hidden="true" />
-                <span className="sr-only">Language</span>
-                <select
-                  value={i18n.language}
-                  onChange={e => changeLanguage(e.target.value as LanguageType)}
-                  className="min-h-11 text-sm border border-gray-300 rounded-md px-2 bg-white text-gray-700 hover:border-primary-600"
-                >
-                  {Object.entries(LANGUAGES).map(([code, lang]) => (
-                    <option key={code} value={code}>
-                      {lang.nativeName}
-                    </option>
-                  ))}
-                </select>
-              </label>
+            <div className="flex items-center gap-3 px-4 pt-3 mt-2 border-t border-gray-200">
+              <span className="text-sm font-semibold text-gray-800">
+                Text size
+              </span>
+              <TextSizeControl />
             </div>
           </div>
         </div>

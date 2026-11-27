@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0 0 0 / 0.18)",
+        "createdAt": "2026-11-25T07:33:58.711Z",
+        "reason": "Melting Pot weave shading (.weave::after), documented in DESIGN.md and .impeccable/design.json by the documenter"
+      }
+    ]
+  }
+}

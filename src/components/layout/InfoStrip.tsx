@@ -144,7 +144,7 @@ export default function InfoStrip() {
 
   return (
     <div className="bg-primary-800" data-dark-surface>
-      <div className="container mx-auto px-4 flex justify-end items-center min-h-10 py-1">
+      <div className="site-container flex justify-end items-center min-h-10 py-1">
         <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-0.5 text-xs text-white">
           <span className="flex items-center gap-1">
             <span

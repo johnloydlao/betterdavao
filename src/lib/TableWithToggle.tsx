@@ -149,9 +149,9 @@ export const TableWithToggle = ({
   }, [children, viewMode]);
 
   return (
-    <div className="-mx-4 sm:mx-0 mb-6">
+    <div className="-mx-5 sm:mx-0 mb-6">
       {/* View Toggle Buttons */}
-      <div className="flex justify-end mb-4 gap-2 px-4 sm:px-0">
+      <div className="flex justify-end mb-4 gap-2 px-5 sm:px-0">
         <button
           onClick={() => setViewMode('table')}
           className={`px-3 py-2 text-sm font-medium rounded-md transition-colors flex items-center gap-2 ${
@@ -194,7 +194,7 @@ export const TableWithToggle = ({
         <div className="divide-y divide-gray-200 border-y border-gray-200">
           {tableData?.rows && tableData.rows.length > 0 ? (
             tableData.rows.map((row, index) => (
-              <div key={index} className="py-4">
+              <div key={index} className="py-4 px-5 sm:px-0">
                 <div className="grid gap-3">
                   {tableData.headers.map((header, headerIndex) => (
                     <div

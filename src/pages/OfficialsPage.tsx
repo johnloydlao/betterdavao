@@ -215,14 +215,17 @@ export default function OfficialsPage({
   const sections = parseSections(markdownContent.content);
   const sectionMap = Object.fromEntries(sections.map(s => [s.heading, s.body]));
 
+  // List markers are styled under .markdown-content (index.css).
   const Prose = ({ content }: { content: string }) => (
-    <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
-      rehypePlugins={[rehypeRaw]}
-      components={markdownComponents}
-    >
-      {content}
-    </ReactMarkdown>
+    <div className="markdown-content">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
+        components={markdownComponents}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
   );
 
   return (
@@ -234,7 +237,7 @@ export default function OfficialsPage({
         }
         keywords="mayor, vice mayor, city council, sangguniang panlungsod, congress, legislative district, councilor, local government"
       />
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Breadcrumbs className="mb-8" items={breadcrumbs} />
         <Heading level={1}>{markdownContent.title || 'Officials'}</Heading>
         {sectionMap['Officials'] && <Prose content={sectionMap['Officials']} />}
