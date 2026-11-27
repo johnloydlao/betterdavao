@@ -6,6 +6,8 @@ Illegal dumping, open burning and non-segregation are prohibited under **City Or
 
 ## 1) What Is Prohibited (Section 44)
 
+Prohibited acts include:
+
 - Littering, scattering, throwing or dumping waste in public places: roads, sidewalks, canals, esteros, gutters, parks, school campuses, public buildings, riverbanks, coastlines, rivers, creeks and seas
 - Throwing waste at a collection point outside the prescribed schedule
 - Littering from vehicles
@@ -56,6 +58,7 @@ Contested cases are punished by court-imposed fines of up to ₱5,000 and/or com
 **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
 
 - Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Office hours: 8:00 AM – 5:00 PM
 - Phone: (082) 227-2655 or (082) 244-0094
 - Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
 - Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)

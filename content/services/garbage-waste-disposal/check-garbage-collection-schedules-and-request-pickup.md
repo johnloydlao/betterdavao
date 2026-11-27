@@ -15,6 +15,8 @@ The **City Environment and Natural Resources Office (CENRO)** provides **solid w
 
 The city publishes no single citywide schedule. Ask **CENRO** for the collection point and time schedule in your area (see Contact below). Your barangay may also know the local collection point.
 
+Collection may be disrupted at times. Check [CENRO's official Facebook page](https://www.facebook.com/cenrodavaocity) or call CENRO for current advisories.
+
 ---
 
 ## 2) Special Collection
@@ -37,6 +39,7 @@ CENRO issues an **Order of Payment for Special Collection and Tipping Fees**. Th
 **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
 
 - Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Office hours: 8:00 AM – 5:00 PM
 - Phone: (082) 227-2655 or (082) 244-0094
 - Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
 - Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)

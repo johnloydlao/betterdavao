@@ -35,6 +35,7 @@ Separately, mixing toxic and hazardous wastes **from health care facilities, ind
 **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
 
 - Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Office hours: 8:00 AM – 5:00 PM
 - Phone: (082) 227-2655 or (082) 244-0094
 - Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
 - Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)

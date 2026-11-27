@@ -40,6 +40,8 @@ The certificate is one of the business permit requirements. See [Check garbage c
 
 ## 4) Penalties (Section 44–45, as amended)
 
+Common violations and penalties:
+
 | Violation                                                                                                                                                                            | Fine            | Other penalty                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- | --------------------------------------- |
 | Non-segregation of solid waste; causing or permitting collection of unsorted waste                                                                                                   | ₱3,000 – ₱5,000 | and/or 15 days to 6 months imprisonment |
@@ -60,6 +62,7 @@ Fines are set by the court. Under the **No Contest Provision** (Section 48-A), a
 **City Environment and Natural Resources Office (CENRO)**, Environmental and Waste Management Division
 
 - Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Office hours: 8:00 AM – 5:00 PM
 - Phone: (082) 227-2655 or (082) 244-0094
 - Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
 - Facebook: [facebook.com/cenrodavaocity](https://www.facebook.com/cenrodavaocity)
