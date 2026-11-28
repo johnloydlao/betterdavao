@@ -1,0 +1,33 @@
+# "Latest updates" on the home page: changes to this guide, newest first.
+#
+# Add one entry with each content pull request. This lists changes to
+# BetterDavao only; do not repost City advisories or barangay notices.
+# type: 'new' for a new guide or page, 'updated' for corrections and checks.
+# href is optional and should point to a page on this site.
+
+updates:
+  - date: '2026-11-24'
+    type: updated
+    title: 'Housing and land use guides updated'
+    detail: 'Socialized housing, relocation, zoning and building permits'
+    href: '/services/housing-land-use'
+  - date: '2026-11-23'
+    type: updated
+    title: 'Business permit guides updated'
+    detail: "Steps, validity and fees from the 2024 Citizen's Charter"
+    href: '/services/business'
+  - date: '2026-11-23'
+    type: updated
+    title: 'Social welfare guides updated'
+    detail: 'Senior, PWD and solo parent aid; relief and family support'
+    href: '/services/social-welfare'
+  - date: '2026-11-17'
+    type: updated
+    title: 'Garbage and waste guides updated'
+    detail: 'Confirmed CENRO phone numbers and pickup requests'
+    href: '/services/garbage-waste-disposal'
+  - date: '2026-11-17'
+    type: new
+    title: 'Photos added to the officials page'
+    detail: 'Mayor, Vice Mayor and congressional representatives'
+    href: '/government/officials'

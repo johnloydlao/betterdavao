@@ -12,59 +12,71 @@ interface BreadcrumbsProps {
   className?: string;
 }
 
+const capitalize = (label: string) =>
+  label.charAt(0).toUpperCase() + label.slice(1);
+
+/**
+ * Breadcrumb trail. Items flow inline and wrap like text, so a long page
+ * title on a phone wraps onto the next line instead of squeezing the trail
+ * into narrow columns.
+ */
 const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, className = '' }) => {
   const location = useLocation();
 
-  // Generate breadcrumbs from current path if no items provided
   const generateBreadcrumbs = (): BreadcrumbItem[] => {
-    const pathSegments = location.pathname.split('/').filter(Boolean);
-    const breadcrumbs: BreadcrumbItem[] = [{ label: 'Home', href: '/' }];
-
-    let currentPath = '';
-    pathSegments.forEach((segment, index) => {
-      currentPath += `/${segment}`;
-      const isLast = index === pathSegments.length - 1;
-
-      // Convert segment to readable label
-      const label = segment
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
-
-      breadcrumbs.push({
-        label,
-        href: isLast ? undefined : currentPath,
+    const segments = location.pathname.split('/').filter(Boolean);
+    const crumbs: BreadcrumbItem[] = [{ label: 'Home', href: '/' }];
+    let path = '';
+    segments.forEach((segment, index) => {
+      path += `/${segment}`;
+      crumbs.push({
+        label: segment
+          .split('-')
+          .map(word => capitalize(word))
+          .join(' '),
+        href: index === segments.length - 1 ? undefined : path,
       });
     });
-
-    return breadcrumbs;
+    return crumbs;
   };
 
-  const breadcrumbItems = items || generateBreadcrumbs();
+  const crumbs = items || generateBreadcrumbs();
 
   return (
-    <nav
-      className={`flex items-center space-x-1 text-sm text-gray-600 ${className}`}
-      aria-label="Breadcrumb"
-    >
-      {breadcrumbItems.map((item, index) => (
-        <React.Fragment key={index}>
-          {index === 0 && <Home className="h-4 w-4" />}
-          {index > 0 && <ChevronRight className="h-4 w-4 text-gray-400" />}
-          {item.href ? (
-            <Link
-              to={item.href}
-              className="hover:text-primary-600 transition-colors duration-200"
-            >
-              {item.label.charAt(0).toUpperCase() + item.label.slice(1)}
-            </Link>
-          ) : (
-            <span className="text-gray-900 font-medium" aria-current="page">
-              {item.label.charAt(0).toUpperCase() + item.label.slice(1)}
-            </span>
-          )}
-        </React.Fragment>
-      ))}
+    <nav aria-label="Breadcrumb" className={className}>
+      <ol className="text-sm leading-relaxed text-gray-700">
+        {crumbs.map((item, index) => {
+          const isLast = index === crumbs.length - 1;
+          return (
+            <li key={index} className="inline">
+              {index === 0 && (
+                <Home
+                  className="inline h-4 w-4 mr-1 -mt-0.5 align-middle"
+                  aria-hidden="true"
+                />
+              )}
+              {item.href && !isLast ? (
+                <Link
+                  to={item.href}
+                  className="underline decoration-gray-300 underline-offset-2 hover:text-primary-600 hover:decoration-primary-600"
+                >
+                  {capitalize(item.label)}
+                </Link>
+              ) : (
+                <span className="font-medium text-gray-900" aria-current="page">
+                  {capitalize(item.label)}
+                </span>
+              )}
+              {!isLast && (
+                <ChevronRight
+                  className="inline h-4 w-4 mx-1 -mt-0.5 align-middle text-gray-600"
+                  aria-hidden="true"
+                />
+              )}
+            </li>
+          );
+        })}
+      </ol>
     </nav>
   );
 };

@@ -1,23 +1,27 @@
 import Hero from '../components/sections/Hero';
+import TaskHub from '../components/home/TaskHub';
+import MeltingPotSection from '../components/home/MeltingPotSection';
+import AtAGlanceSection from '../components/home/AtAGlanceSection';
 import ServicesSection from '../components/home/ServicesSection';
-import GovernmentActivitySection from '../components/home/GovernmentActivitySection';
+import TrustSection from '../components/home/TrustSection';
 import SEO from '../components/SEO';
-import HistorySection from '../components/home/HistorySection';
 
 const Home: React.FC = () => {
   return (
     <>
       <SEO
         title="Home"
-        description="Official website of your local government. Access government services, information, and resources."
-        keywords="government, local government, services, public services, civic services"
+        description="An independent, community-run guide to Davao City government services: what you need, where to go, and how much it costs, with links to official sources."
+        keywords="Davao City, government services, permits, hotlines, community guide"
       />
-      <main className="flex-grow">
+      <div className="grow">
         <Hero />
+        <TaskHub />
+        <MeltingPotSection />
+        <AtAGlanceSection />
         <ServicesSection />
-        <GovernmentActivitySection />
-        <HistorySection />
-      </main>
+        <TrustSection />
+      </div>
     </>
   );
 };

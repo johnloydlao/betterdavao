@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "facts": [
+      {
+        "label": "Where",
+        "value": "Online through the Online BPLS, or onsite at the Business Bureau, City Mayor's Office"
+      },
+      {
+        "label": "Processing",
+        "value": "About 2 hours 10 minutes at the Business Bureau for an online application, not counting other offices and payment"
+      },
+      {
+        "label": "Mayor's permit fee",
+        "value": "₱1,000 to ₱10,000 depending on business type and asset size, plus regulatory fees and the business tax assessed by the City Treasurer"
+      },
+      {
+        "label": "Valid until",
+        "value": "December 31 of the year it was issued"
+      }
+    ],
+    "source": {
+      "label": "City Government of Davao Citizen's Charter, Volume I (2024 revision)",
+      "url": "https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf"
+    },
+    "action": {
+      "label": "Open the Online BPLS",
+      "url": "https://appbts.davaocity.gov.ph/"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+# Home hub: "What do you need to do?"
+#
+# Each verb groups existing service guides so a resident reaches the right
+# page in one tap. A task points at a guide by its category slug and page
+# slug (the same slugs used in content/services/{category}/index.yaml).
+# The task title shown on the home page is taken from that index file,
+# unless you give a shorter `label` here.
+#
+# Only list guides that exist as Markdown files. A task whose guide is
+# missing is left out automatically.
+
+verbs:
+  - id: apply
+    label: 'Apply'
+    tasks:
+      - category: business
+        slug: apply-for-barangay-clearance-and-mayors-business-permits
+        label: "Get a Mayor's business permit"
+      - category: social-welfare
+        slug: apply-for-senior-citizen-solo-parent-or-pwd-assistance
+        label: 'Apply for senior, PWD or solo parent aid'
+      - category: housing-land-use
+        slug: apply-for-socialized-housing-or-relocation-projects
+        label: 'Apply for socialized housing'
+
+  - id: pay
+    label: 'Pay and renew'
+    tasks:
+      - category: business
+        slug: renew-permits-and-pay-local-business-taxes
+        label: 'Renew a business permit and pay business tax'
+      - category: business
+        slug: rent-stalls-in-public-markets
+        label: 'Rent a stall in a public market'
+
+  - id: request
+    label: 'Request'
+    tasks:
+      - category: housing-land-use
+        slug: request-zoning-land-use-or-building-permits
+        label: 'Request a zoning or building permit'
+      - category: garbage-waste-disposal
+        slug: check-garbage-collection-schedules-and-request-pickup
+        label: 'Check garbage pickup or request one'
+      - category: garbage-waste-disposal
+        slug: request-special-waste-collection-hazardous-materials-electronics
+        label: 'Request pickup of hazardous or e-waste'
+
+  - id: report
+    label: 'Report'
+    tasks:
+      - category: garbage-waste-disposal
+        slug: report-illegal-dumping-or-waste-management-violations
+        label: 'Report illegal dumping'
+
+  - id: help
+    label: 'Get care and aid'
+    tasks:
+      - category: health-services
+        slug: get-free-check-ups-basic-medicines-and-vaccines
+        label: 'Free check-ups, medicines and vaccines'
+      - category: social-welfare
+        slug: receive-relief-goods-or-cash-aid-during-disasters
+        label: 'Relief goods or cash aid after a disaster'
+      - category: social-welfare
+        slug: get-family-and-community-welfare-support
+        label: 'Family and community welfare support'
+
+  - id: learn
+    label: 'Learn how'
+    tasks:
+      - category: garbage-waste-disposal
+        slug: learn-proper-waste-segregation-and-disposal-methods
+        label: 'Sort your garbage the right way'
+      - category: social-welfare
+        slug: join-livelihood-or-skills-training-programs
+        label: 'Join livelihood or skills training'
