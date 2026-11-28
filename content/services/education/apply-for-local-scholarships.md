@@ -70,9 +70,9 @@ The charter lists applications as accepted in **April/June**. In 2025, the city 
 
 1. Create an account on the **[eScholar portal](https://ebsu-escholar.davaocity.gov.ph/)** and follow the posted procedure.
 2. Upload your requirements for evaluation.
-3. Attend the interview, if you qualify (STEP, Lumad, and Medical and Law).
+3. Attend the interview, if you qualify (all programs except SEAP and Technical and Vocational).
 4. Wait for the results, posted on the City Government of Davao's official Facebook page and the EBSU bulletin board. The charter lists about **14 days**.
-5. Attend the orientation for new scholars (STEP, Lumad, and Medical and Law).
+5. Attend the orientation for new scholars (all programs except SEAP and Technical and Vocational).
 6. Enroll in your chosen school. The EBSU endorses qualified applicants to their schools.
 
 There is no fee to apply.
