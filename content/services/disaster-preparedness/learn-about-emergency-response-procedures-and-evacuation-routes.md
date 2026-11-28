@@ -12,8 +12,10 @@ In an emergency, **dial 9-1-1**. **Central 911**, the Davao City Central Communi
 | Central 911 office (administrative)    | (082) 296-1433 or (082) 296-9626                                                                       |
 | **CDRRMO Operation Center**            | Globe: (0927) 604 5797, (0906) 367 4671. Smart: (0919) 071 1111, (0939) 340 5675 (calls and text only) |
 | **Bureau of Fire Protection**          | (082) 221 6658; telefax (082) 221 3989                                                                 |
-| **Davao City Disaster Radio**          | (082) 298-8781; Smart (0961) 834 0359; TM (0916) 906 7134                                              |
+| **Davao City Disaster Radio**          | (082) 298 8781; Smart (0961) 834 0359; TM (0916) 906 7134; 0992 891 1074 (see note below)              |
 | **Davao City Reports**                 | Globe: (0917) 131 2333, (0919) 072 2222 (calls and text only)                                          |
+
+The two official city lists differ on Disaster Radio's mobile numbers. The [Emergency Hotlines on onlineservices.davaocity.gov.ph](https://onlineservices.davaocity.gov.ph/) give TM (0916) 906 7134; the city's [official hotlines graphic](https://davaocity.gov.ph/wp-content/uploads/2023/04/Davao-City-Goverment-Hotlines-FB-Cover-1-scaled.jpg) gives 0992 891 1074. Both list (0961) 834 0359. For all city hotlines, see the site's [hotlines page](/hotlines).
 
 ---
 
@@ -21,8 +23,8 @@ In an emergency, **dial 9-1-1**. **Central 911**, the Davao City Central Communi
 
 1. The CDRRMO monitors rainfall and river levels and sends **warnings to barangays**. In the November 2021 floods, residents were warned before midnight and barangays near the Davao River were advised to **sound their sirens** to start a **pre-emptive evacuation**.
 2. **Barangays** alert residents and move them to evacuation centers. Areas with higher flood levels are advised to stay longer and return only when the water subsides.
-3. The **CSWDO** lists the evacuees and provides food and relief. See [Receive relief goods or cash aid](/receive-relief-goods-or-cash-aid-during-disasters).
-4. In a tsunami warning, barangays inform residents about a possible pre-emptive evacuation, hospitals stand by for the CDRRMO's command, and schools in coastal areas switch to blended learning.
+3. The **CSWDO** lists the evacuees and provides food and relief. See [Receive relief goods or cash aid](/services/social-welfare/receive-relief-goods-or-cash-aid-during-disasters).
+4. During the July 2025 tsunami warning, most barangays informed residents about a possible pre-emptive evacuation, hospitals waited for the CDRRMO's command, and DepEd schools in coastal areas shifted to blended learning.
 
 ---
 
@@ -30,44 +32,23 @@ In an emergency, **dial 9-1-1**. **Central 911**, the Davao City Central Communi
 
 - **Earthquake:** duck, cover and hold. Move to your safe zone when told to.
 - **Tsunami or flood warning:** follow your barangay's call for evacuation and go to your barangay's designated safe zone or evacuation center.
-- Follow the CDRRMO's advisories (see [early warning sources](/access-disaster-preparedness-information-and-early-warning-systems)).
+- Follow the CDRRMO's advisories (see [early warning sources](/services/disaster-preparedness/access-disaster-preparedness-information-and-early-warning-systems)).
 
 ---
 
 ## 4) Evacuation Routes
 
-The city has not published a citywide map of evacuation routes. Safe zones are set per barangay, using the tsunami map issued by Phivolcs. Ask your **Barangay Hall** for your barangay's safe zone, evacuation center and route, and walk the route with your household in advance.
+The city has not published a citywide map of evacuation routes. Safe zones are set per barangay, using the updated tsunami map issued by Phivolcs in 2024. Ask your **Barangay Hall** for your barangay's safe zone, evacuation center and route, and walk the route with your household in advance.
 
----
-
-## 5) Evacuation Centers and Fire Stations on the Map (Community-Sourced)
-
-> **Not official information.** This section comes from OpenStreetMap, a volunteer-edited map, and is **not** from the City Government, the CDRRMO or the BFP. It is **incomplete and may be outdated**. Whether a place is open, safe or assigned to your barangay is decided by the city, so **always follow the instructions of your Barangay Hall and the CDRRMO** and confirm with them before a disaster.
-
-**Evacuation sites that volunteers have mapped**
-
-OpenStreetMap has only a few evacuation sites for Davao City. Most of the city's evacuation centers are not on the map, so this is not a full list.
-
-- Catalunan Grande Evacuation Center
-- Mahayag Evacuation Center
-- Regional Evacuation Center (in the Tugbok area)
-- An unnamed "Evacuation Area" in Toril
-
-**Fire stations that volunteers have mapped**
-
-Central Fire Station (Alvarez St.), C.B. Bangoy Sr. Fire Station, S.I.R. Fire Station, Bajada Fire Station (J.P. Laurel Ave.), Talomo Fire Station, Toril Fire Station, Mintal Fire Station, Buhangin Fire Station, Panacan Fire Station, Bunawan Fire Station, Calinan Fire Station, Cabantian Fire Station and Inawayan Fire Station. Some volunteer fire brigades are also on the map.
-
-In an emergency, **dial 911**. Do not rely on station phone numbers from the map. They are left out here because they could not be checked against an official source.
-
-_Data: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, available under the Open Database License. Retrieved 9 November 2026. You can view and correct the map at [openstreetmap.org](https://www.openstreetmap.org/#map=12/7.1/125.6)._
+> **As reported (SunStar Davao, October 23, 2019):** the CDRRMO has posted barangay evacuation maps on its Facebook page, [facebook.com/DavaoDRRMO](https://www.facebook.com/DavaoDRRMO). Those maps predate the 2024 tsunami map update, so check the Facebook page for the latest and confirm with the office or your Barangay Hall.
 
 ---
 
 ## Contact
 
-- **Central 911:** 911 Building, Daang Patnubay St., SIR Matina, Davao City. Email 911@davaocity.gov.ph.
-- **CDRRMO:** Central 911 Compound, Daang Patnubay, Sandawa, Matina, Davao City. Phone 082-295-2387, 082-224-2535 or 082-285-8984.
+- **Central 911:** 911 Building, Daang Patnubay St., SIR Matina, Davao City. Phone (082) 296-9626. Email 911@davaocity.gov.ph.
+- **CDRRMO:** Central 911 Compound, Daang Patnubay, Sandawa, Matina, Davao City. Phone (082) 295-2387, (082) 224-2535 or (082) 285-8984.
 
 ---
 
-_Official sources: Davao City Emergency Hotlines (onlineservices.davaocity.gov.ph), the Central 911 and CDRRMO pages, and CDRRMO news from the City Government of Davao (davaocity.gov.ph). The community-sourced section above is from OpenStreetMap._
+_Sources: [Davao City Emergency Hotlines](https://onlineservices.davaocity.gov.ph/) (onlineservices.davaocity.gov.ph) and the [Davao City Government Hotlines graphic](https://davaocity.gov.ph/wp-content/uploads/2023/04/Davao-City-Goverment-Hotlines-FB-Cover-1-scaled.jpg), City Government of Davao; [Central 911 page](https://davaocity.gov.ph/departments/social-services/central-911/); [CDRRMO page](https://www.davaocity.gov.ph/departments/social-services/cmo-disaster-council/); City news: ["Davao City evacuates 9K families due to flooding"](https://davaocity.gov.ph/disaster-risk-reduction-mitigation/davao-city-evacuates-9k-families-due-to-flooding/) (November 16, 2021), ["CDRRMO: Dabawenyos alert during Wednesday's tsunami warning"](https://davaocity.gov.ph/disaster-risk-reduction-mitigation/cdrrmo-dabawenyos-alert-during-wednesdays-tsunami-warning/) (August 4, 2025), ["Full-scale earthquake and tsunami drill set for July 26"](https://davaocity.gov.ph/local-government/full-scale-earthquake-and-tsunami-drill-set-for-july-26/) (July 19, 2024), ["Shakeout Drill to simulate scenario for barangays included in updated tsunami map"](https://davaocity.gov.ph/disaster-risk-reduction-mitigation/shakeout-drillto-simulate-scenariofor-barangays-included-in-updated-tsunami-map/) (July 5, 2024); [SunStar Davao](https://www.sunstar.com.ph/davao/local-news/city-disaster-management-office-readies-davao-vs-tsunami-storm-surge) (October 23, 2019, as reported). Last verified: 2026-11-28._
