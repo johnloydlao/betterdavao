@@ -1,6 +1,6 @@
 # Join Clean-up Drives and Tree Planting Activities — Davao City
 
-The **City Environment and Natural Resources Office (CENRO)** supports community clean-ups, tree planting and environmental education. Its Natural Resources Operations Division handles reforestation and planting materials, and its Environmental and Waste Management Division handles waste and clean-ups.
+The **City Environment and Natural Resources Office (CENRO)** supports community clean-ups, tree planting and environmental education. Its Natural Resources Operations Division handles reforestation and planting materials, and its Environmental and Waste Management Division handles waste management.
 
 ---
 
@@ -11,8 +11,8 @@ A 2023 memorandum of the City Mayor requires barangays to hold **regular clean-u
 **How to take part**
 
 - Ask your **Barangay Hall** when the next clean-up is, and join it.
-- If your barangay or group is cleaning canals or waterways, **coordinate with CENRO** so the collected garbage can be hauled to the sanitary landfill.
-- Households that litter or dump in public places can be given a citation ticket. See [Report illegal dumping](/report-illegal-dumping-or-waste-management-violations).
+- If your barangay or group plans a canal or waterway clean-up, **contact CENRO first** to ask how the collected garbage should be disposed of.
+- Households that litter or dump in public places can be given a citation ticket. See [Report illegal dumping](/services/garbage-waste-disposal/report-illegal-dumping-or-waste-management-violations).
 
 ---
 
@@ -32,17 +32,19 @@ CENRO provides **planting materials (seedlings) for watershed and mangrove areas
 
 ## 3) Environmental Awareness Lectures
 
-Schools, groups and organizations can ask CENRO for an **environmental awareness lecture** by sending a request letter. The department head assigns a team, the office coordinates the schedule with you, and the lecture is given at your venue.
+Schools, groups and organizations can ask CENRO for an **environmental awareness lecture** by sending a request letter. The department head assigns a team, the office coordinates the schedule with you, and CENRO personnel give the lecture to the requesting institution.
 
 ---
 
 ## Contact
 
-- **City Environment and Natural Resources Office (CENRO)**
-  CENRO Motorpool Compound, Barangay Maa, Davao City. Open 8:00 AM – 5:00 PM.
-  Phone: (082) 227-2655, 244-0094 or 225-0744
-  Email: city_enro@davaocity.gov.ph
+**City Environment and Natural Resources Office (CENRO)**
+
+- Address: CENRO Motorpool, Brgy. Maa, Talomo District, Davao City
+- Office hours: 8:00 AM – 5:00 PM
+- Phone: (082) 227-2655 or (082) 244-0094
+- Email: [city_enro@davaocity.gov.ph](mailto:city_enro@davaocity.gov.ph)
 
 ---
 
-_Sources: CENRO service guidelines (davaocity.gov.ph); CENRO news on barangay clean-up drives from the City Government of Davao (davaocity.gov.ph), September 2025; contacts from the Online BPLS contact page._
+_Sources: [CENRO service guidelines](https://www.davaocity.gov.ph/wp-content/uploads/2025/01/CENRO_guidelines.pdf), [CENRO monitors barangay clean-up drives](https://davaocity.gov.ph/sustainable-environment/cenro-monitors-barangay-clean-up-drives/) (September 2025), the [CENRO office page](https://davaocity.gov.ph/city-environment-and-natural-resources-office/) and the [Online BPLS contact page](https://appbts.davaocity.gov.ph/contact), all published by the City Government of Davao. Last verified: 2026-11-28._
