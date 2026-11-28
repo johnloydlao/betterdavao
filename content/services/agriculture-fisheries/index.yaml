@@ -4,16 +4,16 @@
 pages:
   - name: 'Ask for free seeds, seedlings, fertilizers, or fingerlings'
     slug: 'ask-for-free-seeds-seedlings-fertilizers-or-fingerlings'
-    description: 'How to request free agricultural inputs like seeds, seedlings, fertilizers, and fingerlings from your local government.'
-    
+    description: "How to request free seeds, seedlings, fingerlings and biological control agents from the City Agriculturist's Office. The charter lists no general fertilizer service."
+
   - name: 'Get veterinary services for livestock'
     slug: 'get-veterinary-services-for-livestock'
-    description: 'Access veterinary services for your livestock and farm animals from local government veterinarians.'
-    
+    description: "Livestock dispersal, artificial insemination, anti-rabies vaccination, neutering and impounding from the City Veterinarian's Office."
+
   - name: 'Attend farming or fishing training'
     slug: 'attend-farming-or-fishing-training'
-    description: 'Join training programs for farming and fishing techniques offered by your local government.'
-    
+    description: "City Agriculturist's Office trainings, free technical assistance, and fishing licenses, boat registration and other fisheries permits."
+
   - name: 'Borrow farm tools or equipment from the LGU'
     slug: 'borrow-farm-tools-or-equipment-from-the-lgu'
-    description: 'How to borrow farm tools and equipment from your local government unit.'
+    description: "Small irrigation pump lending, machinery and equipment support, and rainwater catchment projects for registered farmers' organizations, farmers and fisherfolk."
