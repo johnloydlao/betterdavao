@@ -13,7 +13,7 @@ import {
   type MarkdownContent,
 } from '../lib/markdownLoader';
 import { createMarkdownComponents } from '../lib/markdownComponents';
-import { Card, CardContent, CardHeader } from '@bettergov/kapwa/card';
+import { Card, CardContent } from '@bettergov/kapwa/card';
 import { getTypographyTheme } from '../lib/typographyThemes';
 import {
   serviceCategories,
@@ -24,6 +24,9 @@ import {
   type CategoryIndex,
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
+import GuideSummary from '../components/GuideSummary';
+import { getGuideSummary } from '../lib/guideSummary';
+import { correctionIssueUrl } from '../data/repo';
 
 // Maps document slugs to specialized page components.
 // Add entries here when a document needs a dedicated layout beyond generic markdown.
@@ -132,7 +135,7 @@ export default function Document({
 
   if (loading) {
     return (
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Banner type="info" description="Loading document..." />
       </Section>
     );
@@ -140,8 +143,8 @@ export default function Document({
 
   if (error) {
     return (
-      <Section className="p-3 mb-12">
-        <Breadcrumbs className="mb-8" items={breadcrumbs} />
+      <Section className="py-6 md:py-10">
+        <Breadcrumbs className="mb-6" items={breadcrumbs} />
         <Banner
           type="error"
           title="Document Not Found"
@@ -160,10 +163,12 @@ export default function Document({
           title={documentSlug}
           keywords={`${documentSlug}, government services, local government`}
         />
-        <Section className="p-3 mb-12">
-          <Breadcrumbs className="mb-8" items={breadcrumbs} />
+        <Section className="py-6 md:py-10">
+          <Breadcrumbs className="mb-6" items={breadcrumbs} />
           {nestedIndex.title && (
-            <Heading level={2}>{nestedIndex.title}</Heading>
+            <Heading level={1} size={2}>
+              {nestedIndex.title}
+            </Heading>
           )}
           {nestedIndex.description && (
             <Text className="text-gray-600 mb-4">
@@ -175,9 +180,9 @@ export default function Document({
               {nestedPages.map((page, i) => (
                 <Card hoverable key={page.slug ?? i} className="h-full">
                   <CardContent>
-                    <h4 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 text-balance">
                       {page.name}
-                    </h4>
+                    </h2>
                     {page.description && (
                       <p className="mt-2 text-sm text-gray-600">
                         {page.description}
@@ -192,9 +197,9 @@ export default function Document({
               {nestedPages.map((page, i) => (
                 <Card key={page.slug ?? i} className="mb-4">
                   <CardContent>
-                    <h4 className="text-lg font-medium text-gray-900">
+                    <h2 className="text-lg font-medium text-gray-900 text-balance">
                       {page.name}
-                    </h4>
+                    </h2>
                     {page.description && (
                       <p className="mt-2 text-sm text-gray-600">
                         {page.description}
@@ -235,22 +240,55 @@ export default function Document({
         }
         keywords={`${documentSlug}, government services, public services, local government`}
       />
-      <Section className="p-3 mb-12">
-        <Breadcrumbs className="mb-8" items={breadcrumbs} />
-        <Card className="mb-8 markdown-content">
-          <CardHeader>
-            {markdownContent.description && (
-              <CardContent>{markdownContent.description}</CardContent>
-            )}
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeRaw]}
-              components={markdownComponents}
+      <Section className="py-6 md:py-10">
+        <Breadcrumbs className="mb-6" items={breadcrumbs} />
+        <article className="markdown-content">
+          {(() => {
+            const summary = getGuideSummary(markdownContent.data);
+            const md = (text: string) => (
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeRaw]}
+                components={markdownComponents}
+              >
+                {text}
+              </ReactMarkdown>
+            );
+            if (!summary) return md(markdownContent.content);
+            // The summary sits under the title and intro, before the first
+            // section, so the answer comes before the detail.
+            const content = markdownContent.content;
+            const cut = content.search(/\n(?:---\s*\n|## )/);
+            return cut === -1 ? (
+              <>
+                {md(content)}
+                <GuideSummary summary={summary} />
+              </>
+            ) : (
+              <>
+                {md(content.slice(0, cut))}
+                <GuideSummary summary={summary} />
+                {md(content.slice(cut))}
+              </>
+            );
+          })()}
+          <aside className="mt-10 max-w-[72ch] rounded-lg border border-primary-100 bg-primary-50 px-5 py-4 text-base leading-relaxed text-gray-800">
+            <strong className="text-gray-900">
+              This is an independent guide.
+            </strong>{' '}
+            Always confirm fees and requirements with the official source linked
+            on this page. Spotted something outdated?{' '}
+            <a
+              href={correctionIssueUrl(markdownContent.title ?? documentSlug)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary-600 underline underline-offset-2"
             >
-              {markdownContent.content}
-            </ReactMarkdown>
-          </CardHeader>
-        </Card>
+              Report a mistake
+            </a>
+            .
+          </aside>
+        </article>
       </Section>
     </>
   );

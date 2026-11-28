@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -7,7 +8,7 @@ import { type MarkdownContent } from '../lib/markdownLoader';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
-import { Card, CardHeader } from '@bettergov/kapwa/card';
+import { Phone } from 'lucide-react';
 import SEO from '../components/SEO';
 
 interface OfficialsPageProps {
@@ -19,6 +20,7 @@ interface OfficialsPageProps {
 interface CongressionalRep {
   district: string;
   name: string;
+  photo?: string;
 }
 
 interface CouncilMember {
@@ -39,15 +41,11 @@ interface OfficialsData {
   VICE_MAYOR?: string;
   MAYOR_CONTACT?: string;
   VICE_MAYOR_CONTACT?: string;
+  MAYOR_PHOTO?: string;
+  VICE_MAYOR_PHOTO?: string;
   congressionalReps?: CongressionalRep[];
   councilDistricts?: CouncilDistrict[];
 }
-
-const DISTRICT_ACCENT_BORDERS = [
-  'border-l-primary-300',
-  'border-l-primary-500',
-  'border-l-primary-700',
-];
 
 function formatLastUpdated(dateStr?: string): string | null {
   if (!dateStr) return null;
@@ -72,34 +70,88 @@ function parseSections(content: string): { heading: string; body: string }[] {
     .filter(s => s.body);
 }
 
+const NAME_SUFFIXES = new Set(['jr', 'sr', 'ii', 'iii', 'iv', 'v']);
+
+function getInitials(name: string): string {
+  const words = name
+    .replace(/^Hon\.\s*/, '')
+    .split(/\s+/)
+    .filter(w => w && !NAME_SUFFIXES.has(w.replace(/\./g, '').toLowerCase()));
+  if (words.length === 0) return '';
+  const first = words[0][0];
+  const last = words.length > 1 ? words[words.length - 1][0] : '';
+  return `${first}${last}`.toUpperCase();
+}
+
+function OfficialPhoto({
+  src,
+  name,
+  sizeClassName,
+  className = '',
+}: {
+  src?: string;
+  name: string;
+  sizeClassName: string;
+  className?: string;
+}) {
+  const [failed, setFailed] = useState(false);
+  const showImage = src && !failed;
+
+  return (
+    <div
+      className={`${sizeClassName} mx-auto rounded-full overflow-hidden flex items-center justify-center shrink-0 ${className}`}
+    >
+      {showImage ? (
+        <img
+          src={src}
+          alt={`Photo of ${name}`}
+          className="w-full h-full object-cover object-top"
+          loading="lazy"
+          onError={() => setFailed(true)}
+        />
+      ) : (
+        <span aria-hidden="true" className="font-semibold">
+          {getInitials(name)}
+        </span>
+      )}
+    </div>
+  );
+}
+
 function OfficialCard({
   role,
   name,
   government,
   contactNumber,
+  photo,
   variant = 'primary',
 }: {
   role: string;
   name: string;
   government: string;
   contactNumber?: string;
+  photo?: string;
   variant?: 'primary' | 'dark';
 }) {
-  const bgClass =
-    variant === 'dark'
-      ? 'bg-gradient-to-br from-gray-800 to-gray-900'
-      : 'bg-gradient-to-br from-primary-600 to-primary-700';
+  const bgClass = variant === 'dark' ? 'bg-gray-800' : 'bg-primary-600';
 
   return (
-    <div
-      className={`rounded-2xl overflow-hidden mt-6 mb-6 shadow-lg p-5 text-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl ${bgClass}`}
-    >
-      <p className="text-xs font-semibold uppercase tracking-widest mb-1 text-secondary-200">
-        {role} of {government}
+    <div className={`rounded-xl h-full p-6 text-center ${bgClass}`}>
+      <OfficialPhoto
+        src={photo}
+        name={name}
+        sizeClassName="w-28 h-28 text-3xl"
+        className="mb-4 ring-4 ring-white/30 bg-white/10 text-white"
+      />
+      <h3 className="text-xl font-bold text-white text-balance">{name}</h3>
+      <p className="text-sm text-gray-100 mb-3">
+        {role}, {government}
       </p>
-      <h2 className="text-xl font-bold text-white mb-2">{name}</h2>
       {contactNumber && (
-        <p className="text-sm text-white/70">📞 {contactNumber}</p>
+        <p className="inline-flex items-center gap-1.5 text-sm text-gray-100">
+          <Phone className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+          <span className="tabular-nums">{contactNumber}</span>
+        </p>
       )}
     </div>
   );
@@ -109,27 +161,35 @@ function CompactOfficialCard({
   name,
   role,
   vacant = false,
-  accentClassName,
+  photo,
+  showPhoto = false,
 }: {
   name?: string;
   role: string;
   vacant?: boolean;
-  accentClassName?: string;
+  photo?: string;
+  showPhoto?: boolean;
 }) {
   if (vacant) {
     return (
-      <div className="rounded-xl border-2 border-dashed border-gray-300 flex items-center justify-center p-4 text-center h-full min-h-[80px]">
-        <p className="text-sm font-medium text-gray-400">Vacant</p>
+      <div className="rounded-lg border border-dashed border-gray-400 flex items-center justify-center p-4 text-center h-full min-h-20">
+        <p className="text-sm font-medium text-gray-600">Vacant seat</p>
       </div>
     );
   }
 
   return (
-    <div
-      className={`rounded-xl border border-gray-200 shadow-sm p-4 text-center h-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md ${accentClassName ?? ''}`}
-    >
+    <div className="rounded-lg border border-gray-200 bg-white p-4 text-center h-full">
+      {showPhoto && name && (
+        <OfficialPhoto
+          src={photo}
+          name={name}
+          sizeClassName="w-20 h-20 text-xl"
+          className="mb-3 bg-primary-50 text-primary-700 ring-2 ring-primary-100"
+        />
+      )}
       <p className="text-sm font-semibold text-gray-900 leading-snug">{name}</p>
-      <p className="text-xs text-gray-500">{role}</p>
+      <p className="text-xs text-gray-600 mt-0.5">{role}</p>
     </div>
   );
 }
@@ -155,14 +215,17 @@ export default function OfficialsPage({
   const sections = parseSections(markdownContent.content);
   const sectionMap = Object.fromEntries(sections.map(s => [s.heading, s.body]));
 
+  // List markers are styled under .markdown-content (index.css).
   const Prose = ({ content }: { content: string }) => (
-    <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
-      rehypePlugins={[rehypeRaw]}
-      components={markdownComponents}
-    >
-      {content}
-    </ReactMarkdown>
+    <div className="markdown-content">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
+        components={markdownComponents}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
   );
 
   return (
@@ -174,87 +237,89 @@ export default function OfficialsPage({
         }
         keywords="mayor, vice mayor, city council, sangguniang panlungsod, congress, legislative district, councilor, local government"
       />
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Breadcrumbs className="mb-8" items={breadcrumbs} />
         <Heading level={1}>{markdownContent.title || 'Officials'}</Heading>
         {sectionMap['Officials'] && <Prose content={sectionMap['Officials']} />}
         {lastUpdated && (
-          <p className="text-sm text-gray-500 mb-6">
+          <p className="text-sm text-gray-600 mb-8">
             Last updated: {lastUpdated}
           </p>
         )}
 
-        <Card className="mb-8 markdown-content">
-          <CardHeader>
-            <div className="p-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in">
-                <div>
-                  <OfficialCard
-                    role="Mayor"
-                    name={mayor}
-                    government={gov}
-                    contactNumber={data.MAYOR_CONTACT}
-                  />
-                </div>
+        <section aria-labelledby="executive-heading" className="mb-12">
+          <Heading level={2} size={3} className="sr-only">
+            <span id="executive-heading">Mayor and Vice Mayor</span>
+          </Heading>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <OfficialCard
+              role="Mayor"
+              name={mayor}
+              government={gov}
+              contactNumber={data.MAYOR_CONTACT}
+              photo={data.MAYOR_PHOTO}
+            />
+            <OfficialCard
+              role="Vice Mayor"
+              name={viceMayor}
+              government={gov}
+              contactNumber={data.VICE_MAYOR_CONTACT}
+              photo={data.VICE_MAYOR_PHOTO}
+              variant="dark"
+            />
+          </div>
+        </section>
 
-                <div>
-                  <OfficialCard
-                    role="Vice Mayor"
-                    name={viceMayor}
-                    government={gov}
-                    contactNumber={data.VICE_MAYOR_CONTACT}
-                    variant="dark"
-                  />
-                </div>
-              </div>
+        <section className="mb-12">
+          <Heading level={2} size={3}>
+            Legislative Representation in Congress
+          </Heading>
+          <ul className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {congressionalReps.map(rep => (
+              <li key={rep.district}>
+                <CompactOfficialCard
+                  name={`${honorific}${rep.name}`}
+                  role={`${rep.district}, House of Representatives`}
+                  photo={rep.photo}
+                  showPhoto
+                />
+              </li>
+            ))}
+          </ul>
+        </section>
 
-              <Heading level={2}>
-                Legislative Representation in Congress
-              </Heading>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 mt-4 animate-fade-in">
-                {congressionalReps.map(rep => (
-                  <CompactOfficialCard
-                    key={rep.district}
-                    name={`${honorific}${rep.name}`}
-                    role={`${rep.district}, House of Representatives`}
-                    accentClassName="border-t-4 border-t-primary-600"
-                  />
+        <section>
+          <Heading level={2} size={3}>
+            City Council — Sangguniang Panlungsod
+          </Heading>
+          {sectionMap['City Council'] && (
+            <Prose content={sectionMap['City Council']} />
+          )}
+
+          {councilDistricts.map(district => (
+            <div
+              key={district.district}
+              className="mt-8 pt-6 border-t border-gray-200"
+            >
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">
+                {district.district}
+              </h3>
+              <ul className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                {district.members.map((member, i) => (
+                  <li key={member.vacant ? `vacant-${i}` : member.name}>
+                    <CompactOfficialCard
+                      name={
+                        member.vacant ? undefined : `${honorific}${member.name}`
+                      }
+                      role="Councilor"
+                      vacant={member.vacant}
+                    />
+                  </li>
                 ))}
-              </div>
-
-              <Heading level={2}>City Council — Sangguniang Panlungsod</Heading>
-              {sectionMap['City Council'] && (
-                <Prose content={sectionMap['City Council']} />
-              )}
-
-              {councilDistricts.map((district, districtIndex) => (
-                <div
-                  key={district.district}
-                  className="mb-10 mt-6 animate-fade-in"
-                >
-                  <h3 className="text-lg font-semibold mb-4">
-                    {district.district}
-                  </h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {district.members.map((member, i) => (
-                      <CompactOfficialCard
-                        key={member.vacant ? `vacant-${i}` : member.name}
-                        name={
-                          member.vacant
-                            ? undefined
-                            : `${honorific}${member.name}`
-                        }
-                        role={`Councilor, ${district.district}`}
-                        vacant={member.vacant}
-                        accentClassName={`border-l-4 ${DISTRICT_ACCENT_BORDERS[districtIndex]}`}
-                      />
-                    ))}
-                  </div>
-                </div>
-              ))}
+              </ul>
             </div>
-          </CardHeader>
-        </Card>
+          ))}
+        </section>
       </Section>
     </>
   );

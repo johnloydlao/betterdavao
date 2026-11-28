@@ -85,20 +85,19 @@ A modern, multilingual, and accessible website template designed specifically fo
 
 #### Update Colors and Theme
 
-Edit `tailwind.config.js` to match your government's colors:
+Edit the `@theme` block in `src/index.css` to match your government's colors
+(Tailwind v4 reads its design tokens from CSS; there is no `tailwind.config.js`):
 
-```javascript
-colors: {
-  primary: {
-    500: '#your-primary-color',
-    // ... other shades
-  },
-  secondary: {
-    500: '#your-secondary-color',
-    // ... other shades
-  }
+```css
+@theme {
+  --color-primary-500: #your-primary-color;
+  /* ... other shades */
+  --color-secondary-500: #your-secondary-color;
+  /* ... other shades */
 }
 ```
+
+See `DESIGN.md` for what each color is used for.
 
 #### Update Logo and Images
 

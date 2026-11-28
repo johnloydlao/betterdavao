@@ -6,10 +6,24 @@
   "VICE_MAYOR": "Rodrigo S. Duterte II",
   "MAYOR_CONTACT": "241-1000 Local 265/266",
   "VICE_MAYOR_CONTACT": "222-0855 to 63/ 221-9991 Local 228/428",
+  "MAYOR_PHOTO": "/images/officials/sebastian-duterte.jpg",
+  "VICE_MAYOR_PHOTO": "/images/officials/rodrigo-duterte-ii.jpg",
   "congressionalReps": [
-    { "district": "1st District", "name": "Paolo Duterte" },
-    { "district": "2nd District", "name": "Omar Duterte" },
-    { "district": "3rd District", "name": "Isidro Ungab" }
+    {
+      "district": "1st District",
+      "name": "Paolo Duterte",
+      "photo": "/images/officials/paolo-duterte.jpg"
+    },
+    {
+      "district": "2nd District",
+      "name": "Omar Duterte",
+      "photo": "/images/officials/omar-duterte.jpg"
+    },
+    {
+      "district": "3rd District",
+      "name": "Isidro Ungab",
+      "photo": "/images/officials/isidro-ungab.jpg"
+    }
   ],
   "councilDistricts": [
     {

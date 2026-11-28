@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T07:32:24.016Z",
+  "title": "Design System: BetterDavao",
+  "extensions": {
+    "colorMeta": {
+      "davao-navy": {
+        "role": "primary",
+        "displayName": "Davao Navy",
+        "canonical": "#1e3a8a",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-ink": {
+        "role": "primary",
+        "displayName": "Navy Ink",
+        "canonical": "#1e306e",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-strip": {
+        "role": "primary",
+        "displayName": "Navy Strip",
+        "canonical": "#172154",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-night": {
+        "role": "primary",
+        "displayName": "Navy Night",
+        "canonical": "#0f172a",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-bright": {
+        "role": "primary",
+        "displayName": "Navy Bright",
+        "canonical": "#1e40af",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-mist": {
+        "role": "primary",
+        "displayName": "Navy Mist",
+        "canonical": "#dbeafe",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "navy-wash": {
+        "role": "primary",
+        "displayName": "Navy Wash",
+        "canonical": "#eff6ff",
+        "tonalRamp": [
+          "#0f172a",
+          "#172154",
+          "#1e306e",
+          "#1e3a8a",
+          "#1e40af",
+          "#93c5fd",
+          "#dbeafe",
+          "#eff6ff"
+        ]
+      },
+      "golden-time": {
+        "role": "secondary",
+        "displayName": "Golden Time",
+        "canonical": "#d4af37",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "golden-time-light": {
+        "role": "secondary",
+        "displayName": "Golden Time, light",
+        "canonical": "#debb3d",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "gold-highlight": {
+        "role": "secondary",
+        "displayName": "Gold Highlight",
+        "canonical": "#f2e099",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "stamp-wash": {
+        "role": "secondary",
+        "displayName": "Stamp Wash",
+        "canonical": "#fdf9ec",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "stamp-rule": {
+        "role": "secondary",
+        "displayName": "Stamp Rule",
+        "canonical": "#6b551a",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "stamp-ink": {
+        "role": "secondary",
+        "displayName": "Stamp Ink",
+        "canonical": "#453610",
+        "tonalRamp": [
+          "#453610",
+          "#6b551a",
+          "#917524",
+          "#b8962e",
+          "#d4af37",
+          "#e8cc66",
+          "#f2e099",
+          "#fdf9ec"
+        ]
+      },
+      "hotline-red": {
+        "role": "tertiary",
+        "displayName": "Hotline Red",
+        "canonical": "oklch(57.7% 0.245 27.325)",
+        "tonalRamp": [
+          "oklch(25.8% 0.092 26.042)",
+          "oklch(39.6% 0.141 25.723)",
+          "oklch(50.5% 0.213 27.518)",
+          "oklch(57.7% 0.245 27.325)",
+          "oklch(63.7% 0.237 25.331)",
+          "oklch(80.8% 0.114 19.571)",
+          "oklch(93.6% 0.032 17.717)",
+          "oklch(97.1% 0.013 17.38)"
+        ]
+      },
+      "hotline-red-deep": {
+        "role": "tertiary",
+        "displayName": "Hotline Red, deep",
+        "canonical": "oklch(50.5% 0.213 27.518)",
+        "tonalRamp": [
+          "oklch(25.8% 0.092 26.042)",
+          "oklch(39.6% 0.141 25.723)",
+          "oklch(50.5% 0.213 27.518)",
+          "oklch(57.7% 0.245 27.325)",
+          "oklch(63.7% 0.237 25.331)",
+          "oklch(80.8% 0.114 19.571)",
+          "oklch(93.6% 0.032 17.717)",
+          "oklch(97.1% 0.013 17.38)"
+        ]
+      },
+      "thread-red": {
+        "role": "thread",
+        "displayName": "Thread Red",
+        "canonical": "#9b2d20",
+        "tonalRamp": [
+          "#2f0e0a",
+          "#551912",
+          "#7c241a",
+          "#9b2d20",
+          "#b96c63",
+          "#d2a19b",
+          "#e9d1ce",
+          "#f7eeed"
+        ]
+      },
+      "thread-amber": {
+        "role": "thread",
+        "displayName": "Thread Amber",
+        "canonical": "#e0a030",
+        "tonalRamp": [
+          "#43300e",
+          "#7b581a",
+          "#b38026",
+          "#e0a030",
+          "#e9bd6e",
+          "#f1d4a2",
+          "#f8ead1",
+          "#fdf7ee"
+        ]
+      },
+      "thread-green": {
+        "role": "thread",
+        "displayName": "Thread Green",
+        "canonical": "#5b7f2a",
+        "tonalRamp": [
+          "#1b260d",
+          "#324617",
+          "#496622",
+          "#5b7f2a",
+          "#8ca56a",
+          "#b5c59f",
+          "#dbe3d0",
+          "#f2f5ee"
+        ]
+      },
+      "thread-orchid": {
+        "role": "thread",
+        "displayName": "Thread Orchid",
+        "canonical": "#c2577f",
+        "tonalRamp": [
+          "#3a1a26",
+          "#6b3046",
+          "#9b4666",
+          "#c2577f",
+          "#d489a5",
+          "#e4b3c5",
+          "#f2dae3",
+          "#faf2f5"
+        ]
+      },
+      "thread-teal": {
+        "role": "thread",
+        "displayName": "Thread Teal",
+        "canonical": "#2a7f86",
+        "tonalRamp": [
+          "#0d2628",
+          "#17464a",
+          "#22666b",
+          "#2a7f86",
+          "#6aa5aa",
+          "#9fc5c9",
+          "#d0e3e4",
+          "#eef5f5"
+        ]
+      },
+      "thread-indigo": {
+        "role": "thread",
+        "displayName": "Thread Indigo",
+        "canonical": "#2b3a8a",
+        "tonalRamp": [
+          "#0d1129",
+          "#18204c",
+          "#222e6e",
+          "#2b3a8a",
+          "#6b75ad",
+          "#a0a6ca",
+          "#d0d4e5",
+          "#eeeff6"
+        ]
+      },
+      "thread-black": {
+        "role": "thread",
+        "displayName": "Thread Black",
+        "canonical": "#1b1b1b",
+        "tonalRamp": [
+          "#080808",
+          "#0f0f0f",
+          "#161616",
+          "#1b1b1b",
+          "#5f5f5f",
+          "#989898",
+          "#cdcdcd",
+          "#ededed"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#212529",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#343a40",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "slate": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#495057",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "muted-gray": {
+        "role": "neutral",
+        "displayName": "Muted Gray",
+        "canonical": "#6c757d",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "field-rule": {
+        "role": "neutral",
+        "displayName": "Field Rule",
+        "canonical": "#dee2e6",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e9ecef",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#e9ecef",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "row-rule": {
+        "role": "neutral",
+        "displayName": "Row Rule",
+        "canonical": "#f1f3f5",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "surface-gray": {
+        "role": "neutral",
+        "displayName": "Surface Gray",
+        "canonical": "#f8f9fa",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f1f3f5",
+          "#f8f9fa"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#212529",
+          "#343a40",
+          "#495057",
+          "#6c757d",
+          "#adb5bd",
+          "#dee2e6",
+          "#f8f9fa",
+          "#ffffff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero question only; 1.875rem → 2.25rem (md) → 3rem (lg), capped at 15ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page titles on listings and guides."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Home section headings; 1.25rem → 1.5rem → 1.875rem."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "At-a-glance values in Navy Ink, tabular numerals."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Tile names, task rows, tabs; 700 on buttons."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Guide text and leads; prose capped at 72ch."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Card descriptions, footer links, Try: queries."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Hotline bar and info strip only."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Code only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "masthead",
+        "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+        "purpose": "Sticky masthead over scrolling content."
+      },
+      {
+        "name": "tile-hover",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Clickable tiles on hover, with the border shifting to primary-200. No lift."
+      },
+      {
+        "name": "results-float",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Search results listbox."
+      },
+      {
+        "name": "menu-float",
+        "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+        "purpose": "Desktop nav dropdowns."
+      },
+      {
+        "name": "search-panel",
+        "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+        "purpose": "The hero search panel on navy only."
+      },
+      {
+        "name": "weave-shade",
+        "value": "linear-gradient(180deg, transparent 50%, rgb(0 0 0 / 0.18) 50%)",
+        "purpose": "Lower-half shade of the woven band; texture, sanctioned only in .weave."
+      },
+      {
+        "name": "weave-weft",
+        "value": "repeating-linear-gradient(90deg, transparent 0 7px, rgb(255 255 255 / 0.28) 7px 14px)",
+        "purpose": "Plain-weave over-stripe of the woven band; sanctioned only in .weave."
+      }
+    ],
+    "motion": [
+      {
+        "name": "color-transition",
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default colour, border and shadow changes on buttons, rows and tiles."
+      },
+      {
+        "name": "menu-fade",
+        "value": "opacity 150ms",
+        "purpose": "Desktop nav dropdown open and close."
+      },
+      {
+        "name": "chevron-turn",
+        "value": "transform 200ms",
+        "purpose": "Dropdown chevron rotation."
+      },
+      {
+        "name": "fade-in",
+        "value": "fadeIn 0.5s ease-in-out",
+        "purpose": "Rotating exchange rate in the info strip; motion-safe only."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "translate: none; scale: none; animation: none",
+        "purpose": "Under prefers-reduced-motion, colour and shadow feedback stay, movement goes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (gold)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action on a surface: hero Search, the guide summary portal button.",
+      "html": "<a class=\"ds-btn-gold\" href=\"#\">Open the Online BPLS <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a>",
+      "css": ".ds-btn-gold { display: inline-flex; align-items: center; gap: 8px; height: 48px; padding: 0 24px; border-radius: 8px; background: #d4af37; color: #1e306e; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 700; text-decoration: none; transition: background-color 150ms; } .ds-btn-gold:hover { background: #debb3d; } .ds-btn-gold:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button (navy)",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Every other filled action, e.g. Report a mistake.",
+      "html": "<a class=\"ds-btn-navy\" href=\"#\">Report a mistake</a>",
+      "css": ".ds-btn-navy { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 20px; border-radius: 8px; background: #1e3a8a; color: #fff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 700; text-decoration: none; transition: background-color 150ms; } .ds-btn-navy:hover { background: #1e306e; } .ds-btn-navy:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Quiet alternative beside a filled action.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Help write a guide</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 20px; border-radius: 8px; border: 1px solid #bfdbfe; background: #fff; color: #1e3a8a; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 700; text-decoration: none; transition: background-color 150ms; } .ds-btn-outline:hover { background: #eff6ff; } .ds-btn-outline:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Hero search input with inset icon and Navy Bright focus ring.",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-search-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-search-input\" type=\"search\" placeholder=\"e.g. permit, scholarship\" aria-label=\"Search services\"></label>",
+      "css": ".ds-search { position: relative; display: block; max-width: 420px; } .ds-search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #6c757d; pointer-events: none; } .ds-search-input { width: 100%; box-sizing: border-box; height: 48px; padding: 0 16px 0 40px; border: 1px solid #dee2e6; border-radius: 8px; background: #fff; color: #212529; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 1rem; } .ds-search-input::placeholder { color: #6c757d; } .ds-search-input:focus { outline: none; border-color: transparent; box-shadow: 0 0 0 2px #1e40af; }"
+    },
+    {
+      "name": "Masthead Nav",
+      "kind": "nav",
+      "refersTo": "text-size-option",
+      "description": "Desktop links with the gold active underline, and the A / A+ / A++ text-size switch.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link is-active\" href=\"#\">Services</a><a class=\"ds-nav-link\" href=\"#\">Government</a><div class=\"ds-size\" role=\"group\" aria-label=\"Text size\"><button class=\"is-on\" aria-pressed=\"true\" style=\"font-size:.875rem\">A</button><button aria-pressed=\"false\" style=\"font-size:1rem\">A+</button><button aria-pressed=\"false\" style=\"font-size:1.125rem\">A++</button></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 4px; background: #fff; padding: 12px 16px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; } .ds-nav-link { padding: 10px 14px; color: #495057; font-size: 1rem; font-weight: 500; text-decoration: none; transition: color 150ms; } .ds-nav-link:hover { color: #1e3a8a; } .ds-nav-link.is-active { color: #1e3a8a; box-shadow: inset 0 -2px 0 #d4af37; } .ds-nav-link:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-size { display: inline-flex; margin-left: auto; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden; } .ds-size button { min-width: 44px; height: 40px; padding: 0 8px; border: 0; background: #fff; color: #343a40; font-weight: 700; font-family: inherit; cursor: pointer; } .ds-size button + button { border-left: 1px solid #dee2e6; } .ds-size button:hover { background: #eff6ff; } .ds-size button.is-on { background: #172154; color: #fff; } .ds-size button:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; }"
+    },
+    {
+      "name": "Topic Tile",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Hairline card with icon tile, thread bar, description and guide count; the whole tile is the link.",
+      "html": "<a class=\"ds-tile\" href=\"#\"><span class=\"ds-tile-head\"><span class=\"ds-icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg><span class=\"ds-icon-thread\"></span></span><span class=\"ds-tile-title\">Business</span></span><span class=\"ds-tile-desc\">Permits, registration and local business taxes.</span><span class=\"ds-tile-count\">3 guides</span></a>",
+      "css": ".ds-tile { display: flex; flex-direction: column; gap: 10px; max-width: 280px; padding: 20px; border: 1px solid #e9ecef; border-radius: 8px; background: #fff; text-decoration: none; font-family: Inter, ui-sans-serif, system-ui, sans-serif; transition: border-color 150ms, box-shadow 150ms; } .ds-tile:hover { border-color: #bfdbfe; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); } .ds-tile:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-tile-head { display: flex; align-items: center; gap: 12px; } .ds-icon { position: relative; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 6px; background: #dbeafe; color: #1e3a8a; } .ds-icon-thread { position: absolute; bottom: -2px; left: 6px; right: 6px; height: 4px; border-radius: 9999px; background: #2b3a8a; } .ds-tile-title { font-size: 1rem; font-weight: 600; color: #212529; } .ds-tile:hover .ds-tile-title { color: #1e306e; } .ds-tile-desc { font-size: 0.875rem; line-height: 1.625; color: #495057; } .ds-tile-count { font-size: 0.875rem; font-weight: 700; color: #1e3a8a; }"
+    },
+    {
+      "name": "Task Row with Thread",
+      "kind": "custom",
+      "refersTo": "thread-marker",
+      "description": "Listing and task-hub row: topic thread marker, title, category, chevron.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-thread\" style=\"background:#9b2d20\"></span><span class=\"ds-row-text\"><span class=\"ds-row-title\">Get a health certificate</span><span class=\"ds-row-cat\">Health Services</span></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1e40af\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></a></li><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-thread\" style=\"background:#2a7f86\"></span><span class=\"ds-row-text\"><span class=\"ds-row-title\">Apply for a senior citizen ID</span><span class=\"ds-row-cat\">Social Welfare</span></span><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1e40af\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg></a></li></ul>",
+      "css": ".ds-rows { list-style: none; margin: 0; padding: 0; max-width: 520px; border: 1px solid #e9ecef; border-radius: 8px; background: #fff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; } .ds-rows li + li { border-top: 1px solid #f1f3f5; } .ds-row { display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 12px 20px; text-decoration: none; } .ds-row:hover { background: #eff6ff; } .ds-row:focus-visible { outline: 2px solid #1e40af; outline-offset: 2px; } .ds-thread { width: 6px; height: 28px; border-radius: 9999px; flex-shrink: 0; } .ds-row-text { flex: 1; min-width: 0; } .ds-row-title { display: block; font-weight: 600; font-size: 1rem; line-height: 1.375; color: #212529; } .ds-row:hover .ds-row-title { color: #1e306e; } .ds-row-cat { display: block; font-size: 0.875rem; color: #6c757d; }"
+    },
+    {
+      "name": "Melting Pot Weave",
+      "kind": "custom",
+      "refersTo": "weave-band",
+      "description": "The woven band of artwork threads that closes the hero and opens the footer.",
+      "html": "<div class=\"ds-weave-demo\"><div class=\"ds-weave\" aria-hidden=\"true\"></div></div>",
+      "css": ".ds-weave-demo { background: #1e3a8a; padding-top: 32px; } .ds-weave { position: relative; height: 12px; background: repeating-linear-gradient(90deg, #9b2d20 0 14px, #e0a030 14px 28px, #5b7f2a 28px 42px, #c2577f 42px 56px, #2a7f86 56px 70px, #2b3a8a 70px 84px, #e0a030 84px 98px, #1b1b1b 98px 112px); } .ds-weave::after { content: \"\"; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, transparent 0 7px, rgb(255 255 255 / 0.28) 7px 14px), linear-gradient(180deg, transparent 50%, rgb(0 0 0 / 0.18) 50%); }"
+    },
+    {
+      "name": "Hotline Bar",
+      "kind": "custom",
+      "refersTo": "hotline-bar",
+      "description": "Always-visible emergency band; every number is a tel: link.",
+      "html": "<div class=\"ds-hotline\"><span class=\"ds-hotline-label\">Hotlines</span><a class=\"ds-hotline-pill\" href=\"tel:911\">911 Emergency</a><a class=\"ds-hotline-link\" href=\"#\"><b>Contact Center:</b> 0918 901 9991</a></div>",
+      "css": ".ds-hotline { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; padding: 6px 16px; background: oklch(57.7% 0.245 27.325); color: #fff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; } .ds-hotline-label { font-weight: 700; text-transform: uppercase; letter-spacing: 0.025em; } .ds-hotline-pill { padding: 4px 12px; border-radius: 9999px; background: #fff; color: oklch(50.5% 0.213 27.518); font-weight: 800; text-decoration: none; } .ds-hotline-pill:hover { background: oklch(97.1% 0.013 17.38); } .ds-hotline-link { padding: 6px 10px; color: #fff; text-decoration: none; } .ds-hotline-link:hover { text-decoration: underline; } .ds-hotline a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }"
+    },
+    {
+      "name": "Guide Steps",
+      "kind": "custom",
+      "refersTo": "guide-step-marker",
+      "description": "Numbered navy steps joined by a mist line; the last step in gold.",
+      "html": "<ol class=\"ds-steps\"><li>Prepare your barangay clearance.</li><li>File the application online.</li><li>Pay the fees and claim your permit.</li></ol>",
+      "css": ".ds-steps { list-style: none; counter-reset: step; margin: 0; padding: 0; max-width: 480px; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #343a40; line-height: 1.625; } .ds-steps li { counter-increment: step; position: relative; padding: 0 0 16px 44px; min-height: 34px; } .ds-steps li::before { content: counter(step); position: absolute; left: 0; top: -2px; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9999px; background: #1e3a8a; color: #fff; font-weight: 700; font-size: 0.875rem; } .ds-steps li:not(:last-child)::after { content: \"\"; position: absolute; left: 14px; top: 30px; bottom: 2px; border-left: 2px solid #dbeafe; } .ds-steps li:last-child::before { background: #d4af37; color: #0f172a; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Davao, the Melting Pot",
+    "overview": "BetterDavao is one guide for everyone who calls Davao home, built on the BetterGov standard. The frame is institutional and steady: a red hotline bar that never hides, a white masthead, a navy info strip, a navy hero, white content bands and a charcoal footer. Inside that frame the city's many peoples appear as threads. Seven colours sampled from the artwork \"Davao's Golden Time of 2021\" by Rembert Vergara Jr. are woven into one cloth: a band that closes the hero and opens the footer. Each service topic keeps one of those threads, so a resident can follow a colour from the home page to the guide.\n\nThe site is task-first and dense in a calm way. The first viewport answers \"What do you need to do today?\" with a search panel and an \"I want to…\" hub, and every task is one tap from its guide. Guides read like a clear notice: a summary block (where, how long, how much, how long it lasts), one gold action to the official portal, numbered steps, sources and verification stamps. The home page shows only checked figures. Unverified home figures are hidden, not stamped.\n\nIt refuses two looks: the generic BetterGov clone (navy and gold with nothing of Davao in it) and festival or tourism styling (fiesta bunting, postcard heroes, decorative ethnic patterns). The threads are the only ornament, and they always carry meaning: the city's peoples, or a topic.",
+    "keyCharacteristics": [
+      "Three-band header on every page: hotline red, white masthead with the A/A+/A++ switch, navy info strip.",
+      "Navy carries the structure; gold marks the main action and the end of a process; red means emergency.",
+      "Seven artwork threads, woven into the Melting Pot band and assigned one per service topic.",
+      "Flat white cards with 1px hairlines and 8px corners; shadows only for hover and floating panels.",
+      "Inter only, sized in rem so the reader's text-size choice scales everything.",
+      "Built for cheap phones: 44px tap targets, one column on phones, nothing that depends on images loading."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Means Go Rule",
+        "body": "Golden Time fills the one main action on a surface (hero Search, the guide's portal button), with Navy Ink text at bold weight. Never white text on gold, never near-black text on gold, never more than one gold button in view. Everything else that acts is navy.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Is for Emergencies Rule",
+        "body": "Hotline Red belongs to the hotline bar, the 911 pill and hotline links. Validation and errors use the error-* ramp.",
+        "section": "colors"
+      },
+      {
+        "name": "The Thread Carries Meaning Rule",
+        "body": "A thread colour appears only in the woven band, on a topic marker, or on a people chip. It is never a background for text, a button fill, or decoration without a topic behind it.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Typeface Rule",
+        "body": "Inter carries everything. No serif or display face for character, even though --font-serif is still defined.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rem Rule",
+        "body": "Type and spacing are set in rem so the A / A+ / A++ switch (100%, 112.5%, 125% on html) scales the whole page. Never set text in px.",
+        "section": "typography"
+      },
+      {
+        "name": "The Float Earns Shadow Rule",
+        "body": "A surface gets a resting shadow only if it sits above other content: the masthead, a menu, the results list, or the hero search panel. Static cards use a 1px border.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the three-band header (hotline red, white masthead with the text-size switch, navy info strip) on every page.",
+      "Do wrap every band in site-container (80rem max, 1.25rem / 2rem / 3rem side padding).",
+      "Do give the main action a Golden Time fill with bold Navy Ink text (#1e306e), hovering to #debb3d; make every other filled action Davao Navy with white text, hovering to Navy Ink.",
+      "Do mark every service topic with its thread from src/lib/threads.ts on task rows, topic tiles, listings and search results.",
+      "Do keep the weave's shading at rgb(255 255 255 / 0.28) and rgb(0 0 0 / 0.18); they are part of the woven band.",
+      "Do put content on white cards with a 1px Hairline border and 8px corners, with shadow only on hover or for floating panels.",
+      "Do keep text at Muted Gray (#6c757d) or darker on white, and tap targets at least 44px.",
+      "Do keep sources, the summary block and verification stamps on guides.",
+      "Do size type in rem so the A / A+ / A++ switch scales it, and drop movement under prefers-reduced-motion.",
+      "Do meet WCAG 2.2 AA, with the WAI-ARIA tabs pattern on the \"I want to…\" hub."
+    ],
+    "donts": [
+      "Don't set gold buttons with white or near-black text; Navy Ink is the only text colour on gold.",
+      "Don't use Hotline Red outside the hotline bar and hotline actions.",
+      "Don't use a thread colour without a topic or a people behind it, or as a text background.",
+      "Don't add festival or tourism styling (bunting, postcard heroes, decorative ethnic patterns), or strip Davao out into a generic BetterGov clone.",
+      "Don't put an eyebrow label (small tracked uppercase text) above a heading.",
+      "Don't put a coloured side-stripe on a card or nest cards inside cards.",
+      "Don't show sources, \"Needs verification\" stamps, unverified figures, an A–Z index, or a language switcher on the home page.",
+      "Don't add a second typeface or set text in px.",
+      "Don't recreate tailwind.config.js; tokens live in @theme in src/index.css."
+    ]
+  }
+}

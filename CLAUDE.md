@@ -35,7 +35,7 @@ Content is stored as YAML and Markdown files under `content/`. Two parallel cont
 
 #### Services (`content/services/`)
 
-1. **`src/data/services.yaml`** — Top-level service categories (name, slug, icon, description). The `icon` field must be a valid Lucide React icon name.
+1. **`src/data/services.yaml`** — Top-level service categories (name, slug, icon, description). The `icon` field must be a Lucide React icon name that is registered in `src/lib/icons.ts` (icons are imported explicitly there to keep the bundle small; add new ones to that map).
 2. **`content/services/{category-slug}/index.yaml`** — Lists pages under each category (`pages:` array with `name`, `slug`, `description`).
 3. **`content/services/{category-slug}/{page-slug}.md`** — Actual markdown content for each service page.
 
@@ -59,6 +59,15 @@ When adding a new government category, you must:
 
 Markdown files are loaded dynamically via `import()` in `src/lib/markdownLoader.ts`. The title is extracted from the first `# Heading` and the description from the first paragraph.
 
+#### Home page data
+
+- **`src/data/tasks.yaml`**: the "I want to…" hub. Verbs (Apply, Pay and renew, …) list tasks by `category` and `slug`. Tasks whose Markdown guide does not exist are dropped automatically.
+- **`src/data/glance.yaml`**: "Davao at a glance" figures and their sources. Sources are not shown on the site. Figures with `verified: false` are hidden until an official source confirms them. Log sources in `docs/data-sources.md`.
+- **`src/data/updates.yaml`**: changes to this guide, newest first. Read by `LatestUpdatesSection`, which is currently not mounted on the home page.
+- **`src/lib/threads.ts`**: one Melting Pot thread colour per service category. Add an entry when adding a category.
+
+Service pages listed in a category `index.yaml` without a Markdown file render as "Guide being written", not as links (`hasServiceGuide` in `src/data/yamlLoader.ts`).
+
 #### Companion JSON files
 
 A markdown page can have an optional companion JSON file with the same slug (e.g. `executive.md` + `executive.json`). The loader attempts to import the JSON and passes it to `interpolate()`, which replaces `{PLACEHOLDER}` tokens in the markdown. Resolution order: JSON value → `VITE_<KEY>` env var → unchanged token.
@@ -72,6 +81,7 @@ Example: `{MAYOR}` in the markdown is replaced with the `MAYOR` value from `exec
 - Fallback language: `en`
 - Supported languages are defined in `src/types/index.ts` (`LanguageType`)
 - Currently only `public/locales/en/common.json` exists
+- **English-only for now (decided 2026-11-28):** the site redesign hard-codes English UI copy in components and removed the language switcher. Older strings still go through `t()`. If Bisaya or Filipino is planned, move component copy into `common.json` keys first.
 
 ### Environment Variables
 

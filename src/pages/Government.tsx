@@ -8,7 +8,7 @@ import {
   type Subcategory,
   type CategoryIndex,
 } from '../data/yamlLoader';
-import * as LucideIcons from 'lucide-react';
+import { getIcon } from '../lib/icons';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import GovernmentActivitySection from '../components/home/GovernmentActivitySection';
 import SEO from '../components/SEO';
@@ -51,9 +51,7 @@ const Government: React.FC = () => {
   };
 
   const categoryData = getCategory();
-  const Icon = LucideIcons[
-    categoryData?.icon as keyof typeof LucideIcons
-  ] as React.ComponentType<{ className?: string }>;
+  const Icon = getIcon(categoryData?.icon);
 
   const SpecializedCategory = category
     ? SPECIALIZED_CATEGORIES[category]
@@ -78,7 +76,7 @@ const Government: React.FC = () => {
   if (SpecializedCategory && categoryData) {
     if (loading || !specializedContent) {
       return (
-        <Section className="p-3 mb-12">
+        <Section className="py-6 md:py-10">
           <Breadcrumbs className="mb-8" />
           <div className="flex justify-center items-center p-8">
             <Text>Loading...</Text>
@@ -107,20 +105,21 @@ const Government: React.FC = () => {
     return (
       <>
         <SEO
-          title="Services"
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
-          keywords="government services, public services, local government, civic services"
+          title="Government"
+          description={`Officials, departments, and public information from the ${import.meta.env.VITE_GOVERNMENT_NAME}, gathered by BetterDavao with links to official sources.`}
+          keywords="Davao City government, officials, departments, city council"
         />
         <GovernmentActivitySection
-          title={`All local government services`}
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
+          headingLevel={1}
+          title="Government"
+          description={`Officials, departments, and public information from the ${import.meta.env.VITE_GOVERNMENT_NAME}.`}
         />
       </>
     );
   }
   if (!categoryData) {
     return (
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Breadcrumbs className="mb-8" />
         <Banner
           type="error"
@@ -132,6 +131,9 @@ const Government: React.FC = () => {
     );
   }
 
+  // Cards sit under the index title when there is one; keep the outline nested.
+  const CardTitle = categoryIndex.title ? 'h3' : 'h2';
+
   return (
     <>
       <SEO
@@ -139,9 +141,14 @@ const Government: React.FC = () => {
         description={categoryData.description}
         keywords={`${categoryData.category}, government services, public services, local government`}
       />
-      <Section className="p-3 mb-12">
+      <Section className="py-6 md:py-10">
         <Breadcrumbs className="mb-8" />
-        <Icon className="h-8 w-8 mb-4 text-primary-600 rounded-md" />
+        {Icon && (
+          <Icon
+            className="h-8 w-8 mb-4 text-primary-600 rounded-md"
+            aria-hidden="true"
+          />
+        )}
         <Heading>{categoryData.category || category}</Heading>
         <Text className="text-gray-600 mb-6">{categoryData.description}</Text>
 
@@ -152,7 +159,9 @@ const Government: React.FC = () => {
         ) : (
           <>
             {categoryIndex.title && (
-              <Heading level={3}>{categoryIndex.title}</Heading>
+              <Heading level={2} size={3}>
+                {categoryIndex.title}
+              </Heading>
             )}
             {categoryIndex.description && (
               <Text className="text-gray-600 mb-4">
@@ -171,9 +180,9 @@ const Government: React.FC = () => {
                       className="h-full border-t-4 border-primary-500"
                     >
                       <CardContent>
-                        <h4 className="text-lg font-medium text-gray-900">
+                        <CardTitle className="text-lg font-medium text-gray-900 text-balance">
                           {subcategory.name}
-                        </h4>
+                        </CardTitle>
                         {subcategory.description && (
                           <p className="mt-2 text-sm text-gray-600">
                             {subcategory.description}
@@ -196,9 +205,9 @@ const Government: React.FC = () => {
                   >
                     <Card hoverable className="mb-4">
                       <CardContent>
-                        <h4 className="text-lg font-medium text-gray-900">
+                        <CardTitle className="text-lg font-medium text-gray-900 text-balance">
                           {subcategory.name}
-                        </h4>
+                        </CardTitle>
                         {subcategory.description && (
                           <p className="mt-2 text-sm text-gray-600">
                             {subcategory.description}

@@ -10,9 +10,9 @@ pages:
     slug: 'learn-proper-waste-segregation-and-disposal-methods'
     description: 'Guidelines for proper waste segregation and disposal methods in your area.'
     
-  - name: 'Request special waste collection (hazardous materials, electronics)'
+  - name: 'Dispose of special waste (hazardous items, electronics)'
     slug: 'request-special-waste-collection-hazardous-materials-electronics'
-    description: 'How to request special collection services for hazardous materials and electronic waste.'
+    description: 'How to segregate and dispose of household hazardous items and electronics, and who to ask about special collection.'
     
   - name: 'Report illegal dumping or waste management violations'
     slug: 'report-illegal-dumping-or-waste-management-violations'

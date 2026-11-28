@@ -29,7 +29,9 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "© 2026 BetterDavao.org. All content is public domain unless otherwise specified."
+    "copyright": "© 2026 BetterDavao.org. All content is public domain unless otherwise specified.",
+    "dataCredits": "Exchange rates from",
+    "weatherCredits": "weather from"
   },
   "navbar": {
     "government": "Government",
@@ -55,7 +57,8 @@
     "charteredYear": "1936",
     "charteredLabel": "Davao becomes an official city",
     "charteredDesc": "President Quezon signed Commonwealth Act No. 51 on October 16, 1936, making Davao a city covering 244,000 hectares — a recognition of how much it had grown.",
-    "middleImageSrc": "images/city-of-davao-artwork.jpeg",
+    "middleImageSrc": "/images/city-of-davao-artwork-900.jpg",
+    "middleImageAlt": "Illustration of Davao City life: City Hall, Lumad and Muslim residents in traditional dress, durian and other fruit, and a Philippine eagle.",
     "extraInfoYear": "Today",
     "extraInfoLabel": "Davao — the Melting Pot of the Philippines",
     "extraInfoDesc": "People from all over the country — Lumad, Visayan, Tagalog, Ilocano, Muslim, and more — have made Davao their home, shaping a city known for its welcoming, hardworking, and diverse people.",

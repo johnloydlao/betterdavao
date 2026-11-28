@@ -25,55 +25,47 @@ export const mainNavigation: NavigationItem[] = [
     label: 'Government',
     href: '/government',
   },
+  {
+    label: 'Hotlines',
+    href: '/hotlines',
+  },
 ];
 
+// Every link here must resolve: internal routes exist in App.tsx, external
+// ones are official national portals.
 export const footerNavigation = {
   mainSections: [
     {
-      title: 'About',
-      links: [
-        { label: 'About the Portal', href: '/about' },
-        // { label: 'Privacy Policy', href: '/privacy' },
-        // { label: 'Terms of Use', href: '/terms' },
-        { label: 'Accessibility', href: '/accessibility' },
-        { label: 'Contact Us', href: '/about' },
-        { label: 'Community Discord', href: '/discord' },
-      ],
-    },
-    {
       title: 'Services',
       links: [
-        { label: 'All Services', href: '/services' },
+        { label: 'All services', href: '/services' },
         ...(servicesData.categories as Category[])
-          .slice(0, 6)
+          .slice(0, 4)
           .map(category => ({
             label: category.category,
             href: `/services/${category.slug}`,
           })),
-        { label: 'Hotlines', href: '/philippines/hotlines' },
-        { label: 'Holidays', href: '/philippines/holidays' },
+        { label: 'Hotlines', href: '/hotlines' },
       ],
     },
     {
       title: 'Government',
       links: [
-        { label: 'Open Data', href: 'https://data.gov.ph' },
+        { label: 'Elected officials', href: '/government/officials' },
+        { label: 'Departments', href: '/government/departments' },
+        { label: 'History of Davao City', href: '/history' },
+      ],
+    },
+    {
+      title: 'Official sources',
+      links: [
+        { label: 'Open Data Philippines', href: 'https://data.gov.ph' },
         { label: 'Freedom of Information', href: 'https://www.foi.gov.ph' },
-        {
-          label: 'Contact Center',
-          href: 'https://contactcenterngbayan.gov.ph',
-        },
         {
           label: 'Official Gazette',
           href: 'https://www.officialgazette.gov.ph',
         },
       ],
     },
-  ],
-  socialLinks: [
-    { label: 'Facebook', href: 'https://facebook.com/govph' },
-    { label: 'Twitter', href: 'https://twitter.com/govph' },
-    { label: 'Instagram', href: 'https://instagram.com/govph' },
-    { label: 'YouTube', href: 'https://youtube.com/govph' },
   ],
 };
