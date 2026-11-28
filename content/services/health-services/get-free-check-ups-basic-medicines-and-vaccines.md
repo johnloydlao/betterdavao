@@ -28,6 +28,8 @@ The Davao City Government offers free **check-ups, medicines, and vaccines** thr
 | Pregnant women (The Safe Motherhood Program) | Tetanus and Diphtheria vaccine + supplements             | Barangay Health Centers                                                                                                                                                                                                                                                             | During prenatal services        | Proof of pregnancy, ECCD/record                          |
 | Animal bite cases                            | Anti-rabies vaccine                                      | <ul><li>Animal Bite Treatment Center<ul><li>Main Center: City Health Office (CHO)</li><li>Satellite Centers: Toril, Mintal-Tugbok, Sasa, Calinan Talomo River, Marilog Dist. Hospital, <br> Tibungco-Bunawan, and Paquibato Dist. Hospital, Cabantian-Buhangin.</li></ul></li></ul> | Clinic hours                    | Valid ID or Birth Certificate , Philhealth ID (Optional) | [Learn more](https://www.facebook.com/AnimalBiteTreatmentCenter) |
 
+> **Anti-rabies treatment has fees.** The 2024 Citizen's Charter lists, for animal bite cases: anti-rabies vaccination **₱100.00 per session** (3 sessions, ₱300.00), tetanus toxoid **₱50.00**, and ERIG infiltration **₱100.00** (optional, for category III/ERIG patients), for a **total of ₱450.00**, paid at the City Treasurer's Office.
+
 ---
 
 ## 4. Services the CHO Offers
@@ -47,7 +49,25 @@ The Davao City Government offers free **check-ups, medicines, and vaccines** thr
 - Animal Bite and Treatment Center
 - Health certificates and medical certificates
 
----
+### Fees for some CHO services
+
+Not every CHO service is free. The 2024 Citizen's Charter lists fees set by **City Ordinance No. 0291-17**, paid at the City Treasurer's Office:
+
+- **Medical consultation:** no fee and no requirements. A medical certificate requested during the consultation costs **₱50.00**.
+- **Medical certificates:** **₱300.00** for "Adoption, Annulment of Marriage, Legitimation, Naturalization, Travel Abroad and other similar purposes"; **₱50.00** for "Dental, Employment, Insurance, Licensure, School or Scholarship requirement and all others not specifically specified in this Code".
+- **Health certificates:** **₱50.00** regular; **₱100.00** for re-issuance or late renewal.
+- **Dental:** oral prophylaxis or permanent filling **₱300.00**; tooth extraction **₱100.00**. A dental certificate, if needed, is **₱50.00**.
+- **Laboratory tests:** each test has its own fee, for example a complete blood count (CBC) or a dengue rapid test. You need a referral slip from a physician. See the laboratory fee list in the charter.
+
+### Medical consultation (what the charter says)
+
+There are no requirements. You get a priority number, staff check your **PhilHealth** status, and new patients fill out an Individual Treatment Record. If you have PhilHealth, you are given an e-Konsulta registration form. If you do not, you are advised to apply for PhilHealth membership after the consultation.
+
+### Pre-marriage counseling (PMC)
+
+PMC is for would-be couples and is required before a marriage license is issued. The fee is **₱250.00**, paid at the City Treasurer's Office. Sessions are held **every Thursday**, except in **Marilog District, which holds them every Monday**.
+
+Bring one copy of each: birth certificate (photocopy), baptismal certificate (photocopy), school records (photocopy), barangay certificate indicating "For Marriage purposes" (original), community tax certificate (photocopy) and a valid ID (photocopy). Foreign nationals also bring a certificate of legal capacity to marry and a passport (photocopies).
 
 ---
 
@@ -56,8 +76,6 @@ The Davao City Government offers free **check-ups, medicines, and vaccines** thr
 1. Go to the health center that serves your barangay, or to the CHO main office on Magallanes Street.
 2. Tell the staff which service you need.
 3. Ask which documents to bring and what the schedule is. Services and schedules can vary by health center.
-
-Services and schedules can vary by health center. Ask your health center or call the CHO.
 
 ---
 
@@ -70,4 +88,4 @@ Services and schedules can vary by health center. Ask your health center or call
 
 ---
 
-_Sources: City Health Office page and news from the City Government of Davao (davaocity.gov.ph); free medicines and vaccine tables as published by the project maintainer._
+_Sources: [City Government of Davao Citizen's Charter, Volume I (2024 revision, archived copy)](https://web.archive.org/web/2025/https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-I_20240426.pdf) (City Health Office: Management/Treatment of Animal Bite Cases, pp. 478-479; Dental Consultation and Annex A, City Ordinance No. 0291-17, pp. 480-484; Medical Consultation, pp. 497-499; PMC Orientation, pp. 511-512; Laboratory Examination, pp. 513-514); [City Government of Davao Citizen's Charter, Volume II (2024 revision, archived copy)](https://web.archive.org/web/2025/https://www.davaocity.gov.ph/wp-content/uploads/2024/05/CITY-GOVERNMENT-OF-DAVAO_REVISED-CC_VOLUME-II_20240426.pdf) (office directory); [City Health Office department page](https://davaocity.gov.ph/departments/social-services/city-health-office/). The schedules and requirements in the tables in sections 1 to 3 are still being sourced. Last verified: 2026-11-28._
